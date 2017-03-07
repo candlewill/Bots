@@ -1,0 +1,210 @@
+﻿file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/topics.top 0
+    topic: ~is 1
+file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/send_msg.top 0
+    topic: ~send_msg 2
+        rule: ~send_msg.0.0 u:  4
+          line: 6 0
+          line: 7 19
+          line: 8 31
+          line: 9 72
+          Complexity of rule ~send_msg.0.0- u: 1
+        rule: ~send_msg.1.0 u:  11
+          line: 13 0
+          line: 14 49
+          Complexity of rule ~send_msg.1.0- u: 1
+        rule: ~send_msg.2.0 u:  16
+          line: 18 0
+          line: 19 41
+          Complexity of rule ~send_msg.2.0- u: 1
+        rule: ~send_msg.3.0 u:  21
+          line: 23 0
+          line: 24 42
+          Complexity of rule ~send_msg.3.0- u: 1
+        rule: ~send_msg.4.0 u:  26
+          line: 28 0
+          line: 29 47
+          line: 31 74
+          line: 32 89
+          Complexity of rule ~send_msg.4.0- u: 1
+        rule: ~send_msg.5.0 u:  34
+          line: 36 0
+          line: 37 46
+          Complexity of rule ~send_msg.5.0- u: 1
+        rule: ~send_msg.6.0 u:  39
+          line: 41 0
+          line: 42 49
+          Complexity of rule ~send_msg.6.0- u: 1
+    topic: ~send_msg_policy 45
+        rule: ~send_msg_policy.0.0 u:  47
+          line: 49 0
+          line: 50 12
+          Complexity of rule ~send_msg_policy.0.0- u: 1
+        rule: ~send_msg_policy.1.0 u:  52
+          Complexity of rule ~send_msg_policy.1.0- u: 1
+        rule: ~send_msg_policy.2.0 u:  55
+          Complexity of rule ~send_msg_policy.2.0- u: 1
+        rule: ~send_msg_policy.3.0 u:  58
+          Complexity of rule ~send_msg_policy.3.0- u: 1
+        rule: ~send_msg_policy.4.0 u:  61
+          Complexity of rule ~send_msg_policy.4.0- u: 1
+        rule: ~send_msg_policy.5.0 u:  64
+          Complexity of rule ~send_msg_policy.5.0- u: 1
+    topic: ~send_msg_nlg 68
+        rule: ~send_msg_nlg.0.0 u:  70
+          Complexity of rule ~send_msg_nlg.0.0- u: 1
+        rule: ~send_msg_nlg.1.0 u:  73
+          Complexity of rule ~send_msg_nlg.1.0- u: 1
+        rule: ~send_msg_nlg.2.0 u:  76
+          line: 77 0
+          Complexity of rule ~send_msg_nlg.2.0- u: 1
+        rule: ~send_msg_nlg.3.0 u:  79
+          line: 80 0
+          line: 81 45
+          line: 82 48
+          Complexity of rule ~send_msg_nlg.3.0- u: 1
+file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/backup 0
+file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/tmp 0
+file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/backup_20170301 0
+file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/simplecontrol.top 0
+    macro: ^test 2
+          line: 3 0
+          line: 5 33
+          line: 6 62
+          line: 8 81
+          line: 9 104
+          Complexity of ^test: 1
+          line: 12 0
+          Complexity of tbl:defaultbot: 1
+    topic: ~control 16
+        rule: ~control.0.0 u:  20
+          line: 21 0
+          Complexity of rule ~control.0.0- u: 1
+        rule: ~control.1.0 u:  23
+          line: 23 0
+          Complexity of rule ~control.1.0- u: 1
+        rule: ~control.2.0 u:  24
+          line: 24 0
+          Complexity of rule ~control.2.0- u: 1
+        rule: ~control.3.0 u:  26
+          line: 26 0
+          Complexity of rule ~control.3.0- u: 1
+        rule: ~control.4.0 u:  27
+          line: 27 0
+          Complexity of rule ~control.4.0- u: 1
+        rule: ~control.5.0 u:  28
+          line: 28 0
+          Complexity of rule ~control.5.0- u: 1
+        rule: ~control.6.0 u:  29
+          line: 29 0
+          Complexity of rule ~control.6.0- u: 1
+        rule: ~control.7.0 u:  30
+          line: 30 0
+          Complexity of rule ~control.7.0- u: 1
+        rule: ~control.8.0 u:  31
+          line: 31 0
+          Complexity of rule ~control.8.0- u: 1
+        rule: ~control.9.0 u:  33
+          line: 35 0
+          line: 38 28
+          line: 41 47
+          line: 44 118
+          line: 46 170
+          line: 50 217
+          line: 52 300
+          line: 54 335
+          line: 55 361
+          line: 57 378
+          line: 58 411
+          line: 59 450
+          line: 61 479
+          line: 63 495
+          line: 64 501
+          line: 82 503
+          line: 84 557
+          line: 88 574
+          line: 90 687
+          line: 92 722
+          line: 93 748
+          line: 95 765
+          line: 96 798
+          line: 97 836
+          line: 99 865
+          line: 101 881
+          line: 102 887
+          line: 103 889
+          line: 105 971
+          line: 107 1006
+          line: 108 1031
+          line: 110 1048
+          line: 111 1080
+          line: 112 1118
+          line: 114 1147
+          line: 116 1163
+          line: 117 1169
+          line: 119 1171
+          line: 121 1206
+          line: 122 1220
+          line: 123 1268
+          line: 124 1318
+          line: 126 1320
+          line: 128 1326
+          line: 129 1337
+          line: 130 1347
+          line: 131 1399
+          line: 132 1427
+          Complexity of rule ~control.9.0- u: 15
+    topic: ~xpostprocess 136
+        rule: ~xpostprocess.0.0 t:  138
+          line: 139 0
+          line: 141 17
+          line: 142 47
+          line: 144 104
+          line: 145 114
+          line: 147 155
+          line: 148 161
+          Complexity of rule ~xpostprocess.0.0- t: 2
+file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/error_correction.top 0
+    topic: ~error_correction 2
+        rule: ~error_correction.0.0 u:  4
+          line: 5 0
+          line: 6 3
+          line: 8 30
+          line: 9 42
+          line: 10 45
+          line: 11 56
+          line: 12 66
+          line: 13 89
+          Complexity of rule ~error_correction.0.0- u: 2
+        rule: ~error_correction.1.0 u:  15
+          line: 17 0
+          line: 18 3
+          Complexity of rule ~error_correction.1.0- u: 1
+file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/分词.top 0
+    topic: ~segment 2
+        rule: ~segment.0.0- t:  4
+          Complexity of rule ~segment.0.0- t: 1
+        rule: ~segment.1.0 u:  6
+          line: 7 0
+          line: 8 14
+          line: 9 21
+          line: 10 40
+          line: 11 46
+          line: 12 71
+          line: 13 91
+          line: 14 113
+          Complexity of rule ~segment.1.0- u: 1
+        rule: ~segment.2.0 u:  16
+          line: 17 0
+          line: 18 85
+          line: 19 103
+          line: 20 197
+          line: 21 218
+          line: 22 235
+          line: 23 242
+          line: 24 261
+          line: 25 267
+          line: 26 292
+          line: 27 312
+          line: 28 334
+          line: 30 355
+          Complexity of rule ~segment.2.0- u: 1

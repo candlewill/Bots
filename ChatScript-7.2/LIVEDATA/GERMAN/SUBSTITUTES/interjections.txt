@@ -1,0 +1,4 @@
+<ja ~yes
+<nein ~no
+<guten_morgan ~emohello
+<auf_wiedersehn ~emogoodbye

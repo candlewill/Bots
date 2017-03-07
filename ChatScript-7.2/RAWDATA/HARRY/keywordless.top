@@ -1,0 +1,41 @@
+# this is the topic for anything that has no obvious topic. 
+# it is called directly from the control script when everything else fails.
+
+topic: ~keywordless nostay()
+
+u: (< say _*) keep() repeat() '_0
+
+#! What is the nature of life
+?: ( << what nature of life >>) If you believe in reincarnation, then life is currently just a charity shop of used souls.
+
+
+#! yes, if user just says OK or yes or continue, then move along and give control to bot
+u: ( < [~yesanswer ~more]>) ^keep() gambit($$currenttopic) # current topic gets to continue
+
+?: (what is a _*1 >) keep() $$tmp = _0
+	 $$url = ^"\"https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exsentences=2&exintro=&explaintext=&format=json&titles=$$tmp\""
+	 $$user_agent = ^"myemail@hotmail.com User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)"
+	 $$tmp = ^jsonopen(GET $$url "" $$user_agent)
+		# ^jsontree($$tmp)
+		# ^jsonpath(  ".query .pages .56333 .extract" $$tmp)
+		@0 = query(direct_v ? extract ? 1)
+		@0object
+			
+?: (who be _*1  >) keep()  $$tmp = substitute(character '_0 _ %20 )
+	 $$url = ^"\"https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exsentences=2&exintro=&explaintext=&format=json&titles=$$tmp\""
+	 $$user_agent = ^"myemail@hotmail.com User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)"
+	 $$tmp = ^jsonopen(GET $$url "" $$user_agent)
+		# ^jsontree($$tmp)
+		# ^jsonpath(  ".query .pages .56333 .extract" $$tmp)
+		@0 = query(direct_v ? extract ? 1)
+		@0object
+	
+?: (who be _*1 _*1 >) keep()  $$tmp = join('_0  %20  '_1)
+	 $$url = ^"\"https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exsentences=2&exintro=&explaintext=&format=json&titles=$$tmp\""
+	 $$user_agent = ^"myemail@hotmail.com User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)"
+	 $$tmp = ^jsonopen(GET $$url "" $$user_agent)
+		# ^jsontree($$tmp)
+		# ^jsonpath(  ".query .pages .56333 .extract" $$tmp)
+		@0 = query(direct_v ? extract ? 1)
+		@0object
+	

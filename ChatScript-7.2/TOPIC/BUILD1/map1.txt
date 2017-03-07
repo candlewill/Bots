@@ -1,0 +1,164 @@
+﻿file: /letv/workspace/Bots/ChatScript/../BOTDATA/TEST/topics.top 0
+    topic: ~is 1
+file: /letv/workspace/Bots/ChatScript/../BOTDATA/TEST/send_msg.top 0
+    topic: ~send_msg 2
+        rule: ~send_msg.0.0 u:  4
+          line: 6 0
+          line: 7 19
+          line: 8 31
+          line: 9 72
+        rule: ~send_msg.1.0 u:  11
+          line: 13 0
+          line: 14 49
+        rule: ~send_msg.2.0 u:  16
+          line: 18 0
+          line: 19 41
+        rule: ~send_msg.3.0 u:  21
+          line: 23 0
+          line: 24 42
+        rule: ~send_msg.4.0 u:  26
+          line: 28 0
+          line: 29 47
+          line: 31 74
+          line: 32 89
+        rule: ~send_msg.5.0 u:  34
+          line: 36 0
+          line: 37 46
+        rule: ~send_msg.6.0 u:  39
+          line: 41 0
+          line: 42 49
+    topic: ~send_msg_policy 45
+        rule: ~send_msg_policy.0.0 u:  47
+          line: 49 0
+          line: 50 12
+        rule: ~send_msg_policy.1.0 u:  52
+        rule: ~send_msg_policy.2.0 u:  55
+        rule: ~send_msg_policy.3.0 u:  58
+        rule: ~send_msg_policy.4.0 u:  61
+        rule: ~send_msg_policy.5.0 u:  64
+    topic: ~send_msg_nlg 68
+        rule: ~send_msg_nlg.0.0 u:  70
+        rule: ~send_msg_nlg.1.0 u:  73
+        rule: ~send_msg_nlg.2.0 u:  76
+          line: 77 0
+        rule: ~send_msg_nlg.3.0 u:  79
+          line: 80 0
+          line: 81 45
+          line: 82 48
+file: /letv/workspace/Bots/ChatScript/../BOTDATA/TEST/backup 0
+file: /letv/workspace/Bots/ChatScript/../BOTDATA/TEST/tmp 0
+file: /letv/workspace/Bots/ChatScript/../BOTDATA/TEST/backup_20170301 0
+file: /letv/workspace/Bots/ChatScript/../BOTDATA/TEST/simplecontrol.top 0
+    macro: ^test 2
+          line: 3 0
+          line: 5 33
+          line: 6 62
+          line: 8 81
+          line: 9 104
+          line: 12 0
+    topic: ~control 16
+        rule: ~control.0.0 u:  20
+          line: 21 0
+        rule: ~control.1.0 u:  23
+          line: 23 0
+        rule: ~control.2.0 u:  24
+          line: 24 0
+        rule: ~control.3.0 u:  26
+          line: 26 0
+        rule: ~control.4.0 u:  27
+          line: 27 0
+        rule: ~control.5.0 u:  28
+          line: 28 0
+        rule: ~control.6.0 u:  29
+          line: 29 0
+        rule: ~control.7.0 u:  30
+          line: 30 0
+        rule: ~control.8.0 u:  31
+          line: 31 0
+        rule: ~control.9.0 u:  33
+          line: 35 0
+          line: 37 28
+          line: 39 47
+          line: 41 118
+          line: 43 170
+          line: 46 217
+          line: 48 300
+          line: 50 335
+          line: 51 361
+          line: 53 378
+          line: 54 411
+          line: 55 450
+          line: 57 479
+          line: 59 495
+          line: 60 501
+          line: 78 503
+          line: 80 557
+          line: 84 574
+          line: 86 687
+          line: 88 722
+          line: 89 748
+          line: 91 765
+          line: 92 798
+          line: 93 836
+          line: 95 865
+          line: 97 881
+          line: 98 887
+          line: 99 889
+          line: 101 971
+          line: 103 1006
+          line: 104 1031
+          line: 106 1048
+          line: 107 1080
+          line: 108 1118
+          line: 110 1147
+          line: 112 1163
+          line: 113 1169
+          line: 115 1171
+          line: 117 1206
+          line: 118 1220
+          line: 119 1268
+          line: 120 1318
+          line: 122 1320
+          line: 124 1326
+          line: 125 1337
+          line: 126 1347
+          line: 127 1388
+          Complexity of rule ~control.9.0- u: 15
+    topic: ~xpostprocess 131
+        rule: ~xpostprocess.0.0 t:  133
+          line: 134 0
+          line: 136 17
+          line: 137 47
+          line: 139 104
+          line: 140 114
+          line: 142 155
+          line: 143 161
+          Complexity of rule ~xpostprocess.0.0- t: 2
+file: /letv/workspace/Bots/ChatScript/../BOTDATA/TEST/error_correction.top 0
+    topic: ~error_correction 2
+        rule: ~error_correction.0.0 u:  4
+          line: 5 0
+          line: 6 3
+          line: 8 30
+          line: 9 42
+          line: 10 45
+          line: 11 56
+          line: 12 66
+          line: 13 89
+          Complexity of rule ~error_correction.0.0- u: 2
+        rule: ~error_correction.1.0 u:  15
+          line: 17 0
+          line: 18 3
+file: /letv/workspace/Bots/ChatScript/../BOTDATA/TEST/分词.top 0
+    topic: ~segment 2
+        rule: ~segment.0.0- t:  4
+        rule: ~segment.1.0 u:  6
+          line: 7 0
+          line: 8 67
+          line: 9 85
+          line: 10 158
+          line: 11 179
+          line: 12 196
+          line: 13 203
+          line: 14 232
+          line: 15 235

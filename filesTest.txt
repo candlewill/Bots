@@ -1,0 +1,12 @@
+# multibot
+../BOTDATA/TEST/ # tutorial bot data
+
+# load in chatscript quibbles
+../BOTDATA/QUIBBLE/
+
+
+
+
+
+
+

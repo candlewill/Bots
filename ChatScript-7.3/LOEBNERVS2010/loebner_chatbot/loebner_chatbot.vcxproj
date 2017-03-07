@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{19C8C023-05AF-437A-879A-8B9EE0853B8A}</ProjectGuid>
+    <RootNamespace>loebner_chatbot</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">loebner_chatbot</TargetName>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)../src/curl-libs-for-win32/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>LOEBNER;WIN32;_DEBUG;_WINDOWS;_LOEBNER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalOptions>/J %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Ws2_32.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>c:\chatscript\loebner_chatbot.exe</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>Nafxcwd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>c:\AR\MYSQL5\include;c:\AR\link\s;c:\AR\link\src\linkparser;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_NDEBUG;_WINDOWS;_LOEBNER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>mysqlclient.lib;Ws2_32.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>loebner.exe</OutputFile>
+      <AdditionalLibraryDirectories>C:\AR\link\MySQL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>Nafxcwd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\constructCode.cpp" />
+    <ClCompile Include="..\..\src\csocket.cpp" />
+    <ClCompile Include="..\..\src\dictionarySystem.cpp" />
+    <ClCompile Include="..\..\src\english.cpp" />
+    <ClCompile Include="..\..\src\englishtagger.cpp" />
+    <ClCompile Include="..\..\src\factSystem.cpp" />
+    <ClCompile Include="..\..\src\functionExecute.cpp" />
+    <ClCompile Include="..\..\src\infer.cpp" />
+    <ClCompile Include="..\..\src\jsmn.cpp" />
+    <ClCompile Include="..\..\src\mainSystem.cpp" />
+    <ClCompile Include="..\..\src\markSystem.cpp" />
+    <ClCompile Include="..\..\src\os.cpp" />
+    <ClCompile Include="..\..\src\outputSystem.cpp" />
+    <ClCompile Include="..\..\src\patternSystem.cpp" />
+    <ClCompile Include="..\..\src\scriptCompile.cpp" />
+    <ClCompile Include="..\..\src\spellcheck.cpp" />
+    <ClCompile Include="..\..\src\systemVariables.cpp" />
+    <ClCompile Include="..\..\src\tagger.cpp" />
+    <ClCompile Include="..\..\src\testing.cpp" />
+    <ClCompile Include="..\..\src\textUtilities.cpp" />
+    <ClCompile Include="..\..\src\tokenSystem.cpp" />
+    <ClCompile Include="..\..\src\topicSystem.cpp" />
+    <ClCompile Include="..\..\src\userCache.cpp" />
+    <ClCompile Include="..\..\src\userSystem.cpp" />
+    <ClCompile Include="..\..\src\variableSystem.cpp" />
+    <ClCompile Include="loebner_chatbot.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\common.h" />
+    <ClInclude Include="..\..\src\constructCode.h" />
+    <ClInclude Include="..\..\src\csocket.h" />
+    <ClInclude Include="..\..\src\dictionarySystem.h" />
+    <ClInclude Include="..\..\src\english.h" />
+    <ClInclude Include="..\..\src\factSystem.h" />
+    <ClInclude Include="..\..\src\functionExecute.h" />
+    <ClInclude Include="..\..\src\infer.h" />
+    <ClInclude Include="..\..\src\jsmn.h" />
+    <ClInclude Include="..\..\src\mainSystem.h" />
+    <ClInclude Include="..\..\src\markSystem.h" />
+    <ClInclude Include="..\..\src\os.h" />
+    <ClInclude Include="..\..\src\outputSystem.h" />
+    <ClInclude Include="..\..\src\patternSystem.h" />
+    <ClInclude Include="..\..\src\scriptCompile.h" />
+    <ClInclude Include="..\..\src\spellcheck.h" />
+    <ClInclude Include="..\..\src\systemVariables.h" />
+    <ClInclude Include="..\..\src\testing.h" />
+    <ClInclude Include="..\..\src\textUtilities.h" />
+    <ClInclude Include="..\..\src\tokenSystem.h" />
+    <ClInclude Include="..\..\src\topicSystem.h" />
+    <ClInclude Include="..\..\src\userCache.h" />
+    <ClInclude Include="..\..\src\userSystem.h" />
+    <ClInclude Include="..\..\src\variableSystem.h" />
+    <ClInclude Include="loebner_chatbot.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="loebner_chatbot.ico" />
+    <None Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="loebner_chatbot.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

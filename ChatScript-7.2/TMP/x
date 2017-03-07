@@ -1,0 +1,603 @@
+﻿# USERS/log-test.txt 0 nooob
+
+# ----------------- /log-test.txt   user->bot
+
+[nlpqa]   =>   
+
+:do $host   =>   Qabots.kore.com  
+
+:do $clientname   =>   Nlpqa  
+
+:do $beginvolley   =>   2016-09-27T23:15:38.0Z  
+
+:do START >>>>   =>   START >> >>  
+
++   =>   .  
+
+:do CASE %input   =>   CASE 7  
+
+Get Top Opportunities   =>   Tell me the number or a unique word of bot you want me to use.     1 Salesforce   2 Microsoft Dynamics CRM    
+
+1   =>    OK, you've selected Get Top Opportunities for Salesforce.  Enter the number of opportunities you want to retrieve  
+
+10   =>   Here's what I understood for Get Top Opportunities   For Number of Opportunities you gave: 10    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 13  
+
+Get Tasks List in Asana   =>    Please tell me the number or the text of the Workspace you would like:     1 Kore   2 Personal Projects    
+
+1   =>    Please tell me the number or the text of the Project you would like:     1 Kore1   2 Test Project   3 test name1234   4 Kore Bots Testing    
+
+1   =>   Here's what I understood for Get Tasks List   For Workspace you gave: Kore     For Project you gave: Kore1    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 19  
+
+Send a Tweet Hello   =>    Here's what I understood for Tweet   For Message you gave: Hello    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 23  
+
+Get Recently Closed Opportunities   =>   Please tell me the action you want.     0 None of these    1 Get Closed Opportunities   2 Get Closed Opportunities    
+
+LAST MONTH   =>   Please tell me the action you want.     0 None of these    1 Get Closed Opportunities   2 Get Closed Opportunities    
+
+Yes   =>   Please tell me the action you want.     0 None of these    1 Get Closed Opportunities   2 Get Closed Opportunities    
+
++   =>   .  
+
+:do CASE %input   =>   CASE 28  
+
+Assign Task in Asana   =>    Please tell me the number or the text of the Workspace you would like:     1 Kore   2 Personal Projects    
+
+2    =>     Search task, please enter at least 3 characters of the name of the task.  Alternatively, please tell me part of what you are looking for.      
+
+test    =>     Search user, please enter at least 3 characters of the name of the assignee.  Alternatively, please tell me part of what you are looking for.      
+
+ram   =>   Which one do you want? You can give the number or last word     1 ramu3206@gmail.com   2 ramachandra.marreddi@gmail.com   3 117020324015236   4 78743323147900    
+
+2   =>   Here's what I understood for Assign Task   For Workspace you gave: Personal Projects     For Task Name you gave: Test     For Assignee you gave: ramachandra.marreddi@gmail.com    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 36  
+
+Update ticket in Assembla   =>    Please tell me the number or the text of the Space you would like:     1 App.Kore Space   2 hiii   3 jijijiji   4 My space 1   5 My Space1   6 nlp   7 NLP Automation   8 NLP Tech Discussions   9 NLP Tech Discussions   10 NLP Tech Discussions   11 NLP Tech Discussions   12 NLP Tech Discussions   13 NLP Tech Discussions   14 NLP Tech Discussions   15 NLP Tech Discussions   16 NLP Tech Discussions   17 NLP Tech Discussions   18 NLP Tech Discussions   19 NLP Tech Discussions   20 NLP Tech Discussions   21 NLP Tech Discussions   22 NLP Tech Discussions   23 NLP Tech Discussions   24 NLP Tech Discussions   25 NLP Tech Discussions   26 NLP Tech Discussions   27 NLP Tech Discussions   28 NLP Tech Discussions   29 NLP Tech Discussions   30 NLP Tech Discussions   31 NLP Tech Discussions   32 NLP Tech Discussions   33 NLP Tech Discussions   34 NLP Tech Discussions   35 NLP Tech Discussions   36 NLP Tech Discussions   37 NLP Tech Discussions   38 NLP Tech Discussions   39 NLP Tech Discussions   40 NLP Tech Discussions   41 NLP Tech Discussions   42 NLP Tech Discussions   43 NLP Tech Discussions   44 NLP Tech Discussions   45 NLP Tech Discussions   46 NLP Tech Discussions   47 NLP Tech Discussions   48 NLP Tech Discussions   49 NLP Tech Discussions   50 NLP Tech Discussions   51 NLP Tech Discussions   52 NLP Tech Discussions   53 NLP Tech Discussions   54 NLP Tech Discussions   55 NLP Tech Discussions   56 NLP Tech Discussions   57 NLP Tech Discussions   58 NLP Tech Discussions   59 NLP Tech Discussions   60 NLP Tech Discussions   61 NLP Tech Discussions   62 NLP Tech Discussions   63 NLP Tech Discussions   64 NLP Tech Discussions   65 NLP Tech Discussions   66 NLP Tech Discussions   67 NLP Tech Discussions   68 NLP Tech Discussions   69 NLP Tech Discussions   70 NLP Tech Discussions   71 NLP Tech Discussions   72 NLP Tech Discussions   73 NLP Tech Discussions   74 NLP Tech Discussions   75 NLP Tech Discussions   76 NLP Tech Discussions   77 NLP Tech Discussions   78 Rama   79 Ramachandra's Space   80 space-test-3   81 Test Space   82 Test Space for testing   83 Testing Space   84 Testing1 space    
+
+1   =>    Please tell me the number or the text of the Ticket you would like:     1 Testing Ticket for retesting   2 test   3 something is wrong with the thing   4 something is working   5 NLP issue   6 Test Tool   7 Test123   8 NLP Errors   9 NLP Errors   10 NLP Errors    
+
+3   =>   Here's what I understood for Update Ticket   For Space you gave: App.Kore Space     For Ticket you gave: something is wrong with the thing       You skipped Description, Priority, Status, Assignee, Milestone    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 42  
+
+Create Event in Google Calendar   =>    OK, you've selected Create Event for Google Calendar.  Enter your subject  
+
+NL Meet    =>     Please enter start time (Ex : 08-20-2016 10:15 AM)  
+
+July 25,2016 5:30 p.m    =>     Please enter end time (Ex : 08-20-2016 10:30 AM)  
+
+July 26,2016 6:30 p.m    =>   Here's what I understood for Create Event   For Subject you gave: NL Meet     For Start Time you gave: July 25, 2016 (+05:30) at 05:30 PM     For End Time you gave: July 26, 2016 (+05:30) at 06:30 PM       You skipped Description, Attendees, Place    Shall I go ahead?   
+
+Yes    =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 49  
+
+Please give me list of all actions and alerts in salesforce   =>    OK, you've selected Get Opportunities for Salesforce.  Enter the number of opportunities you want to retrieve  
+
++   =>   .  
+
+:do CASE %input   =>   CASE 52  
+
+Create ticket in Zendesk     =>    OK, you've selected Create Ticket for Zendesk.  Enter subject for new ticket  
+
+NL Issue   =>     Enter description/first comment for new ticket  
+
+Test   =>   Here's what I understood for Create Ticket   For Subject you gave: NL Issue     For Description you gave: Test       You skipped Priority, Type    Shall I go ahead?   
+
+Yes    =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 58  
+
+Get 10 Day forecast in Orlando   =>    Please tell me the number or the text of location you would like:     1 Orlando, FL, USA   2 Orlando, OK 73073, USA   3 Orlando, WV 26412, USA   4 Orlando, KY 40460, USA    
+
+2   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 62  
+
+Create Opportunity   =>   Tell me the number or a unique word of bot you want me to use.     1 Salesforce   2 SAP Hybris C4C   3 Zoho CRM   4 Microsoft Dynamics CRM    
+
+1   =>    OK, you've selected Create Opportunity for Salesforce.  Opportunity Name  
+
+DisneyDeals   =>     Close Date  
+
+31 July   =>    Please tell me the number or the text of the Stage you would like:     1 Prospecting   2 Qualification   3 Needs Analysis   4 Value Proposition   5 Id. Decision Makers   6 Perception Analysis   7 Proposal/Price Quote   8 Negotiation/Review   9 Closed Won   10 Closed Lost    
+
+1   =>   Here's what I understood for Create Opportunity   For Opportunity Name you gave: DisneyDeals     For Close Date you gave: July 31, 2016     For Stage you gave: Prospecting       You skipped Type, Source, Amount    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 70  
+
+Create Ticket in Assembla   =>    Please tell me the number or the text of the Space you would like:     1 App.Kore Space   2 hiii   3 jijijiji   4 My space 1   5 My Space1   6 nlp   7 NLP Automation   8 NLP Tech Discussions   9 NLP Tech Discussions   10 NLP Tech Discussions   11 NLP Tech Discussions   12 NLP Tech Discussions   13 NLP Tech Discussions   14 NLP Tech Discussions   15 NLP Tech Discussions   16 NLP Tech Discussions   17 NLP Tech Discussions   18 NLP Tech Discussions   19 NLP Tech Discussions   20 NLP Tech Discussions   21 NLP Tech Discussions   22 NLP Tech Discussions   23 NLP Tech Discussions   24 NLP Tech Discussions   25 NLP Tech Discussions   26 NLP Tech Discussions   27 NLP Tech Discussions   28 NLP Tech Discussions   29 NLP Tech Discussions   30 NLP Tech Discussions   31 NLP Tech Discussions   32 NLP Tech Discussions   33 NLP Tech Discussions   34 NLP Tech Discussions   35 NLP Tech Discussions   36 NLP Tech Discussions   37 NLP Tech Discussions   38 NLP Tech Discussions   39 NLP Tech Discussions   40 NLP Tech Discussions   41 NLP Tech Discussions   42 NLP Tech Discussions   43 NLP Tech Discussions   44 NLP Tech Discussions   45 NLP Tech Discussions   46 NLP Tech Discussions   47 NLP Tech Discussions   48 NLP Tech Discussions   49 NLP Tech Discussions   50 NLP Tech Discussions   51 NLP Tech Discussions   52 NLP Tech Discussions   53 NLP Tech Discussions   54 NLP Tech Discussions   55 NLP Tech Discussions   56 NLP Tech Discussions   57 NLP Tech Discussions   58 NLP Tech Discussions   59 NLP Tech Discussions   60 NLP Tech Discussions   61 NLP Tech Discussions   62 NLP Tech Discussions   63 NLP Tech Discussions   64 NLP Tech Discussions   65 NLP Tech Discussions   66 NLP Tech Discussions   67 NLP Tech Discussions   68 NLP Tech Discussions   69 NLP Tech Discussions   70 NLP Tech Discussions   71 NLP Tech Discussions   72 NLP Tech Discussions   73 NLP Tech Discussions   74 NLP Tech Discussions   75 NLP Tech Discussions   76 NLP Tech Discussions   77 NLP Tech Discussions   78 Rama   79 Ramachandra's Space   80 space-test-3   81 Test Space   82 Test Space for testing   83 Testing Space   84 Testing1 space    
+
+1   =>     Give summary of the ticket  
+
+NLP Errors   =>   Here's what I understood for Create Ticket   For Space you gave: App.Kore Space     For Summary you gave: NLP Errors       You skipped Description    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 76  
+
+Asana   =>   Please tell me the action you want.     0 Notify me when...    1 Delete Task   2 Create a Subtask   3 Get Tasks List   4 Update Project Status   5 Mark Task as Complete   6 Update Task   7 Follow Task   8 Create Task   9 Comment on Task   10 Invite User   11 Assign Task   12 Attach a File   13 Copy Of - Get Tasks List(a1)    
+
+Invite User   =>    Please tell me the number or the text of the Workspace you would like:     1 Kore   2 Personal Projects    
+
+1   =>     Email address of the user you wish to invite to this Workspace  
+
+dilrajkore@gmail.com   =>   Here's what I understood for Invite User   For Workspace you gave: Kore     For Email you gave: dilrajkore@gmail.com    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 83  
+
+Office 365 Contacts   =>   Please tell me the action you want.     1 Delete Contact   2 Create Contact   3 Get Contact Details    
+
+Create Contact   =>    OK, you've selected Create Contact for Office 365 Contacts.  First name of the contact.  
+
+Kris   =>     Last name  
+
+Dev   =>   Here's what I understood for Create Contact   For First name you gave: Kris     For Last name you gave: Dev       You skipped Email, Display as, Phone, Street, City, State, Postal Code, Birthday    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 90  
+
+Get Hourly Forecast   =>    OK, you've selected Get Hourly Forecast for Weather Underground.  Provide your location  
+
+New York           =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 94  
+
+Today's weather in New York   =>    OK, you've selected Today's Weather for Weather Underground.  How often would you like this task to check for updates?      1 Use the default setting ( every day at 9:00 am )   2 Daily    
+
+2   =>   What time interval would you like?  You can choose a specific time like 'at 8:00am'   
+
+at 9 AM    =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 99  
+
+Tweets from users I follow    =>    OK, you've selected Tweets From Users You Follow for Twitter.  How often would you like this task to check for updates?      1 Use the default setting ( every day every 15 minutes )   2 Daily   3 Weekday   4 Weekend    
+
+1        =>   This notification task has optional filters. Only the alerts that match the filter settings will show up as a notification. Would you like me to set up a filter?   
+
+No       =>   Here's what I understood for Tweets From Users You Follow   with frequency every day every 15 minutes.  Shall I activate the alert?   
+
+Yes    =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 105  
+
+Follow user @EyeOfJackieChan in Twitter   =>    Here's what I understood for Follow User   For User you gave: @EyeOfJackieChan    Shall I go ahead?   
+
+Yes      =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 109  
+
+In Zendesk Update Ticket Status for ticket Server Error Codes. Mark status as Open.   =>    Here's what I understood for Update Ticket Status   For Ticket you gave: Server error codes     For Status you gave: Open    Shall I go ahead?   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 112  
+
+Get me the current weather conditions in hyderabad.   =>    Here's what I understood for Get Current Weather   For Location you gave: Hyderabad, Telangana, India    Shall I go ahead?   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 115  
+
+Send direct message to ramachandra3201. My message is "hello. how are you"   =>    There are no entries listed for "ramachandra3201" .   OK, you've selected Send direct message for Twitter.  Search the user to whom you wish to send a message in Twitter  Alternatively, please tell me part of what you are looking for.      
+
+yes   =>    There are no entries listed for "yes" .     What would you like me to look for? Just type in a partial statement and I'll search and show you the results.      
+
++   =>   .  
+
+:do CASE %input   =>   CASE 119  
+
+add note to opp in salesforce. Opportunity is Scottrade. Title of note is Test.   =>    There are no entries listed for "Scottrade" .   OK, you've selected Add Note to Opportunity for Salesforce.  Search for an Opportunity to add this note  Alternatively, please tell me part of what you are looking for.      
+
+yes   =>    There are no entries listed for "yes" .     What would you like me to look for? Just type in a partial statement and I'll search and show you the results.      
+
++   =>   .  
+
+:do CASE %input   =>   CASE 123  
+
+Create event in Office 365 Calendar   =>    Please tell me the number or the text of the Meeting Timezone you would like:     1 (GMT-12:00) International Date Line West   2 (GMT-11: 00)MidwayIsland, Samoa   3 (GMT-10:00) Hawaii   4 (GMT-09:00) Alaska   5 (GMT-08:00) Pacific Time (US and Canada); Tijuana   6 (GMT-07:00) Mountain Time (US and Canada)   7 (GMT-07:00) Chihuahua, La Paz, Mazatlan   8 (GMT-07: 00)Arizona   9 (GMT-06:00) Saskatchewan   10 (GMT-06:00) Guadalajara, Mexico City, Monterrey   11 (GMT-06:00) Central Time (US and Canada)   12 (GMT-06:00) Central America   13 (GMT-05:00) Eastern Time (US and Canada)   14 (GMT-05: 00)Indiana(East)   15 (GMT-05: 00)Bogota, Lima, Quito   16 (GMT-04:00) Santiago   17 (GMT-04:00) Atlantic Time (Canada)   18 (GMT-04: 00)Caracas, LaPaz   19 (GMT -04:00) Manaus   20 (GMT-03:30) Newfoundland and Labrador   21 (GMT-03:00) Greenland   22 (GMT-03:00) Brasilia   23 (GMT-03: 00)BuenosAires, Georgetown   24 (GMT-02:00) Mid-Atlantic   25 (GMT-01:00) Cape Verde Islands   26 (GMT-01:00) Azores   27 (GMT) Casablanca, Monrovia   28 (GMT) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London   29 (GMT+01: 00)Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna   30 (GMT+01: 00)WestCentralAfrica   31 (GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague   32 (GMT+01:00) Brussels, Copenhagen, Madrid, Paris   33 (GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb   34 (GMT +02:00) Windhoek   35 (GMT+02: 00)Harare, Pretoria   36 (GMT+02:00) Athens, Bucharest, Istanbul   37 (GMT+02:00) Cairo   38 (GMT+02:00) Helsinki, Kiev, Riga, Sofia, Tallinn, Vilnius   39 (GMT+02:00) Jerusalem   40 (GMT+02:00) Minsk   41 (GMT+03: 00)Moscow, St.Petersburg, Volgograd   42 (GMT+03:00) Baghdad   43 (GMT+03:00) Kuwait, Riyadh   44 (GMT+03:00) Nairobi   45 (GMT+03:30) Tehran   46 (GMT +04:00) Tblisi   47 (GMT +04:00) Baku   48 (GMT+04:00) Abu Dhabi, Muscat   49 (GMT+04:00) Yerevan   50 (GMT+04:30) Kabul   51 (GMT+05: 00)Islamabad, Karachi, Tashkent   52 (GMT+05:00) Ekaterinburg   53 (GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi   54 (GMT+05:45) Kathmandu   55 (GMT+06: 00)SriJayawardenepura   56 (GMT+06:00) Almaty, Novosibirsk   57 (GMT+06:00) Astana, Dhaka   58 (GMT+06:30) Yangon (Rangoon)   59 (GMT+07: 00)Bangkok, Hanoi, Jakarta   60 (GMT+07:00) Krasnoyarsk   61 (GMT+08: 00)KualaLumpur, Singapore   62 (GMT+08: 00)Perth   63 (GMT+08: 00)Taipei   64 (GMT+08:00) Beijing, Chongqing, Hong Kong SAR, Urumqi   65 (GMT+08:00) Irkutsk, Ulaanbaatar   66 (GMT+09: 00)Osaka, Sapporo, Tokyo   67 (GMT+09: 00)Yakutsk   68 (GMT+09:00) Seoul   69 (GMT+09:30) Adelaide   70 (GMT+09:30) Darwin   71 (GMT+10: 00)Guam, PortMoresby   72 (GMT+10: 00)Hobart   73 (GMT+10: 00)Vladivostok   74 (GMT+10:00) Brisbane   75 (GMT+10:00) Canberra, Melbourne, Sydney   76 (GMT+11:00) Magadan, Solomon Islands, New Caledonia   77 (GMT+12:00) Auckland, Wellington   78 (GMT+12:00) Fiji Islands, Kamchatka, Marshall Islands   79 (GMT+13: 00)Nuku'alofa    
+
+1   =>     Enter event agenda  
+
+NLMeet   =>     Choose event start date  
+
+July 20 , 2016 10:30 am   =>     Choose event end date  
+
+July 20 , 2016 11:30 am   =>   Here's what I understood for Create Event   For Meeting Timezone you gave: (GMT-12:00) International Date Line West     For Subject you gave: NLMeet     For Start Date you gave: July 20, 2016 (+05:30) at 10:30 AM     For End Date you gave: July 20, 2016 (+05:30) at 11:30 AM       You skipped Attendees    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 131  
+
+Create Case   =>   Tell me the number or a unique word of bot you want me to use.     1 Salesforce   2 Desk.com    
+
+1   =>    OK, you've selected Create Case for Salesforce.  Enter subject for case  
+
+NLBots   =>    Please tell me the number or the text of the Status you would like:     1 Closed   2 Escalated   3 Working   4 New    
+
+3   =>    Please tell me the number or the text of the Origin you would like:     1 Phone   2 Email   3 Web    
+
+2   =>   Here's what I understood for Create Case   For Subject you gave: NLBots     For Status you gave: Working     For Origin you gave: Email       You skipped Description, Type, Priority    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 139  
+
+Add comment in zendesk   =>    Please tell me the number or the text of the Ticket you would like:     1 Sample ticket: Meet the ticket   2 NLP1   3 NLP2   4 Server error codes   5 NL Issue   6 NL Issue   7 NL Issue   8 NL Issue   9 Hoiii   10 NL Issue   11 NL Issue   12 NL Issue   13 NL Issue   14 NL Issue   15 NL Issue   16 NL Issue   17 NL Issue   18 NL Issue   19 NL Issue   20 NL Issue   21 NL Issue   22 NL Issue   23 NL Issue   24 NL Issue   25 NL Issue   26 NL Issue   27 NL Issue   28 NL Issue   29 NL Issue   30 NL Issue   31 NL Issue   32 NL Issue   33 test   34 Create ticket   35 NL Issue   36 NL Issue   37 NL Issue   38 NL Issue   39 NL Issue   40 NL Issue   41 NL Issue   42 NL Issue   43 NL Issue   44 NL Issue   45 NL Issue   46 NL Issue   47 NL Issue   48 NL Issue   49 NL Issue   50 NL Issue   51 NL Issue   52 NL Issue   53 NL Issue   54 NL Issue    
+
+1   =>     New comment to add to the ticket  
+
+testing     =>   Here's what I understood for Add Comment   For Ticket you gave: Sample ticket: Meet the ticket     For Comment you gave: testing    Shall I go ahead?   
+
+Yes     =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 145  
+
+Get Top 5 Opportunities   =>   Tell me the number or a unique word of bot you want me to use.     1 Salesforce   2 Microsoft Dynamics CRM    
+
+1   =>    Here's what I understood for Get Top Opportunities   For Number of Opportunities you gave: 5    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 150  
+
+Create Contact in Salesforce   =>   Please tell me the action you want.     0 None of these    1 Create Contact   2 Create Contact    
+
+Krishna   =>   Please tell me the action you want.     0 None of these    1 Create Contact   2 Create Contact    
+
+No   =>   I'm sorry. Let's try again.   
+
+Amend   =>   Please tell me the action you want.     0 None of these    1 Create Contact   2 Create Contact    
+
+Email   =>   Which notification task for Email would you like? Monitor and notify you when...     1 New Email    
+
+krish.raj@kore.com   =>   Which notification task for Email would you like? Monitor and notify you when...     1 New Email    
+
+Yes   =>   Which notification task for Email would you like? Monitor and notify you when...     1 New Email    
+
++   =>   .  
+
+:do CASE %input   =>   CASE 159  
+
+Create issue in GitHub   =>    Please tell me the number or the text of the Repository you would like:     1 AutomationTesting   2 bash-example   3 Bureau-of-Indian-Standards-BIS-C-DAC-Website-and-Login-Portal-January-2015   4 docs   5 GitHub1   6 Hello-repository   7 Hello-World   8 JavaStud   9 jBPM6-Developer-Guide   10 maven   11 SREE-Test   12 Sri8055   13 testRepo   14 treewalker   15 webhooks    
+
+1   =>     Give a title to the issue  
+
+NLP1234   =>   Here's what I understood for Create Issue   For Repository you gave: AutomationTesting     For Title you gave: NLP1234       You skipped Details, Assignee, Milestone    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 165  
+
+In ServiceNow, Create Problem with Short Description as Machine Failure. The priority is 1-Critical.   =>    Here's what I understood for Create Problem   For Short Description you gave: Machine Failure     For Priority you gave: Critical       You skipped Optional Description    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 169  
+
+In Salesforce, Create Lead with name Krish. The status is Working - Contacted and Company is Kore.   =>   Please tell me the action you want.     0 None of these    1 Create Lead   2 Create Lead    
+
+Yes   =>   Please tell me the action you want.     0 None of these    1 Create Lead   2 Create Lead    
+
++   =>   .  
+
+:do CASE %input   =>   CASE 173  
+
+In GitHub, Comment on issue NL1231 in Repository AutomationTesting.   =>    Please tell me the number or the text of the Issue you would like:     1 NLP1234   2 NLP1234   3 NLP1234   4 NLP1234   5 NLP1234   6 NLP1234   7 NLP1234   8 NLP1234   9 NLP1234   10 NLP1234   11 testrepo   12 NLP1234   13 NLP1234   14 4   15 NLP1234   16 NLP1234   17 NLP1234   18 NLP1234   19 NLP1234   20 NLP1234   21 NLP1234   22 NLP1234   23 NLP1234   24 NLP1234   25 NLP1234   26 NLP1234   27 NLP1234   28 NLP1234   29 NLP1234   30 NLP1234    
+
+Issue under QA Review   =>    Please tell me the number or the text of the Issue you would like:     1 NLP1234   2 NLP1234   3 NLP1234   4 NLP1234   5 NLP1234   6 NLP1234   7 NLP1234   8 NLP1234   9 NLP1234   10 NLP1234   11 testrepo   12 NLP1234   13 NLP1234   14 4   15 NLP1234   16 NLP1234   17 NLP1234   18 NLP1234   19 NLP1234   20 NLP1234   21 NLP1234   22 NLP1234   23 NLP1234   24 NLP1234   25 NLP1234   26 NLP1234   27 NLP1234   28 NLP1234   29 NLP1234   30 NLP1234    
+
+Yes   =>    Please tell me the number or the text of the Issue you would like:     1 NLP1234   2 NLP1234   3 NLP1234   4 NLP1234   5 NLP1234   6 NLP1234   7 NLP1234   8 NLP1234   9 NLP1234   10 NLP1234   11 testrepo   12 NLP1234   13 NLP1234   14 4   15 NLP1234   16 NLP1234   17 NLP1234   18 NLP1234   19 NLP1234   20 NLP1234   21 NLP1234   22 NLP1234   23 NLP1234   24 NLP1234   25 NLP1234   26 NLP1234   27 NLP1234   28 NLP1234   29 NLP1234   30 NLP1234    
+
++   =>   .  
+
+:do CASE %input   =>   CASE 178  
+
+In Asana for Workspace Kore in Project Kore Bots Testing Create Task with Task Name NLChecklist.   =>    Which one do you want? You can give the number or last word     1 Rajasekhar Balla   2 144993249481998   3 88265680066105   4 89528431989380   5 151089662976727   6 Sriram Phani Vishwanath Konduri   7 149061374053275   8 180396083983699    
+
+Yes   =>   Here's what I understood for Create Task   For Workspace you gave: Kore     For Project you gave: Kore Bots Testing     For Name you gave: NLChecklist       You skipped Description, Assignee, Due Date    Shall I go ahead?   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 182  
+
+In Assembla, Create ticket with Summary JSON string format issues in Space nlp.   =>    Here's what I understood for Create Ticket   For Space you gave: nlp     For Summary you gave: JSON string format issues       You skipped Description    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 186  
+
+In ServiceNow, Create Incident with Short Description as Operating equipment without safety guards. The impact level is 2-Medium.   =>    Here's what I understood for Create Incident   For Short Description you gave: Operating equipment without safety guards     For Impact Level you gave: Medium       You skipped Optional Description    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 190  
+
+In Assembla, Create Space with name NLP Tech Discussions   =>    Here's what I understood for Create Space   For Name you gave: NLP Tech Discussions       You skipped Description    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 194  
+
+In BitBucket , Create Issue with title NLP Device Specific issues in Repository BOT Testing.   =>    Here's what I understood for Create Issue   For Repository you gave: BOT testing     For Title you gave: NLP Device Specific issues       You skipped Description, Status, Priority, Issue Type    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 198  
+
+In Linkedin , Share Post.   =>    OK, you've selected Share Post for LinkedIn.  Content you want to share on LinkedIn. Max Length :700(char)  
+
+Must Read   =>    Please tell me the number or the text of the Share with you would like:     1 Public   2 Just your connections    
+
+2   =>     A fully qualified URL for the content being shared.  
+
+http://www.livescience.com/55628-glasses-free-3d-movie-screens.html   =>   Here's what I understood for Share Post   For Comment you gave: Must Read     For Share with you gave: Just your connections     For Content URL you gave: http: / www.livescience.com/55628-glasses-free-3d-movie-screens.html       You skipped Content Title, Content Image URL, Description    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 205  
+
+Get Contact Details in Office 365 Contacts   =>    OK, you've selected Get Contact Details for Office 365 Contacts.  Enter contact name to get all details  Alternatively, please tell me part of what you are looking for.      
+
+Rahul Mopi   =>    I'm sorry. The server call failed, saying:  Credentials got expired, please reauthorize.  Something went wrong with the authorization and I was unable to gain access to your account.   
+
+Yes   =>     Enter contact name to get all details  Alternatively, please tell me part of what you are looking for.      
+
++   =>   .  
+
+:do CASE %input   =>   CASE 210  
+
+In Zendesk set up alert for Ticket Updates. Check for Updates is Daily at 10:00 am   =>    OK, you've selected Ticket Updates for Zendesk.  Here's what I understood for Ticket Updates   with frequency every day every 5 minutes.  Shall I activate the alert?   
+
+at 10:00 a.m   =>   I'm sorry, I don't understand your answer.  Here's what I understood for Ticket Updates   with frequency every day at 10:00 am.  Shall I activate the alert?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 215  
+
+In Pivotal tracker , Add story.   =>    Please tell me the number or the text of the Project you would like:     1 testing br   2 new project22   3 new project   4 Testing in IOS    
+
+1   =>     Name of the story  
+
+NLP   =>   Here's what I understood for Add Story   For Project you gave: testing br     For Name you gave: NLP       You skipped Type, Description, Labels    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 221  
+
+Approve Employee Timesheet   =>   Tell me the number or a unique word for action you want.     0 None of these    1 Approve Employee Timesheet   2 Approve Employee Timesheet    
+
+John   =>   Tell me the number or a unique word for action you want.     0 None of these    1 Approve Employee Timesheet   2 Approve Employee Timesheet    
+
+1   =>    I see you've selected Approve Employee Timesheet for SAP HR.  Employee Name  
+
+Yes   =>    Tell me the number or the text of the Project you want:     1 Kore Framework   2 Kore Bots   3 Support    
+
++   =>   .  
+
+:do CASE %input   =>   CASE 227  
+
+set up alert for Lead Updates in Salesforce   =>    OK, you've selected Lead updates for Salesforce.  How often would you like this task to check for updates?      1 Use the default setting ( every day every 15 minutes )   2 Daily   3 Weekday   4 Weekend    
+
+1   =>   This notification task has optional filters. Only the alerts that match the filter settings will show up as a notification. Would you like me to set up a filter?   
+
+Yes   =>   The options for filter are:    0 No more filters    1 Assignee   2 Lead source    
+
+1   =>   Sure, what value should it be?     1 Testing NLP   2 Integration User   3 Security User    
+
+Integration User   =>   1 exmatch   2 notexmatch    
+
+1   =>   The options for filter are:    0 No more filters    1 Assignee   2 Lead source    
+
+0   =>   Here's what I understood for Lead updates  Assignee exmatch  Integration User   with frequency every day every 15 minutes.  Shall I activate the alert?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 237  
+
+Log Weekly time for Week May 9 - May 13.   =>   Tell me the number or a unique word for action you want.     0 None of these    1 Log Weekly Time   2 Log Weekly Time    
+
+9   =>   Tell me the number or a unique word for action you want.     0 None of these    1 Log Weekly Time   2 Log Weekly Time    
+
+8   =>   Tell me the number or a unique word for action you want.     0 None of these    1 Log Weekly Time   2 Log Weekly Time    
+
+9   =>   Tell me the number or a unique word for action you want.     0 None of these    1 Log Weekly Time   2 Log Weekly Time    
+
+8   =>   Tell me the number or a unique word for action you want.     0 None of these    1 Log Weekly Time   2 Log Weekly Time    
+
+9   =>   Tell me the number or a unique word for action you want.     0 None of these    1 Log Weekly Time   2 Log Weekly Time    
+
+Yes   =>   Tell me the number or a unique word for action you want.     0 None of these    1 Log Weekly Time   2 Log Weekly Time    
+
++   =>   .  
+
+:do CASE %input   =>   CASE 246  
+
+In Desk.com, Create Case with Subject as NL and Case Type is Phone.   =>    I'm sorry. The server call failed, saying:  Forbidden.  Is there anything else I can help you with?   
+
+1   =>    I'm sorry. The server call failed, saying:  User order was not found.  Is there anything else I can help you with?   
+
+1   =>    I'm sorry. The server call failed, saying:  User order was not found.  Is there anything else I can help you with?   
+
+1   =>    I'm sorry. The server call failed, saying:  User order was not found.  Is there anything else I can help you with?   
+
+1   =>    I'm sorry. The server call failed, saying:  User order was not found.  Is there anything else I can help you with?   
+
+Test   =>       Which account you would like me to use to complete this task?      1 Box Account # 1 - active   2 Asana Account # 1 - active   3 Bitbucket Account # 1 - active   4 Assembla Account # 1 - active   5 Google Calendar Account # 1 - active   6 Microsoft Dynamics CRM Account # 1 - active   7 Office 365 Contacts Account # 1 - inactive   8 Office 365 Calendar Account # 2 - inactive   9 Zendesk Account # 1 - active   10 Jira Account - active   11 Twitter Account # 1 - active   12 Pivotal Tracker Account # 1 - active   13 Salesforce Account # 1 - active   14 ShopBot Account # 1 - active   15 JIRA Account # 1 - active   16 Concur Account # 3 - active   17 Google Drive Account # 1 - active   18 Nest Thermostat Account # 1 - active   19 CNN mittool Account # 1 - inactive   20 Desk.com Account # 1 - active   21 SuccessFactors Account # 1 - inactive   22 C4C Service Account # 1 - active   23 Deployd Account # 1 - active   24 GuideWireBot Account # 1 - active   25 Relay Bot Account # 1 - active   26 Relay Bot Account # 1 - active   27 FreshDesk Account # 1 - active   28 Trello Account # 1 - active   29 Aha Account # 1 - active   30 SAP HR Account # 1 - active   31 GitHub Account # 1 - active   32 SAP Hybris C4C Account # 2 - active   33 Google Tasks Account # 1 - active   34 ServiceNow Account # 2 - active   35 Bugzilla Account # 1 - active   36 DropBox Account # 1 - active   37 LinkedIn Account # 1 - inactive   38 Wunderlist Account # 1 - active   39 Zoho CRM Account # 1 - active    
+
+Yes   =>       You have chosen an inactive account        Which account you would like me to use to complete this task?      1 Box Account # 1 - active   2 Asana Account # 1 - active   3 Bitbucket Account # 1 - active   4 Assembla Account # 1 - active   5 Google Calendar Account # 1 - active   6 Microsoft Dynamics CRM Account # 1 - active   7 Office 365 Contacts Account # 1 - inactive   8 Office 365 Calendar Account # 2 - inactive   9 Zendesk Account # 1 - active   10 Jira Account - active   11 Twitter Account # 1 - active   12 Pivotal Tracker Account # 1 - active   13 Salesforce Account # 1 - active   14 ShopBot Account # 1 - active   15 JIRA Account # 1 - active   16 Concur Account # 3 - active   17 Google Drive Account # 1 - active   18 Nest Thermostat Account # 1 - active   19 CNN mittool Account # 1 - inactive   20 Desk.com Account # 1 - active   21 SuccessFactors Account # 1 - inactive   22 C4C Service Account # 1 - active   23 Deployd Account # 1 - active   24 GuideWireBot Account # 1 - active   25 Relay Bot Account # 1 - active   26 Relay Bot Account # 1 - active   27 FreshDesk Account # 1 - active   28 Trello Account # 1 - active   29 Aha Account # 1 - active   30 SAP HR Account # 1 - active   31 GitHub Account # 1 - active   32 SAP Hybris C4C Account # 2 - active   33 Google Tasks Account # 1 - active   34 ServiceNow Account # 2 - active   35 Bugzilla Account # 1 - active   36 DropBox Account # 1 - active   37 LinkedIn Account # 1 - inactive   38 Wunderlist Account # 1 - active   39 Zoho CRM Account # 1 - active    
+
++   =>   .  
+
+:do CASE %input   =>   CASE 255  
+
+In Zendesk, Add comment for ticket Server Error Codes , the comment is fixed   =>    Here's what I understood for Add Comment   For Ticket you gave: Server error codes     For Comment you gave: fixed    Shall I go ahead?   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 258  
+
+For Lead Himanshu , Change Lead Status as Open - Not Contacted   =>   Tell me the number or a unique word of bot you want me to use.     1 Salesforce   2 SAP Hybris C4C    
+
+1   =>    There are no entries listed for "Himanshu" .   OK, you've selected Change Lead Status for Salesforce.  Search a lead to change status  Alternatively, please tell me part of what you are looking for.      
+
++   =>   .  
+
+:do CASE %input   =>   CASE 262  
+
+Create expense report with name New York Trip. The purpose is Tracking of Expense Details.   =>    Here's what I understood for Create Expense Report   For Name you gave: New York Trip.     For Purpose you gave: Tracking of Expense Details.       You skipped Comment    Shall I go ahead?   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 265  
+
+In GitHub, Create issue in Repository Maven. The title of issue is Incorrect Commits.   =>    Here's what I understood for Create Issue   For Repository you gave: maven     For Title you gave: Incorrect Commits       You skipped Details, Assignee, Milestone    Shall I go ahead?   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 268  
+
+Book a flight from Dallas to Austin.   =>   Tell me the number or a unique word of bot you want me to use.     1 KORE Airline   2 Kore Airlines   3 Qatar Airways   4 Concur    
+
+2   =>    Which one do you want? You can give the number or last word     1 Dallas / Fort Worth International Airport [DFW]   2 Dallas Love Field [DAL]    
+
+Dec 25, 2016 10:00 am   =>   Which one do you want? You can give the number or last word     1 Dallas / Fort Worth International Airport hich one do you want? You can give the number or last word     1 Dallas / Fort Worth International Airport [DFW]   2 Dallas Love Field [DAL]    
+
+Yes   =>    OK, you've selected Book a Flight for Kore_Airlines.  Search Source airport here  Alternatively, please tell me part of what you are looking for.      
+
++   =>   .  
+
+:do CASE %input   =>   CASE 274  
+
+set up alert Get Reports. The issue type is Change Request.   =>    OK, you've selected Get Reports for ServiceNow.  How often would you like this task to check for updates?      1 Use the default setting ( every day every 15 minutes )   2 Daily   3 Weekday   4 Weekend    
+
+1   =>   Here's what I understood for Get Reports  For Issue Type you gave: Change Request      with frequency every day every 15 minutes.  Shall I activate the alert?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 279  
+
+Forward Case   =>    I'm sorry. The server call failed, saying:  Forbidden.  Is there anything else I can help you with?   
+
+1   =>    I'm sorry. The server call failed, saying:  User order was not found.  Is there anything else I can help you with?   
+
+girish.ahankari@kore.com   =>   I'm sorry, I didn't get that. First, please tell me the bot you want to use.   
+
+Yes   =>   I'm sorry. That is not a bot I recognize. Type 'List my bots' to see the bots that you are already connected to or type 'List all bots' to see a full list of bots.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 285  
+
+In Asana, Mark Task as Complete in Workspace Kore.   =>    OK, you've selected Mark Task as Complete for Asana.  Search task, please enter at least 3 characters of the name of the task  Alternatively, please tell me part of what you are looking for.      
+
+test1234   =>   Here's what I understood for Mark Task as Complete   For Workspace you gave: Kore     For Task Name you gave: test1234    Shall I go ahead?   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 289  
+
+In ServiceNow, Create Change request with Short Description as New Policies and Priority as High.   =>    Here's what I understood for Create Change Request   For Short Description you gave: New Policies     For Priority you gave: High       You skipped Optional Description    Shall I go ahead?   
+
+Yes   =>    Got it. It's done.   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 293  
+
+Get Current Weather in Dubai   =>    Here's what I understood for Get Current Weather   For Location you gave: Dubai - United Arab Emirates    Shall I go ahead?   
+
++   =>   .  
+
+:do CASE %input   =>   CASE 296  
+
+For Project Kore Bots , Get Pending Hours Report.   =>   Tell me the number or a unique word for action you want.     0 None of these    1 Pending Hours Report   2 Pending Hours Report    
+
+Yes   =>   Tell me the number or a unique word for action you want.     0 None of these    1 Pending Hours Report   2 Pending Hours Report    
+
++   =>   .  
+
+:do END <<<<   =>   END << <<  

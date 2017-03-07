@@ -1,0 +1,29 @@
+# DST and NLU
+topic: ~segment keep repeat ( 分词 )
+
+t: 请输入测试语句：
+
+u: (看 _*)
+	使用撇号: \n
+	'_0 \n
+	没有撇号： \n
+	_0 \n
+	original using no \': \n
+	^original(_0) \n
+	original using \': \n
+	^original('_0) \n
+
+u: ( !(分词)  _* )
+	all sentences user passed into volley, before adjusted in any way: (originalinput) \n
+	%originalinput \n
+	the current sentence after tokenization but before any adjustments： (originalsentence) \n
+	%originalsentence \n
+	使用撇号: \n
+	'_0 \n
+	没有撇号： \n
+	_0 \n
+	original using no \': \n
+	^original(_0) \n
+	original using \': \n
+	^original('_0) \n
+

@@ -1,0 +1,299 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+\date{}
+
+\begin{document}
+
+\section{ChatScript}\label{chatscript}
+
+Natural Language tool/dialog manager
+
+ChatScript is the next generation chatbot engine that has won the
+Loebner's 4 times and is the basis for natural language company for a
+variety of tech startups.
+
+ChatScript is a rule-based engine, where rules are created by humans
+writers in program scripts through a process called dialog flow
+scripting. These use a scripting metalanguage (simply called a
+``script'') as their source code. Here what a ChatScript script file
+looks like:
+
+\begin{verbatim}
+#
+# file: food.top
+#
+topic: ~food []
+
+#! I like spinach
+s: ( I like spinach ) Are you a fan of the Popeye cartoons?
+    a: ( yes )  I used to watch him as a child. Did you lust after Olive Oyl?
+            b: ( no ) Me neither. She was too skinny.
+            b: ( yes ) You probably like skinny models.
+    a: ( no ) What cartoons do you watch?
+            b: ( none ) You lead a deprived life.
+            b: ( Mickey Mouse ) The Disney icon.
+
+#! I often eat chicken
+u: ( ![ not never rarely ] I * ~ingest * ~meat ) You eat meat.
+
+#! I really love chicken
+u: ( !~negativeWords I * ~like * ~meat ) You like meat.
+
+#! do you eat bacon?
+?: (do you eat _ [ ham eggs bacon]) I eat '_0
+
+#! do you like eggs or sushi?
+?: (do you like _* or _*) I don't like '_0 so I guess that means I prefer '_1.
+
+#! I adore kiwi.
+s: ( ~like ~fruit ![~animal _bear] )  Vegan, you too...
+
+#! do you eat steak?
+?: (do you eat _~meat) No, I hate _0.
+
+#! I eat fish.
+s: ( I eat _*1 >) 
+  $food = '_0 
+  I eat oysters.
+\end{verbatim}
+
+Above example mentioned in article
+\href{https://medium.freecodecamp.com/chatscript-for-beginners-chatbots-developers-c58bb591da8\#.2qdxjuyvs}{How
+to build your first chatbot using ChatScript}.
+
+\subsection{Basic Features}\label{basic-features}
+
+\begin{itemize}
+\tightlist
+\item
+  Powerful pattern matching aimed at detecting meaning.
+\item
+  Simple rule layout combined with C-style general scripting.
+\item
+  Built-in WordNet dictionary for ontology and spell-checking.
+\item
+  Extensive extensible ontology of nouns, verbs, adjectives, adverbs.
+\item
+  Data as fact triples enables inferencing and supports JSON
+  representation.
+\item
+  Rules can examine and alter engine and script behavior.
+\item
+  Planner capabilities allow a bot to act in real/virtual worlds.
+\item
+  Remembers user interactions across conversations.
+\item
+  Document mode allows you to scan documents for content.
+\item
+  Ability to control local machines via popen.
+\item
+  Ability to read structured JSON data from websites.
+\item
+  Postgres and Mongo support for big data or large-user-volume chatbots.
+\end{itemize}
+
+\subsection{OS Features}\label{os-features}
+
+\begin{itemize}
+\tightlist
+\item
+  Runs on Windows or Linux or Mac or iOS or Android
+\item
+  Fast server performance supports a thousand simultaneous users.
+\item
+  Multiple bots can cohabit on the same server.
+\end{itemize}
+
+\subsection{Support Features}\label{support-features}
+
+\begin{itemize}
+\tightlist
+\item
+  Mature technology in use by various parties around the world.
+\item
+  Integrated tools to support maintaining and testing large systems.
+\item
+  UTF8 support allows scripts written in any language
+\item
+  User support forum on
+  \href{https://www.chatbots.org/ai_zone/viewforum/44/}{Chatbots.org}
+  and \href{https://github.com/bwilcox-1234/ChatScript/issues}{here}
+\end{itemize}
+
+\section{Getting started}\label{getting-started}
+
+\subsection{Installation}\label{installation}
+
+Take this project and put it into some directory on your machine
+(typically we call the directory ChatScript, but you can name it
+whatever). That takes care of installation.
+
+\begin{verbatim}
+git clone https://github.com/bwilcox-1234/ChatScript
+\end{verbatim}
+
+\subsection{How to run locally on a console (for
+developement/test)}\label{how-to-run-locally-on-a-console-for-developementtest}
+
+\subsubsection{Windows}\label{windows}
+
+Go to the BINARIES directory and type \texttt{ChatScript}:
+
+\begin{verbatim}
+cd BINARIES && ChatScript
+\end{verbatim}
+
+\subsubsection{Linux}\label{linux}
+
+\begin{verbatim}
+cd BINARIES && ./LinuxChatScript64 local
+\end{verbatim}
+
+\subsubsection{MacOS}\label{macos}
+
+\begin{verbatim}
+cd BINARIES && ./MacChatScript local
+\end{verbatim}
+
+This will cause ChatScript to load and ask you for a username. Enter
+whatever you want. You are then talking to the default demo bot
+\texttt{Harry}.
+
+\subsection{How to run as a server (for
+production)}\label{how-to-run-as-a-server-for-production}
+
+\subsubsection{Windows}\label{windows-1}
+
+Go to the BINARIES directory and type \texttt{ChatScript\ port=1024}
+
+\begin{verbatim}
+cd BINARIES && ChatScript port=1024
+\end{verbatim}
+
+\subsubsection{Linux}\label{linux-1}
+
+\begin{verbatim}
+cd BINARIES && ./LinuxChatScript64
+\end{verbatim}
+
+\subsubsection{MacOS}\label{macos-1}
+
+\begin{verbatim}
+cd BINARIES && ./MacChatScript
+\end{verbatim}
+
+This will cause ChatScript to load as a server. But you also need a
+client (to test client-server communication). You can run a separate
+command window and go to the BINARIES directory and type
+\texttt{ChatScript\ client=localhost:1024} if you are on Windows, or
+type \texttt{./LinuxChatScript64\ client=localhost:1024} if you are on
+Linux. This will cause ChatScript to load as a client and you can talk
+to the server.
+
+\subsection{How to build the engine.}\label{how-to-build-the-engine.}
+
+On windows if you have Visual Studio installed, launch
+\texttt{VS2010/chatscript.sln} or \texttt{VS2015/chatscript.sln} and do
+a build. The result will go in the \texttt{BINARIES} directory.
+
+On Linux, go stand in the SRC directory and type \texttt{make\ server}
+(assuming you have make and g++ installed). This creates
+BINARIES/ChatScript, which can run as a server or locally. There are
+other make choices for installing PostGres or Mongo.
+
+\subsection{How to build a bot}\label{how-to-build-a-bot}
+
+Run ChatScript locally. From the ChatScript command prompt, type
+
+\begin{verbatim}
+:build Harry
+\end{verbatim}
+
+or whatever other preinstalled bot exists. If you have revised basic
+data, you can first do \texttt{:build\ 0} .
+
+\section{Full Documentation}\label{full-documentation}
+
+\href{/WIKI/README.md}{ChatScript Wiki (user guides, tutorials, papers)}
+
+\section{Contributing}\label{contributing}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Fork it
+\item
+  Create your feature branch (git checkout -b my-new-feature)
+\item
+  Commit your changes (git commit -am `Add some feature')
+\item
+  Push to the branch (git push origin my-new-feature)
+\item
+  Create new Pull Request
+\end{enumerate}
+
+\section{Last releases}\label{last-releases}
+
+\href{/changes.md}{changes.md}
+
+\section{Author}\label{author}
+
+\begin{itemize}
+\tightlist
+\item
+  Bruce Wilcox
+\item
+  home website:
+  \href{http://www.brilligunderstanding.com}{BrilligUnderstanding.com}
+\item
+  mail: \href{mailto:gowilcox@gmail.com}{\nolinkurl{gowilcox@gmail.com}}
+\end{itemize}
+
+\end{document}

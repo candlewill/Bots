@@ -1,0 +1,34 @@
+../USERS/topic_user_test.txt
+jul2116 Mar06'17-18:27:13 Mar07'17-18:32:59 1488796108-8.1.0.5.9.0 |
+19 64 0 DY 0 8 8 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~send_msg ~segment #pending
+~segment + 1 PJ9V#Is*Ok3 ia ~ 0 0 
+#`end topics
+$cs_trace=0
+$cs_randindex=1228
+$cs_bot=Test
+$cs_login=user
+$cs_token=132863
+$cs_control_main=~control
+$userprompt=user: >
+$botprompt=Bot: 
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ 
+ fe  
+ 
+ 
+#`end user
+ All sentences user passed into volley, before adjusted in any (originalinput)\r\n你是谁啊\r\nthe current sentence after tokenization but before any (originalsentence)\r\n你 是 谁 啊\r\n使用撇号:\r
+ All sentences user passed into volley, before adjusted in any (originalinput)\r\nfew   \r\nthe current sentence after tokenization but before any (originalsentence)\r\nfew\r\n使用撇号:\r\nfew\r\n没有撇号
+ All sentences user passed into volley, before adjusted in any (originalinput)\r\nfe3  \r\nthe current sentence after tokenization but before any (originalsentence)\r\nfe3\r\n使用撇号:\r\nfe3\r\n没有撇号z
+ All sentences user passed into volley, before adjusted in any (originalinput)\r\nwho\r\nthe current sentence after tokenization but before any (originalsentence)\r\nwho\r\n使用撇号:\r\nwho\r\n没有撇号：
+ All sentences user passed into volley, before adjusted in any (originalinput)\r\nwh \r\nthe current sentence after tokenization but before any (originalsentence)\r\nwh\r\n使用撇号:\r\nwh\r\n没有撇号：\r\n
+ All sentences user passed into volley, before adjusted in any (originalinput)\r\nwhy are you so smart\r\nthe current sentence after tokenization but before any (originalsentence)\r\nwhy are you so smart\r\nz
+ All sentences user passed into volley, before adjusted in any (originalinput)\r\nw\r\nthe current sentence after tokenization but before any (originalsentence)\r\nw\r\n使用撇号:\r\nw\r\n没有撇号：\r\nW\r\no
+ All sentences user passed into volley, before adjusted in any (originalinput)\r\n你好吗\r\nthe current sentence after tokenization but before any (originalsentence)\r\n你好 吗\r\n使用撇号:\r\n你好 
+ All sentences user passed into volley, before adjusted in any (originalinput)\r\nfe  \r\nthe current sentence after tokenization but before any (originalsentence)\r\nfe\r\n使用撇号:\r\nfe\r\n没有撇号：\r
+#`end chatbot

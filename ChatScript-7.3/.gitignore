@@ -1,0 +1,40 @@
+# folders
+VS2010/Debug/
+VS2010/ipch
+VS2015/
+mackore/KoreNLPXC/KoreNLPXC.xcodeproj/xcuserdata/
+mackore/KoreNLPXC/KoreNLPXC.xcodeproj/project.xcworkspace/xcuserdata/
+
+# file types in folder
+TMP/**/*.txt
+TMP/**/*.bin
+USERS/**/*.txt
+LOGS/**/*.txt
+VERIFY/**/*.txt
+
+# ignore so it does not get committed by mistake on windows
+BINARIES/MacChatScript
+BINARIES/chatscript_Debug_v140.exe
+
+# file types
+*.bak
+*.DS_Store
+*.db
+*.idb
+*.ilk
+*.lnk
+*.log
+*.o
+*.obj
+*.pdb
+*.sdf
+*.tlog
+*.user
+*.suo
+
+# specific files
+private/KORA/TESTS/regress-qabots-result*.txt
+private/KORA/TESTS/*.swp
+
+# force keep
+!DICT/ENGLISH/

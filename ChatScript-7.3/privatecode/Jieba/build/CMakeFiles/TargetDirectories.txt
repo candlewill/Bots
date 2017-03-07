@@ -1,0 +1,14 @@
+/home/andbase/workspace/Programs/My_Jieba/build/CMakeFiles/rebuild_cache.dir
+/home/andbase/workspace/Programs/My_Jieba/build/CMakeFiles/edit_cache.dir
+/home/andbase/workspace/Programs/My_Jieba/build/CMakeFiles/test.dir
+/home/andbase/workspace/Programs/My_Jieba/build/deps/CMakeFiles/rebuild_cache.dir
+/home/andbase/workspace/Programs/My_Jieba/build/deps/CMakeFiles/edit_cache.dir
+/home/andbase/workspace/Programs/My_Jieba/build/deps/CMakeFiles/test.dir
+/home/andbase/workspace/Programs/My_Jieba/build/deps/gtest/CMakeFiles/edit_cache.dir
+/home/andbase/workspace/Programs/My_Jieba/build/deps/gtest/CMakeFiles/test.dir
+/home/andbase/workspace/Programs/My_Jieba/build/deps/gtest/CMakeFiles/rebuild_cache.dir
+/home/andbase/workspace/Programs/My_Jieba/build/deps/gtest/CMakeFiles/gtest.dir
+/home/andbase/workspace/Programs/My_Jieba/build/test/CMakeFiles/rebuild_cache.dir
+/home/andbase/workspace/Programs/My_Jieba/build/test/CMakeFiles/test.dir
+/home/andbase/workspace/Programs/My_Jieba/build/test/CMakeFiles/edit_cache.dir
+/home/andbase/workspace/Programs/My_Jieba/build/test/CMakeFiles/test_main.dir
