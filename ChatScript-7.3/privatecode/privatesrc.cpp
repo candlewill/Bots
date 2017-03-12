@@ -26,8 +26,6 @@ sprintf(buffer,(char*)"%d",count);	将格式化的数据写入字符串
 
 1. 常用无符号整形	unsigned int i;
 */
-
-#include "privatesrc.h"
 #include "cppjieba/Jieba.hpp"
 
 const char* const DICT_PATH = "./privatecode/Jieba/DICT/jieba.dict.utf8";

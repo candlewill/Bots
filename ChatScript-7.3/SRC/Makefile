@@ -89,7 +89,7 @@ clean:
 	-rm -f *.o
 
 binary: $(OBJECTS)
-	$(CC) $(OBJECTS) $(LDFLAGS) $(DEFINES) $(INCLUDEDIRS) -o $(EXECUTABLE)
+	$(CC) -g $(OBJECTS) $(LDFLAGS) $(DEFINES) $(INCLUDEDIRS) -o $(EXECUTABLE)
 
 .cpp.o:
-	$(CC) $(CFLAGS) $(DEFINES) $(INCLUDEDIRS) $< -o $@
+	$(CC) -g -O0 $(CFLAGS) $(DEFINES) $(INCLUDEDIRS) $< -o $@

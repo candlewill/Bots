@@ -1,7 +1,0 @@
-
-# underlying vocabulary organization
-# RAWDATA/ONTOLOGY/
-# RAWDATA/ONTOLOGY/PARSER/
-# objects 
-# RAWDATA/WORLDDATA/
-

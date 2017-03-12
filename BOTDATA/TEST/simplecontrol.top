@@ -32,8 +32,6 @@ u: (< alarm test) \[ alarm=5000 \] Alarm requested.
 
 u: ( ) # main per-sentence processing
 
-	if (%revisedinput)
-	{
 	# %topic 当前真实话题
 	$$currenttopic = %topic		# get the current topic at start of volley
 
@@ -122,15 +120,6 @@ u: ( ) # main per-sentence processing
 		 ^repeat() 
 		 [我竟然无言以对，人家还是个宝宝]
 		 [不要欺负本宝宝了，人家还在长大]
-	}
-
-	}
-
-	else
-	{
-		$$tokenizedInput = ^cn_segment(%originalinput)
-		^input($$tokenizedInput)
-		^fail(SENTENCE)
 	}
 
 

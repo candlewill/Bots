@@ -3,7 +3,7 @@ topic: ~segment keep repeat ( 分词 )
 
 t: 请输入测试语句：
 
-u: (看 _*)
+u: ( 分词 _* )
 	使用撇号: \n
 	'_0 \n
 	没有撇号： \n

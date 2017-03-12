@@ -218,6 +218,7 @@ using namespace std;
 
 #ifdef PRIVATE_CODE
 #include "privatesrc.h"
+#include "../privatecode/preprocess.h"
 #endif 
 
 #ifdef WIN32

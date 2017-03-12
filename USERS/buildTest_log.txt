@@ -1,4 +1,4 @@
-﻿ChatScript Version 7.3  compiled Mar  6 2017 16:40:15
+﻿ChatScript Version 7.3  compiled Mar 12 2017 17:52:53
 
 >>Reading folder ../BOTDATA/TEST/
 
@@ -22,8 +22,8 @@ Reading table tbl:defaultbot
 Reading topic ~control
 Reading topic ~xpostprocess
 
-----Reading file error_correction.top
-Reading topic ~error_correction
+----Reading file error_correct.top
+Reading topic ~error_correct
 
 ----Reading file 分词.top
 Reading topic ~segment

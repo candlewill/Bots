@@ -104,81 +104,75 @@ file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/simplecontrol.top 0
           line: 31 0
           Complexity of rule ~control.8.0- u: 1
         rule: ~control.9.0 u:  33
-          line: 35 0
-          line: 38 28
-          line: 41 47
-          line: 44 118
-          line: 46 170
-          line: 50 217
-          line: 52 300
-          line: 54 335
-          line: 55 361
-          line: 57 378
-          line: 58 411
-          line: 59 450
-          line: 61 479
-          line: 63 495
-          line: 64 501
-          line: 82 503
-          line: 84 557
-          line: 88 574
-          line: 90 687
-          line: 92 722
-          line: 93 748
-          line: 95 765
-          line: 96 798
-          line: 97 836
-          line: 99 865
-          line: 101 881
-          line: 102 887
-          line: 103 889
-          line: 105 971
-          line: 107 1006
-          line: 108 1031
-          line: 110 1048
-          line: 111 1080
-          line: 112 1118
-          line: 114 1147
-          line: 116 1163
-          line: 117 1169
-          line: 119 1171
-          line: 121 1206
-          line: 122 1220
-          line: 123 1268
-          line: 124 1318
-          line: 126 1320
-          line: 128 1326
-          line: 129 1337
-          line: 130 1347
-          line: 131 1399
-          line: 132 1427
-          Complexity of rule ~control.9.0- u: 15
-    topic: ~xpostprocess 136
-        rule: ~xpostprocess.0.0 t:  138
-          line: 139 0
-          line: 141 17
-          line: 142 47
-          line: 144 104
-          line: 145 114
-          line: 147 155
-          line: 148 161
+          line: 36 0
+          line: 39 17
+          line: 42 88
+          line: 44 140
+          line: 48 187
+          line: 50 270
+          line: 52 305
+          line: 53 331
+          line: 55 348
+          line: 56 381
+          line: 57 420
+          line: 59 449
+          line: 61 465
+          line: 62 471
+          line: 80 473
+          line: 82 527
+          line: 86 544
+          line: 88 657
+          line: 90 692
+          line: 91 718
+          line: 93 735
+          line: 94 768
+          line: 95 806
+          line: 97 835
+          line: 99 851
+          line: 100 857
+          line: 101 859
+          line: 103 941
+          line: 105 976
+          line: 106 1001
+          line: 108 1018
+          line: 109 1050
+          line: 110 1088
+          line: 112 1117
+          line: 114 1133
+          line: 115 1139
+          line: 117 1141
+          line: 119 1176
+          line: 120 1190
+          line: 121 1238
+          line: 122 1288
+          Complexity of rule ~control.9.0- u: 14
+    topic: ~xpostprocess 125
+        rule: ~xpostprocess.0.0 t:  127
+          line: 128 0
+          line: 130 17
+          line: 131 47
+          line: 133 104
+          line: 134 114
+          line: 136 155
+          line: 137 161
           Complexity of rule ~xpostprocess.0.0- t: 2
-file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/error_correction.top 0
-    topic: ~error_correction 2
-        rule: ~error_correction.0.0 u:  4
+file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/error_correct.top 0
+    topic: ~error_correct 2
+        rule: ~error_correct.0.0 u:  4
           line: 5 0
           line: 6 3
-          line: 8 30
-          line: 9 42
-          line: 10 45
-          line: 11 56
-          line: 12 66
-          line: 13 89
-          Complexity of rule ~error_correction.0.0- u: 2
-        rule: ~error_correction.1.0 u:  15
-          line: 17 0
-          line: 18 3
-          Complexity of rule ~error_correction.1.0- u: 1
+          line: 7 10
+          line: 9 36
+          line: 10 48
+          line: 11 51
+          line: 12 62
+          line: 13 72
+          line: 14 95
+          Complexity of rule ~error_correct.0.0- u: 2
+        rule: ~error_correct.1.0 u:  16
+          line: 18 0
+          line: 19 3
+          Complexity of rule ~error_correct.1.0- u: 1
 file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/分词.top 0
     topic: ~segment 2
         rule: ~segment.0.0- t:  4

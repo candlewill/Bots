@@ -883,9 +883,9 @@ void InitFileSystem(char* untouchedPath,char* readablePath,char* writeablePath)
 void StartFile(const char* name)
 {
 	if (strnicmp(name,"TMP",3)) maxFileLine = currentFileLine = 0;
-	strcpy(currentFilename,name); // in case name is simple
+	strcpy(currentFilename,name); // in case name is simple (char*赋值给char[]的方式是使用strcpy)
 
-	char* at = strrchr((char*) name,'/');	// last end of path
+	char* at = strrchr((char*) name,'/');	// last end of path (用于查找某字符在字符串中最后一次出现的位置)
 	if (at) strcpy(currentFilename,at+1);
 	at = strrchr(currentFilename,'\\');		// windows last end of path
 	if (at) strcpy(currentFilename,at+1);

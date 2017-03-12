@@ -52,5 +52,25 @@ cd ChatScript-7.3 && BINARIES/ChatScript \
 8. 本地运行
 执行：./start_local.sh
 
+9. 对代码的其他改动
+9.1 common.h代码的第221行增加引入preprocess.h头文件，改变之后，为：
+#ifdef PRIVATE_CODE
+#include "privatesrc.h"
+#include "../privatecode/preprocess.h"
+#endif 
+
+9.2 mainSystem.cpp代码的第1405行更改为：
+// 中文分词
+#ifdef PRIVATE_CODE
+#include "../privatecode/preprocess.cpp"
+#endif
+
+9.3 mainSystem.cpp代码的第1424行更改为：
+	// 增加中文分词功能
+#ifdef PRIVATE_CODE
+	incoming = CNPreprocess(incoming);
+#endif
+
+
 Author: 何云超
 2017-03-06

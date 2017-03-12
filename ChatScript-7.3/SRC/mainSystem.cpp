@@ -1401,6 +1401,11 @@ int PerformChatGivenTopic(char* user, char* usee, char* incoming,char* ip,char* 
 // INTERNAL STRINGS AND STUFF never have control characters either (/r /t /n converted only on output to user)
 // WE internally use /r/n in file stuff for the user topic file.
 
+// 中文分词
+#ifdef PRIVATE_CODE
+#include "../privatecode/preprocess.cpp"
+#endif
+
 int PerformChat(char* user, char* usee, char* incoming,char* ip,char* output) // returns volleycount or 0 if command done or -1 PENDING_RESTART
 { //   primary entrypoint for chatbot -- null incoming treated as conversation start.
 	pendingUserReset = false;
@@ -1415,6 +1420,12 @@ int PerformChat(char* user, char* usee, char* incoming,char* ip,char* output) //
 #endif
 	ClearVolleyWordMaps();
 	ResetEncryptTags();
+	
+	// 增加中文分词功能
+#ifdef PRIVATE_CODE
+	incoming = CNPreprocess(incoming);
+#endif
+
 	mainInputBuffer = incoming;
 	mainOutputBuffer = output;
 	size_t len = strlen(incoming);
@@ -2575,9 +2586,10 @@ void PrepareSentence(char* input,bool mark,bool user, bool analyze,bool oobstart
 #ifndef NOMAIN
 int main(int argc, char * argv[]) 
 {
+	// 解析命令行参数中是否有root=，如果有就将当前路劲切换到其指定的路径
 	for (int i = 1; i < argc; ++i)
 	{
-		if (!strnicmp(argv[i],"root=",5)) 
+		if (!strnicmp(argv[i],"root=",5))	// 比较字符串前n个字符是否相同
 		{
 #ifdef WIN32
 			SetCurrentDirectory((char*)argv[i]+5);
@@ -2587,6 +2599,7 @@ int main(int argc, char * argv[])
 		}
 	}
 
+	// 依据头文件dictionarySystem.h所处路径，决定当前路径是否应该前往上一级
 	FILE* in = FopenStaticReadOnly((char*)"SRC/dictionarySystem.h"); // SRC/dictionarySystem.h
 	if (!in) // if we are not at top level, try going up a level
 	{
@@ -2598,10 +2611,14 @@ int main(int argc, char * argv[])
 #endif
 	}
 	else FClose(in); 
+	
+	// 初始化系统
 	if (InitSystem(argc,argv)) myexit((char*)"failed to load memory\r\n");
-    if (!server) 
+    
+	if (!server) 
 	{
 		quitting = false; // allow local bots to continue regardless
+		// 主循环
 		MainLoop();
 	}
 	else if (quitting) {;} // boot load requests quit

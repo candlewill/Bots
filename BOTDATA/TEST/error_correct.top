@@ -1,0 +1,18 @@
+# DST and NLU
+topic: ~error_correct keep repeat ( "想 看" )
+
+u: ( 看 _* )
+	_0 \n
+	'_0 \n
+	if ( _0='_0 )
+	{
+		你想看 _0
+	}
+	else
+	{
+		你想看 '_0 还是 _0	
+	}
+
+u: ( _* )
+	_0
+	'_0

@@ -2889,3 +2889,165 @@ Respond: user:user bot:test ip: (~segment) 61     ==>   When:Mar07'17-18:32:57  
 Respond: user:user bot:test ip: (~segment) 62   fe   ==> All sentences user passed into volley, before adjusted in any (originalinput)  fe    the current sentence after tokenization but before any (originalsentence)  fe  使用撇号:  fe  没有撇号：  fe  original using no ':  fe  original using ':  fe    When:Mar07'17-18:32:59 Why:~segment.2.0.~control.9.0   F:1 
 Respond: user:user bot:test ip: (~segment) 63     ==>   When:Mar07'17-18:32:59   F:0 
 Respond: user:user bot:test ip: (~segment) 64     ==>   When:Mar07'17-18:32:59   F:0 
+Start: user:user bot:test ip: rand:1292 (~segment) 64 ==>   When:Mar09'17-17:22:56 Version:7.3 Build0: Build1:Mar07'17-17:15:57 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar07'17-18:32:59 
+Respond: user:user bot:test ip: (~segment) 65   Nih ==> All sentences user passed into volley, before adjusted in any (originalinput)  Nih  the current sentence after tokenization but before any (originalsentence)  Nih  使用撇号:  Nih  没有撇号：  Nih  original using no ':  Nih  original using ':  Nih    When:Mar09'17-17:23:11 Why:~segment.2.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 66   你好 ==> All sentences user passed into volley, before adjusted in any (originalinput)  你好  the current sentence after tokenization but before any (originalsentence)  你好  使用撇号:  你好  没有撇号：  你好  original using no ':  你好  original using ':  你好    When:Mar09'17-17:23:13 Why:~segment.2.0.~control.9.0   F:0 
+Respond: user:user bot:test ip: (~segment) 67   ll ==> All sentences user passed into volley, before adjusted in any (originalinput)  ll  the current sentence after tokenization but before any (originalsentence)  ll  使用撇号:  ll  没有撇号：  ll  original using no ':  ll  original using ':  ll    When:Mar09'17-17:24:02 Why:~segment.2.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 68   Nihao ==> All sentences user passed into volley, before adjusted in any (originalinput)  Nihao  the current sentence after tokenization but before any (originalsentence)  Nihao  使用撇号:  Nihao  没有撇号：  Nihao  original using no ':  Nihao  original using ':  Nihao    When:Mar09'17-17:24:04 Why:~segment.2.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 69   你好 ==> All sentences user passed into volley, before adjusted in any (originalinput)  你好  the current sentence after tokenization but before any (originalsentence)  你好  使用撇号:  你好  没有撇号：  你好  original using no ':  你好  original using ':  你好    When:Mar09'17-17:24:06 Why:~segment.2.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 70   你是谁 ==> All sentences user passed into volley, before adjusted in any (originalinput)  你是谁  the current sentence after tokenization but before any (originalsentence)  你 是 谁  使用撇号:  你 是 谁  没有撇号：  unknown-word unknown-word unknown-word  original using no ':  你 是 谁  original using ':  你 是 谁    When:Mar09'17-17:24:08 Why:~segment.2.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 71   测试 ==> All sentences user passed into volley, before adjusted in any (originalinput)  测试  the current sentence after tokenization but before any (originalsentence)  测试  使用撇号:  测试  没有撇号：  测试  original using no ':  测试  original using ':  测试    When:Mar09'17-17:24:41 Why:~segment.2.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 72   分词 ==> 我竟然无言以对，人家还是个宝宝  When:Mar09'17-17:24:42 Why:~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 73   分词 测试 ==> 我竟然无言以对，人家还是个宝宝  When:Mar09'17-17:24:51 Why:~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 74   分词 ==> 不要欺负本宝宝了，人家还在长大  When:Mar09'17-17:24:53 Why:~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 75   分词测试 ==> 我竟然无言以对，人家还是个宝宝  When:Mar09'17-17:24:56 Why:~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 76   j ==> All sentences user passed into volley, before adjusted in any (originalinput)  j  the current sentence after tokenization but before any (originalsentence)  j  使用撇号:  j  没有撇号：  J  original using no ':  j  original using ':  j    When:Mar09'17-17:24:59 Why:~segment.2.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 77   分词测试 ==> 不要欺负本宝宝了，人家还在长大  When:Mar09'17-17:25:03 Why:~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 78   我想看三三三是 ==> 使用撇号:  三三三是  没有撇号：  unknown-word  original using no ':  三三三是  original using ':  三三三是    When:Mar09'17-17:30:19 Why:~segment.1.0.~control.9.0   F:2 
+Command: :build Test reset
+Start: user:user bot:test ip: rand:1228 (~send_msg) 0 ==>   When:Mar09'17-17:30:24 Version:7.3 Build0: Build1:Mar09'17-17:30:23 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar09'17-17:30:19 
+Respond: user:user bot:test ip: (~error_correct) 1   想看 ==> 你想看  When:Mar09'17-17:30:25 Why:~error_correct.0.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 2   分词 ==> 分词 分词  When:Mar09'17-17:30:27 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 3   分词 ==> 分词 分词  When:Mar09'17-17:30:38 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 4   fe    ==> Fe fe  When:Mar09'17-17:31:09 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 5      ==>   When:Mar09'17-17:31:11   F:1 
+Respond: user:user bot:test ip: (~error_correct) 6     ==>   When:Mar09'17-17:31:11   F:0 
+Respond: user:user bot:test ip: (~error_correct) 7   fe   ==> Fe fe  When:Mar09'17-17:31:14 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 8     ==>   When:Mar09'17-17:31:14   F:1 
+Command: :build Test
+Start: user:user bot:test ip: rand:1236 (~error_correct) 8 ==>   When:Mar09'17-17:31:20 Version:7.3 Build0: Build1:Mar09'17-17:31:19 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar09'17-17:31:14 
+Respond: user:user bot:test ip: (~error_correct) 9   分词 ==> 分词 分词  When:Mar09'17-17:31:22 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 10   测试 ==> 测试 测试  When:Mar09'17-17:31:24 Why:~error_correct.1.0.~control.9.0   F:0 
+Respond: user:user bot:test ip: (~error_correct) 11   分词 我是中国人 ==> 分词 unknown-word unknown-word unknown-word unknown-word 分词 我 是 中国 人  When:Mar09'17-17:31:27 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 12   : ==> : :  When:Mar09'17-17:31:31 Why:~error_correct.1.0.~control.9.0   F:0 
+Respond: user:user bot:test ip: (~error_correct) 13   fe   ==> Fe fe  When:Mar09'17-17:31:51 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 14     ==>   When:Mar09'17-17:31:52   F:0 
+Respond: user:user bot:test ip: (~error_correct) 15     ==>   When:Mar09'17-17:31:52   F:0 
+Respond: user:user bot:test ip: (~error_correct) 16     ==>   When:Mar09'17-17:31:52   F:0 
+Respond: user:user bot:test ip: (~error_correct) 17     ==>   When:Mar09'17-17:31:52   F:1 
+Respond: user:user bot:test ip: (~error_correct) 18   fe    ==> Fe fe  When:Mar09'17-17:31:54 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 19     ==>   When:Mar09'17-17:31:54   F:0 
+Command: :build Test reset
+Start: user:user bot:test ip: rand:1228 (~send_msg) 0 ==>   When:Mar09'17-17:32:00 Version:7.3 Build0: Build1:Mar09'17-17:31:59 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar09'17-17:31:54 
+Respond: user:user bot:test ip: (~segment) 1   你好 ==> 请输入测试语句：  When:Mar09'17-17:32:01 Why:~segment.0.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 2   fi ==> All sentences user passed into volley, before adjusted in any (originalinput)  fi  the current sentence after tokenization but before any (originalsentence)  fi  使用撇号:  fi  没有撇号：  fi  original using no ':  fi  original using ':  fi    When:Mar09'17-17:32:04 Why:~segment.2.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 3   f  ==> All sentences user passed into volley, before adjusted in any (originalinput)  f   the current sentence after tokenization but before any (originalsentence)  f  使用撇号:  f  没有撇号：  F  original using no ':  f  original using ':  f    When:Mar09'17-17:32:09 Why:~segment.2.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 4   f ==> All sentences user passed into volley, before adjusted in any (originalinput)  f  the current sentence after tokenization but before any (originalsentence)  f  使用撇号:  f  没有撇号：  F  original using no ':  f  original using ':  f    When:Mar09'17-17:32:11 Why:~segment.2.0.~control.9.0   F:1 
+Command: :pending
+Pending topics: ~segment ~send_msg 
+Respond: user:user bot:test ip: (~segment) 5   分词 ==> 使用撇号:    没有撇号：    original using no ':    original using ':      When:Mar09'17-17:32:35 Why:~segment.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 6   分词 i love you ==> 使用撇号:  I love you  没有撇号：  I love you  original using no ':  I love you  original using ':  I love you    When:Mar09'17-17:32:40 Why:~segment.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 7   分词 你好吗 ==> 使用撇号:  你好 吗  没有撇号：  unknown-word unknown-word  original using no ':  你好 吗  original using ':  你好 吗    When:Mar09'17-17:32:47 Why:~segment.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 8   我们 ==> All sentences user passed into volley, before adjusted in any (originalinput)  我们  the current sentence after tokenization but before any (originalsentence)  我们  使用撇号:  我们  没有撇号：  我们  original using no ':  我们  original using ':  我们    When:Mar09'17-17:33:29 Why:~segment.2.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 9   我想看 ==> All sentences user passed into volley, before adjusted in any (originalinput)  我想看  the current sentence after tokenization but before any (originalsentence)  我 想 看  使用撇号:  我 想 看  没有撇号：  unknown-word unknown-word unknown-word  original using no ':  我 想 看  original using ':  我 想 看    When:Mar09'17-17:34:17 Why:~segment.2.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 10   我想看 ==> All sentences user passed into volley, before adjusted in any (originalinput)  我想看  the current sentence after tokenization but before any (originalsentence)  我 想 看  使用撇号:  我 想 看  没有撇号：  unknown-word unknown-word unknown-word  original using no ':  我 想 看  original using ':  我 想 看    When:Mar09'17-17:34:22 Why:~segment.2.0.~control.9.0   F:0 
+Command: :reset
+Start: user:user bot:test ip: rand:1228 (~send_msg) 0 ==>   When:Mar09'17-17:34:25 Version:7.3 Build0: Build1:Mar09'17-17:31:59 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar09'17-17:34:22 
+Respond: user:user bot:test ip: (~error_correct) 1   我想看 ==> 你想看  When:Mar09'17-17:34:27 Why:~error_correct.0.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 2   我想看三三三世 ==> Unknown-word 三生三世 你想看 三生三世 还是 unknown-word  When:Mar09'17-17:34:39 Why:~error_correct.0.0.~control.9.0   F:1 
+Command: :build Test 
+Start: user:user bot:test ip: rand:1230 (~error_correct) 2 ==>   When:Mar09'17-17:35:35 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar09'17-17:34:39 
+Respond: user:user bot:test ip: (~error_correct) 3   我想看三三三世 ==> Unknown-word  三生三世  你想看 三生三世 还是 unknown-word  When:Mar09'17-17:35:40 Why:~error_correct.0.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 4   我想看 我爱你 ==> 爱你  我爱你  你想看 我爱你 还是 爱你  When:Mar09'17-17:36:06 Why:~error_correct.0.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 5   我想看小飞侠 ==> Unknown-word  小飞侠  你想看 小飞侠 还是 unknown-word  When:Mar09'17-17:36:12 Why:~error_correct.0.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 6   我想看I love ==> I love  I love  你想看 i love  When:Mar09'17-17:36:48 Why:~error_correct.0.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 7   我想看wikifea ==> Unknown-word  wikifea  你想看 wikifea 还是 unknown-word  When:Mar09'17-17:36:56 Why:~error_correct.0.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 8   我想看feiwafea ==> Unknown-word  feiwafea  你想看 feiwafea 还是 unknown-word  When:Mar09'17-17:37:08 Why:~error_correct.0.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 9   我想看我爱你 ==> Unknown-word  我爱你  你想看 我爱你 还是 unknown-word  When:Mar09'17-17:38:28 Why:~error_correct.0.0.~control.9.0   F:1 
+Start: user:user bot:test ip: rand:1237 (~error_correct) 9 ==>   When:Mar10'17-11:44:08 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar09'17-17:38:28 
+Start: user:user bot:test ip: rand:1237 (~error_correct) 9 ==>   When:Mar10'17-11:46:19 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar09'17-17:38:28 
+Respond: user:user bot:test ip: (~error_correct) 10   你好 ==> 你好 你好  When:Mar10'17-11:46:30 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 11   f ==> F f  When:Mar10'17-11:46:34 Why:~error_correct.1.0.~control.9.0   F:1 
+Start: user:user bot:test ip: rand:1239 (~error_correct) 11 ==>   When:Mar10'17-11:50:33 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar10'17-11:46:34 
+Respond: user:user bot:test ip: (~error_correct) 12   n ==> N n  When:Mar10'17-11:50:37 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 13   bt ==> Bt bt  When:Mar10'17-11:50:39 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 14   bt ==> Bt bt  When:Mar10'17-11:50:41 Why:~error_correct.1.0.~control.9.0   F:1 
+Start: user:user bot:test ip: rand:1242 (~error_correct) 14 ==>   When:Mar10'17-14:46:19 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar10'17-11:50:41 
+Start: user:user bot:test ip: rand:1242 (~error_correct) 14 ==>   When:Mar10'17-15:33:45 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar10'17-11:50:41 
+Respond: user:user bot:test ip: (~error_correct) 15   你好 ==> 你好 你好  When:Mar10'17-15:34:20 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 16   我是中国人 ==> Unknown-word unknown-word unknown-word unknown-word 我 是 中国 人  When:Mar10'17-15:34:45 Why:~error_correct.1.0.~control.9.0   F:1 
+Start: user:user bot:test ip: rand:1244 (~error_correct) 16 ==>   When:Mar10'17-18:01:00 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar10'17-15:34:45 
+Start: user:user bot:test ip: rand:1244 (~error_correct) 16 ==>   When:Mar10'17-18:06:25 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar10'17-15:34:45 
+Respond: user:user bot:test ip: (~error_correct) 17   怒火    ==> 怒火 怒火  When:Mar10'17-18:06:44 Why:~error_correct.1.0.~control.9.0   F:12637 
+Start: user:user bot:test ip: rand:1245 (~error_correct) 17 ==>   When:Mar10'17-18:24:58 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar10'17-18:06:44 
+Respond: user:user bot:test ip: (~error_correct) 18     ==>   When:Mar10'17-18:24:58   F:1 
+Respond: user:user bot:test ip: (~error_correct) 19   你好 ==> 你好 你好  When:Mar10'17-18:25:03 Why:~error_correct.1.0.~control.9.0   F:2 
+Respond: user:user bot:test ip: (~error_correct) 20   你好 ==> 你好 你好  When:Mar10'17-18:25:06 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 21   你好 ==> 你好 你好  When:Mar10'17-18:25:08 Why:~error_correct.1.0.~control.9.0   F:1 
+Start: user:user bot:test ip: rand:1249 (~error_correct) 21 ==>   When:Mar10'17-18:43:47 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar10'17-18:25:08 
+Respond: user:user bot:test ip: (~error_correct) 22   c ==> C c  When:Mar10'17-18:43:49 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 23     ==>   When:Mar10'17-18:43:49   F:1 
+Respond: user:user bot:test ip: (~error_correct) 24     ==>   When:Mar10'17-18:43:50   F:1 
+Respond: user:user bot:test ip: (~error_correct) 25     ==>   When:Mar10'17-18:43:50   F:0 
+Respond: user:user bot:test ip: (~error_correct) 26     ==>   When:Mar10'17-18:43:50   F:1 
+Respond: user:user bot:test ip: (~error_correct) 27     ==>   When:Mar10'17-18:43:50   F:1 
+Respond: user:user bot:test ip: (~error_correct) 28     ==>   When:Mar10'17-18:43:50   F:0 
+Respond: user:user bot:test ip: (~error_correct) 29     ==>   When:Mar10'17-18:43:50   F:1 
+Respond: user:user bot:test ip: (~error_correct) 30   kill ==> Kill kill  When:Mar10'17-18:43:53 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 31   kill ==> Kill kill  When:Mar10'17-18:43:55 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 32   kill ==> Kill kill  When:Mar10'17-18:43:57 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 33   kill ==> Kill kill  When:Mar10'17-18:43:59 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 34   kill ==> Kill kill  When:Mar10'17-18:44:00 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 35   kill ==> Kill kill  When:Mar10'17-18:44:02 Why:~error_correct.1.0.~control.9.0   F:1 
+Start: user:user bot:test ip: rand:1263 (~error_correct) 35 ==>   When:Mar10'17-19:57:30 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar10'17-18:44:02 
+Respond: user:user bot:test ip: (~error_correct) 36     ==>   When:Mar10'17-19:58:57   F:20539 
+Respond: user:user bot:test ip: (~error_correct) 37   你好吗？ ==> Unknown-word unknown-word unknown-word 你好 吗 ？  When:Mar10'17-20:02:25 Why:~error_correct.1.0.~control.9.0   F:32312 
+Start: user:user bot:test ip: rand:1265 (~error_correct) 37 ==>   When:Mar10'17-20:22:22 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar10'17-20:02:25 
+Respond: user:user bot:test ip: (~error_correct) 38   你好 ==> 你好 你好  When:Mar10'17-20:22:48 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 39   你好 ==> 你好 你好  When:Mar10'17-20:23:14 Why:~error_correct.1.0.~control.9.0   F:0 
+Respond: user:user bot:test ip: (~error_correct) 40   我是中国人 ==> Unknown-word unknown-word unknown-word unknown-word 我 是 中国 人  When:Mar10'17-20:36:00 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 41   我是中国人 ==> Unknown-word unknown-word unknown-word unknown-word 我 是 中国 人  When:Mar10'17-20:36:23 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 42   我是中国人 ==> Unknown-word unknown-word unknown-word unknown-word 我 是 中国 人  When:Mar10'17-20:38:08 Why:~error_correct.1.0.~control.9.0   F:1 
+Start: user:user bot:test ip: rand:1270 (~error_correct) 42 ==>   When:Mar12'17-13:42:46 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar10'17-20:38:08 
+Respond: user:user bot:test ip: (~error_correct) 43   你好我是中国人和  ==> Unknown-word unknown-word unknown-word unknown-word unknown-word unknown-word 你好 我 是 中国 人 和  When:Mar12'17-13:43:15 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 44   我在中国北京 ==> Unknown-word unknown-word unknown-word unknown-word 我 在 中国 北京  When:Mar12'17-14:11:26 Why:~error_correct.1.0.~control.9.0   F:1111204 
+Respond: user:user bot:test ip: (~error_correct) 45   我生活在 中国北京 "" [D ==> Unknown-word unknown-word unknown-word unknown-word unknown-word unknown-word [ D 我 生活 在 中国 北京 " " [ D  When:Mar12'17-14:12:24 Why:~error_correct.1.0.~control.9.0   F:9744 
+Respond: user:user bot:test ip: (~error_correct) 46   我生活在 中国 北京 ""你呢 ==> Unknown-word unknown-word unknown-word 中国 北京 unknown-word unknown-word unknown-word 我 生活 在 中国 北京 " " 你 呢  When:Mar12'17-14:21:43 Why:~error_correct.1.0.~control.9.0   F:483620 
+Respond: user:user bot:test ip: (~error_correct) 47   我生活在中国你呢在" 哪里 " ==> Unknown-word unknown-word unknown-word unknown-word unknown-word unknown-word 在 " 哪里 " 我 生活 在 中国 你 呢 在 " 哪里 "  When:Mar12'17-14:32:16 Why:~error_correct.1.0.~control.9.0   F:565277 
+Start: user:user bot:test ip: rand:1275 (~error_correct) 47 ==>   When:Mar12'17-15:41:10 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-14:32:16 
+Respond: user:user bot:test ip: (~error_correct) 48  我爱你 你呢 ==> 爱你 unknown-word unknown-word 我爱你 你 呢  When:Mar12'17-15:41:12 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 49  我爱你 你呢 ==> 爱你 unknown-word unknown-word 我爱你 你 呢  When:Mar12'17-15:41:30 Why:~error_correct.1.0.~control.9.0   F:0 
+Start: user:user bot:test ip: rand:1277 (~error_correct) 49 ==>   When:Mar12'17-15:49:25 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-15:41:30 
+Start: user:user bot:test ip: rand:1277 (~error_correct) 49 ==>   When:Mar12'17-15:58:41 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-15:41:30 
+Start: user:user bot:test ip: rand:1277 (~error_correct) 49 ==>   When:Mar12'17-16:00:56 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-15:41:30 
+Start: user:user bot:test ip: rand:1277 (~error_correct) 49 ==>   When:Mar12'17-16:16:04 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-15:41:30 
+Start: user:user bot:test ip: rand:1277 (~error_correct) 49 ==>   When:Mar12'17-16:24:17 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-15:41:30 
+Start: user:user bot:test ip: rand:1277 (~error_correct) 49 ==>   When:Mar12'17-16:34:11 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-15:41:30 
+Start: user:user bot:test ip: rand:1277 (~error_correct) 49 ==>   When:Mar12'17-16:34:25 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-15:41:30 
+Start: user:user bot:test ip: rand:1277 (~error_correct) 49 ==>   When:Mar12'17-17:05:17 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-15:41:30 
+Start: user:user bot:test ip: rand:1277 (~error_correct) 49 ==>   When:Mar12'17-17:06:48 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-15:41:30 
+Start: user:user bot:test ip: rand:1277 (~error_correct) 49 ==>   When:Mar12'17-17:07:30 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-15:41:30 
+Start: user:user bot:test ip: rand:1277 (~error_correct) 49 ==>   When:Mar12'17-17:08:15 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-15:41:30 
+Start: user:user bot:test ip: rand:1277 (~error_correct) 49 ==>   When:Mar12'17-17:08:45 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-15:41:30 
+Start: user:user bot:test ip: rand:1277 (~error_correct) 49 ==>   When:Mar12'17-17:10:12 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-15:41:30 
+Start: user:user bot:test ip: rand:1277 (~error_correct) 49 ==>   When:Mar12'17-17:12:59 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-15:41:30 
+Start: user:user bot:test ip: rand:1277 (~error_correct) 49 ==>   When:Mar12'17-17:31:26 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-15:41:30 
+Respond: user:user bot:test ip: (~error_correct) 50    你好 吗 ==> 你好 吗 你好 吗  When:Mar12'17-17:31:29 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 51    你 是 谁 啊 ==> 你 是 谁 啊 你 是 谁 啊  When:Mar12'17-17:31:32 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 52    我爱你 ==> 爱你 我爱你  When:Mar12'17-17:31:36 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 53    few       ==> Few few  When:Mar12'17-17:31:37 Why:~error_correct.1.0.~control.9.0   F:0 
+Respond: user:user bot:test ip: (~error_correct) 54    我爱你 啊 ==> 爱你 啊 我爱你 啊  When:Mar12'17-17:31:40 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 55    fe       ==> Fe fe  When:Mar12'17-17:31:41 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 56     ==>   When:Mar12'17-17:31:41   F:1 
+Respond: user:user bot:test ip: (~error_correct) 57     ==>   When:Mar12'17-17:31:41   F:0 
+Respond: user:user bot:test ip: (~error_correct) 58     ==>   When:Mar12'17-17:31:42   F:1 
+Respond: user:user bot:test ip: (~error_correct) 59    你 真 好 ==> 你 真 好 你 真 好  When:Mar12'17-17:31:44 Why:~error_correct.1.0.~control.9.0   F:1 
+Start: user:user bot:test ip: rand:1287 (~error_correct) 59 ==>   When:Mar12'17-17:33:21 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-17:31:44 
+Respond: user:user bot:test ip: (~error_correct) 60    : build   Test   reset ==> : build Test reset : build Test reset  When:Mar12'17-17:33:24 Why:~error_correct.1.0.~control.9.0   F:1 
+Start: user:user bot:test ip: rand:1288 (~error_correct) 60 ==>   When:Mar12'17-17:35:39 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-17:33:24 
+Respond: user:user bot:test ip: (~error_correct) 61    你好 ==> 你好 你好  When:Mar12'17-17:35:41 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 62    f   = ==> F = f =  When:Mar12'17-17:35:44 Why:~error_correct.1.0.~control.9.0   F:0 
+Respond: user:user bot:test ip: (~error_correct) 63    : build   Test   reset ==> : build Test reset : build Test reset  When:Mar12'17-17:35:47 Why:~error_correct.1.0.~control.9.0   F:1 
+Start: user:user bot:test ip: rand:1291 (~error_correct) 63 ==>   When:Mar12'17-17:45:48 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-17:35:47 
+Respond: user:user bot:test ip: (~error_correct) 64    你好 吗 ==> 你好 吗 你好 吗  When:Mar12'17-17:45:51 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 65    : build   Test ==> : build Test : build Test  When:Mar12'17-17:45:58 Why:~error_correct.1.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~error_correct) 66    fe         ==> Fe fe  When:Mar12'17-17:46:02 Why:~error_correct.1.0.~control.9.0   F:1 
+Start: user:user bot:test ip: rand:1294 (~error_correct) 66 ==>   When:Mar12'17-17:47:05 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-17:46:02 
+Respond: user:user bot:test ip: (~error_correct) 67    : build   Test ==> : build Test : build Test  When:Mar12'17-17:48:01 Why:~error_correct.1.0.~control.9.0   F:42263 
+Start: user:user bot:test ip: rand:1295 (~error_correct) 67 ==>   When:Mar12'17-17:53:11 Version:7.3 Build0: Build1:Mar09'17-17:35:35 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-17:48:01 
+Command: :build Test reset
+Start: user:user bot:test ip: rand:1228 (~segment) 0 ==> 请输入测试语句：  When:Mar12'17-17:53:17 Version:7.3 Build0: Build1:Mar12'17-17:53:16 0:Mar06'17-18:27:13 F:1488796108-8.1.0.5.9.0 P:Mar12'17-17:48:01 Why:~segment.0.0.~control.9.0 
+Respond: user:user bot:test ip: (~segment) 1    你好 ==> All sentences user passed into volley, before adjusted in any (originalinput)  你好  the current sentence after tokenization but before any (originalsentence)  你好  使用撇号:  你好  没有撇号：  unknown-word  original using no ':  你好  original using ':  你好    When:Mar12'17-17:53:22 Why:~segment.2.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 2    你好 吗 ==> All sentences user passed into volley, before adjusted in any (originalinput)  你好 吗  the current sentence after tokenization but before any (originalsentence)  你好 吗  使用撇号:  你好 吗  没有撇号：  unknown-word unknown-word  original using no ':  你好 吗  original using ':  你好 吗    When:Mar12'17-17:53:26 Why:~segment.2.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 3    我爱你 啊 ==> All sentences user passed into volley, before adjusted in any (originalinput)  我爱你 啊  the current sentence after tokenization but before any (originalsentence)  我爱你 啊  使用撇号:  我爱你 啊  没有撇号：  unknown-word unknown-word  original using no ':  我爱你 啊  original using ':  我爱你 啊    When:Mar12'17-17:53:52 Why:~segment.2.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~segment) 4    我 想 看 三 三 三世 ==> All sentences user passed into volley, before adjusted in any (originalinput)  我 想 看 三 三 三世  the current sentence after tokenization but before any (originalsentence)  我 想 看 三 三 三世  使用撇号:  我 想 看 三生三世  没有撇号：  unknown-word unknown-word unknown-word unknown-word  original using no ':  我 想 看 三 三 三世  original using ':  我 想 看 三 三 三世    When:Mar12'17-17:54:09 Why:~segment.2.0.~control.9.0   F:0 
