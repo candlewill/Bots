@@ -1,3 +1,5 @@
-﻿+ test PATTERN_WORD 
+﻿+ byebye PATTERN_WORD 
++ goodbye PATTERN_WORD 
++ test PATTERN_WORD 
 + defaultbot 
 + 想_看 

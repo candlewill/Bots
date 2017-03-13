@@ -2,7 +2,7 @@
 outputmacro: test()  # you get test by default
 $cs_token = #DO_SUBSTITUTE_SYSTEM | #DO_NUMBER_MERGE | #DO_DATE_MERGE  | #DO_PROPERNAME_MERGE 
 
-^addtopic(~send_msg)
+^addtopic(~welcome)
 $cs_control_main = ~control
 #  $cs_control_post = ~XPOSTPROCESS  # uncomment to enable talk
 $userprompt = ^"%user: >"
@@ -18,7 +18,7 @@ topic: ~control system ()
 # on startup, do introduction
 
 u: ( %input<%userfirstline ) 
-	gambit(~send_msg)
+	gambit(~welcome)
 
 u: (< shut up >) $shutup = 1
 u: (< talk  >) $shutup = null

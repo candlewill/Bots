@@ -1,5 +1,4 @@
-﻿file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/topics.top 0
-    topic: ~is 1
+﻿file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/backup_20170313 0
 file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/send_msg.top 0
     topic: ~send_msg 2
         rule: ~send_msg.0.0 u:  4
@@ -64,14 +63,65 @@ file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/send_msg.top 0
           Complexity of rule ~send_msg_nlg.3.0- u: 1
 file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/backup 0
 file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/tmp 0
+file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/welcome.top 0
+    topic: ~welcome 1
+        rule: ~welcome.0.0- t:  3
+          Complexity of rule ~welcome.0.0- t: 1
+        rule: ~welcome.1.0 t:  6
+          line: 7 0
+          line: 8 22
+          line: 9 37
+          line: 10 66
+          line: 11 95
+          line: 12 106
+          Complexity of rule ~welcome.1.0- t: 1
+        rule: ~welcome.2.0 t:  15
+          line: 16 0
+          line: 17 22
+          line: 18 61
+          line: 19 72
+          Complexity of rule ~welcome.2.0- t: 1
+        rule: ~welcome.3.0 u:  22
+          line: 23 0
+          Complexity of rule ~welcome.3.0- u: 1
+        rule: ~welcome.4.0 u:  27
+          line: 28 0
+          Complexity of rule ~welcome.4.0- u: 1
+        rule: ~welcome.5.0 u:  32
+          line: 33 0
+          line: 34 22
+          line: 35 91
+          Complexity of rule ~welcome.5.0- u: 1
+        rule: ~welcome.6.0 u:  38
+          line: 39 0
+          line: 40 22
+          line: 41 37
+          line: 42 66
+          line: 43 95
+          line: 44 106
+          Complexity of rule ~welcome.6.0- u: 1
+        rule: ~welcome.7.0 u:  47
+          line: 48 0
+          line: 49 22
+          Complexity of rule ~welcome.7.0- u: 1
+        rule: ~welcome.8.0 u:  51
+          line: 52 0
+          Complexity of rule ~welcome.8.0- u: 1
+        rule: ~welcome.9.0- t:  55
+          Complexity of rule ~welcome.9.0- t: 1
+        rule: ~welcome.10.0- t:  58
+          line: 59 0
+          Complexity of rule ~welcome.10.0- t: 1
 file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/backup_20170301 0
+file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/concepts.top 0
+    topic: ~is 1
 file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/simplecontrol.top 0
     macro: ^test 2
           line: 3 0
           line: 5 33
-          line: 6 62
-          line: 8 81
-          line: 9 104
+          line: 6 61
+          line: 8 80
+          line: 9 103
           Complexity of ^test: 1
           line: 12 0
           Complexity of tbl:defaultbot: 1
@@ -158,47 +208,18 @@ file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/simplecontrol.top 0
           Complexity of rule ~xpostprocess.0.0- t: 2
 file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/error_correct.top 0
     topic: ~error_correct 2
-        rule: ~error_correct.0.0 u:  4
-          line: 5 0
-          line: 6 3
-          line: 7 10
-          line: 9 36
-          line: 10 48
-          line: 11 51
-          line: 12 62
-          line: 13 72
-          line: 14 95
+        rule: ~error_correct.0.0 u:  5
+          line: 6 0
+          line: 7 3
+          line: 8 10
+          line: 10 36
+          line: 11 48
+          line: 12 51
+          line: 13 62
+          line: 14 72
+          line: 15 95
           Complexity of rule ~error_correct.0.0- u: 2
-        rule: ~error_correct.1.0 u:  16
-          line: 18 0
-          line: 19 3
+        rule: ~error_correct.1.0 u:  17
+          line: 19 0
+          line: 20 3
           Complexity of rule ~error_correct.1.0- u: 1
-file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/分词.top 0
-    topic: ~segment 2
-        rule: ~segment.0.0- t:  4
-          Complexity of rule ~segment.0.0- t: 1
-        rule: ~segment.1.0 u:  6
-          line: 7 0
-          line: 8 14
-          line: 9 21
-          line: 10 40
-          line: 11 46
-          line: 12 71
-          line: 13 91
-          line: 14 113
-          Complexity of rule ~segment.1.0- u: 1
-        rule: ~segment.2.0 u:  16
-          line: 17 0
-          line: 18 85
-          line: 19 103
-          line: 20 197
-          line: 21 218
-          line: 22 235
-          line: 23 242
-          line: 24 261
-          line: 25 267
-          line: 26 292
-          line: 27 312
-          line: 28 334
-          line: 30 355
-          Complexity of rule ~segment.2.0- u: 1

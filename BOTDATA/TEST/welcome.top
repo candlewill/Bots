@@ -1,0 +1,57 @@
+topic: ~welcome keep repeat ( 拜拜 你好 hello hi 名字 姓名 谢谢 )
+
+t: 有什么可以帮助你的~
+
+#!x will match on every return start of a conversation 
+t: ( %input<%userfirstline %input>0 ) 
+	^keep() ^repeat()
+	[欢迎回来]
+	[你好，又见到你了]
+	[很高兴再次遇到您]
+	[你好]
+	[hello]
+
+#!x matches every time on startup of a new conversation
+t: ( %input<%userfirstline ) 
+	^keep() ^repeat()
+	[欢迎来到乐乐语音交互系统]
+	[欢迎]
+	[欢迎您]
+
+#! 你 叫 什么 名字
+u: ( 什么 名字 ) 
+	^keep() ^repeat()
+	我的名字是乐乐.
+
+#! 再见
+u: ( [再见 拜拜 再会 bye goodbye byebye]) 
+	^keep() ^repeat()
+	再见
+
+#! 谢谢
+u: ( [谢谢 感激] )
+	^keep() ^repeat()
+	^preprint(\[ { "bob": 1, "suzy": 2, "text": 不用客气} \])
+	[不用谢][不客气] 
+
+#! 你好
+u: ( [你好 hello hi] )
+	^keep() ^repeat()
+	[欢迎回来]
+	[你好，又见到你了]
+	[很高兴再次遇到您]
+	[你好]
+	[hello]
+
+#! 我的名字
+u: ( [我的名字 我叫什么名字] ) 
+	^keep() ^repeat()
+	你的名字是 %bot
+
+u: ( [爱你 我爱你] ) 
+	^keep() ^repeat()
+	我也爱你！
+
+t: 你好！
+
+t: 很高兴见到你！！！
