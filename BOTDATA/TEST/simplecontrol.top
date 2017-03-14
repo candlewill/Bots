@@ -61,13 +61,14 @@ u: ( ) # main per-sentence processing
 		}
 	}	
 
-	##<<
+	
 	# if no topic reacts, go to the last ditch keywordless topic
 	if (%response == 0) 
 	{
 		nofail(TOPIC ^respond(~keywordless))
 	}
-
+	
+	##<<
 	# having no good response we know, now generate quibbles
 
 	# now we need to find fake responses 

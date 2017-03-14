@@ -61,6 +61,84 @@ file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/send_msg.top 0
           line: 81 45
           line: 82 48
           Complexity of rule ~send_msg_nlg.3.0- u: 1
+file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/keywordless.top 0
+    topic: ~keywordless 1
+        rule: ~keywordless.0.0 u:  3
+          Complexity of rule ~keywordless.0.0- u: 1
+        rule: ~keywordless.1.0 u:  6
+          Complexity of rule ~keywordless.1.0- u: 1
+        rule: ~keywordless.2.0 u:  9
+          Complexity of rule ~keywordless.2.0- u: 1
+        rule: ~keywordless.3.0 u:  12
+          Complexity of rule ~keywordless.3.0- u: 1
+        rule: ~keywordless.4.0 u:  15
+          Complexity of rule ~keywordless.4.0- u: 1
+        rule: ~keywordless.5.0 u:  18
+          Complexity of rule ~keywordless.5.0- u: 1
+        rule: ~keywordless.6.0 u:  21
+          Complexity of rule ~keywordless.6.0- u: 1
+        rule: ~keywordless.7.0 u:  24
+          Complexity of rule ~keywordless.7.0- u: 1
+        rule: ~keywordless.8.0 u:  27
+          Complexity of rule ~keywordless.8.0- u: 1
+        rule: ~keywordless.9.0 u:  30
+          Complexity of rule ~keywordless.9.0- u: 1
+        rule: ~keywordless.10.0 u:  33
+          Complexity of rule ~keywordless.10.0- u: 1
+        rule: ~keywordless.11.0 u:  36
+          line: 37 0
+          Complexity of rule ~keywordless.11.0- u: 1
+        rule: ~keywordless.12.0 u:  39
+          line: 40 0
+          line: 41 9
+          line: 42 23
+          line: 43 34
+          line: 44 45
+          line: 45 63
+          Complexity of rule ~keywordless.12.0- u: 1
+        rule: ~keywordless.13.0 u:  47
+          Complexity of rule ~keywordless.13.0- u: 1
+        rule: ~keywordless.14.0 u:  50
+          Complexity of rule ~keywordless.14.0- u: 1
+        rule: ~keywordless.15.0 u:  53
+          Complexity of rule ~keywordless.15.0- u: 1
+        rule: ~keywordless.16.0 u:  56
+          line: 57 0
+          line: 58 10
+          Complexity of rule ~keywordless.16.0- u: 1
+        rule: ~keywordless.17.0 u:  60
+          line: 61 0
+          Complexity of rule ~keywordless.17.0- u: 1
+        rule: ~keywordless.18.0 u:  63
+          line: 64 0
+          line: 65 19
+          Complexity of rule ~keywordless.18.0- u: 1
+        rule: ~keywordless.19.0 u:  67
+          line: 68 0
+          line: 69 13
+          line: 70 30
+          line: 71 52
+          line: 72 64
+          Complexity of rule ~keywordless.19.0- u: 1
+        rule: ~keywordless.20.0 u:  74
+          line: 75 0
+          line: 76 13
+          Complexity of rule ~keywordless.20.0- u: 1
+        rule: ~keywordless.21.0 u:  78
+          Complexity of rule ~keywordless.21.0- u: 1
+        rule: ~keywordless.22.0 u:  81
+          line: 82 0
+          line: 83 6
+          line: 84 18
+          line: 85 30
+          line: 86 51
+          Complexity of rule ~keywordless.22.0- u: 1
+        rule: ~keywordless.23.0 u:  88
+          line: 89 0
+          Complexity of rule ~keywordless.23.0- u: 1
+        rule: ~keywordless.24.0 u:  91
+          line: 93 0
+          Complexity of rule ~keywordless.24.0- u: 1
 file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/backup 0
 file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/tmp 0
 file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/welcome.top 0
@@ -168,43 +246,45 @@ file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/simplecontrol.top 0
           line: 59 449
           line: 61 465
           line: 62 471
-          line: 80 473
-          line: 82 527
-          line: 86 544
-          line: 88 657
-          line: 90 692
-          line: 91 718
-          line: 93 735
-          line: 94 768
-          line: 95 806
-          line: 97 835
-          line: 99 851
-          line: 100 857
-          line: 101 859
-          line: 103 941
-          line: 105 976
-          line: 106 1001
-          line: 108 1018
-          line: 109 1050
-          line: 110 1088
-          line: 112 1117
-          line: 114 1133
-          line: 115 1139
-          line: 117 1141
-          line: 119 1176
-          line: 120 1190
-          line: 121 1238
-          line: 122 1288
-          Complexity of rule ~control.9.0- u: 14
-    topic: ~xpostprocess 125
-        rule: ~xpostprocess.0.0 t:  127
-          line: 128 0
-          line: 130 17
-          line: 131 47
-          line: 133 104
-          line: 134 114
-          line: 136 155
-          line: 137 161
+          line: 66 473
+          line: 68 508
+          line: 81 554
+          line: 83 608
+          line: 87 625
+          line: 89 738
+          line: 91 773
+          line: 92 799
+          line: 94 816
+          line: 95 849
+          line: 96 887
+          line: 98 916
+          line: 100 932
+          line: 101 938
+          line: 102 940
+          line: 104 1022
+          line: 106 1057
+          line: 107 1082
+          line: 109 1099
+          line: 110 1131
+          line: 111 1169
+          line: 113 1198
+          line: 115 1214
+          line: 116 1220
+          line: 118 1222
+          line: 120 1257
+          line: 121 1271
+          line: 122 1319
+          line: 123 1369
+          Complexity of rule ~control.9.0- u: 15
+    topic: ~xpostprocess 126
+        rule: ~xpostprocess.0.0 t:  128
+          line: 129 0
+          line: 131 17
+          line: 132 47
+          line: 134 104
+          line: 135 114
+          line: 137 155
+          line: 138 161
           Complexity of rule ~xpostprocess.0.0- t: 2
 file: /letv/workspace/Bots/ChatScript-7.3/../BOTDATA/TEST/error_correct.top 0
     topic: ~error_correct 2
