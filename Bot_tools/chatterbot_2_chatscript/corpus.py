@@ -39,18 +39,18 @@ class Corpus(object):
             data = json.load(data_file)
         return data
 
-    def list_corpus_files(self, dotted_path):
+    def list_corpus_files(self, dotted_path, ends="corpus.json"):
         """
         Return a list of file paths to each data file in
         the specified corpus.
         """
-        corpus_path = self.get_file_path(dotted_path, extension='corpus.json')
+        corpus_path = self.get_file_path(dotted_path, extension=ends)
         paths = []
 
         if os.path.isdir(corpus_path):
             for dirname, dirnames, filenames in os.walk(corpus_path):
                 for datafile in filenames:
-                    if datafile.endswith('corpus.json'):
+                    if datafile.endswith(ends):
                         paths.append(os.path.join(dirname, datafile))
         else:
             paths.append(corpus_path)
@@ -58,11 +58,11 @@ class Corpus(object):
         paths.sort()
         return paths
 
-    def load_corpus(self, dotted_path):
+    def load_corpus(self, dotted_path, ends="corpus.json"):
         """
         Return the data contained within a specified corpus.
         """
-        data_file_paths = self.list_corpus_files(dotted_path)
+        data_file_paths = self.list_corpus_files(dotted_path, ends)
 
         corpora = []
 

@@ -1,3 +1,0 @@
-﻿$cs_trace=0
-#`end variables
-( test defaultbot defaultbot )

@@ -68,15 +68,15 @@ u: ( ) # main per-sentence processing
 		nofail(TOPIC ^respond(~keywordless))
 	}
 	
-	##<<
+
 	# having no good response we know, now generate quibbles
 
 	# now we need to find fake responses 
-	if (%response == 0 AND %rand > 50)
+	if (%response == 0 AND %rand > 0)
 	{
-		nofail(TOPIC respond(~QUIBBLE_ALL))
+		nofail(TOPIC respond(~xiaohuangji))
 	}
-	##>>
+
 
 	# if we have rejoinders for what we said OR we asked a question, stop here
 	if (%outputrejoinder OR %lastquestion) 
