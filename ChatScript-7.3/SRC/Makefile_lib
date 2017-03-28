@@ -2,7 +2,7 @@ cs: DEFINES+=  -DDISCARDSERVER=1 -DDISCARDPOSTGRES=1 -DDISCARDMONGO=1 -DDISCARDM
 cs: PGLOAD= -pthread
 cs: INCLUDEDIRS=-Ievserver -I../privatecode/Jieba/include/ -I../privatecode/Jieba/deps/
 cs: all
-cs: LIBS=../BINARIES/ChatScript.a
+cs: LIBS=../BINARIES/libChatScript.a
 cs: CFLAGS=-c -std=c++11  -Wall  -funsigned-char  -Wno-write-strings -Wno-char-subscripts -Wno-strict-aliasing 
 
 
