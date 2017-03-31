@@ -1,0 +1,68 @@
+topic: ~top_up keep repeat ( 话费 充话费 手机话费 充值 )
+
+t: 欢迎使用乐乐语音充话费系统~ 
+	^respond(~ask_slot)
+
+# 模式匹配
+u: ( 我要充话费 )
+	^myfunction1()
+	
+u: ( 给 _~number 电话号码充 _~number 元 )
+	^myfunction2()
+
+u: ( 我要给 _~number 充话费 )
+	^myfunction3()
+
+u: ( 我要给我的手机充 _~number 元钱 )
+	^myfunction4()
+
+# 槽位状态判断
+topic: ~ask_slot repeat keep nostay []
+
+u: ( !$number )
+	告诉乐乐您要充值的手机号码
+
+u: ( !$amount )
+	您要充多少元话费？乐乐支持10元、20元、30元、50元、100元、200元、300元、500元的话费面额充值~
+
+u: ( $number $amount !$pay )
+	\[ {img:"https://click.gridsumdissector.com/track.ashx?gsadid=gad_158_cylxuq7a"} \]
+	请使用微信/支付宝扫描下面二维码，完成充值
+
+u: ( $number $amount $pay=yes )
+	充值成功
+
+u: ( $number $amount $pay=no )
+	充值失败
+
+t: 你是否想给手机充话费？
+	a: ( 是 )
+		好的
+	a: ( [不是 不想] )
+		拉倒
+
+# output function
+outputmacro: ^myfunction1()
+{
+    ^clear_slot()
+    ^update_DS()
+    ^respond(~ask_slot)
+}
+
+outputmacro: ^clear_slot()
+{
+	$number=null
+	$mount=null
+}
+
+outputmacro: ^update_DS()
+{
+	$number=null
+	$mount=null
+}
+
+outputmacro: ^QR_code_scan()
+{
+	$number=null
+	$mount=null
+}

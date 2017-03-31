@@ -6,10 +6,10 @@
 
 # 使用自己编译的版本
 # chmod +x ./ChatScript-7.3/BINARIES/ChatScript
-cd build && bin/ChatScript_Main local
-
-# users=../USERS \
-logs=../LOGS \
-topic=../TOPIC \
+cd build && bin/ChatScript_Main \
+users=USERS \
+logs=LOGS \
+topic=TOPIC \
 login=user \
+buildfiles=filesTest.txt \
 local
