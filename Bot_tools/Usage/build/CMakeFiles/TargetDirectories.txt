@@ -1,3 +1,0 @@
-/home/andbase/workspace/Bots/Bot_tools/Usage/build/CMakeFiles/rebuild_cache.dir
-/home/andbase/workspace/Bots/Bot_tools/Usage/build/CMakeFiles/edit_cache.dir
-/home/andbase/workspace/Bots/Bot_tools/Usage/build/CMakeFiles/ChatScript_Main.dir
