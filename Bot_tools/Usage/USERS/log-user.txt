@@ -143,3 +143,7 @@ Respond: user:user bot:test ip: (~welcome) 73    我 不是 ==> 那是谁？  Wh
 Respond: user:user bot:test ip: (~welcome) 74    那 你 是猪 ？ ==> 操  When:Mar31'17-14:35:04 Why:~xiaohuangji.4858.0.~control.9.0   F:5 
 Respond: user:user bot:test ip: (~welcome) 75    为什么 骂 我 ==> 喂什么吃什么。。  When:Mar31'17-14:35:19 Why:~xiaohuangji.4671.0.~control.9.0   F:5 
 Respond: user:user bot:test ip: (~welcome) 76    靠 ==> 不要欺负本宝宝了，人家还在长大  When:Mar31'17-14:35:25 Why:~control.9.0   F:6 
+Start: user:user bot:test ip: rand:1305 (~welcome) 76 ==> 你好  When:Apr05'17-11:52:06 Version:7.3 Build0: Build1:Mar31'17-14:24:53 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Mar31'17-14:35:25 Why:~welcome.1.0.~control.0.0 
+Respond: user:user bot:test ip: (~welcome) 77    nihao ==> 我竟然无言以对，人家还是个宝宝  When:Apr05'17-11:52:09 Why:~control.9.0   F:6 
+Respond: user:user bot:test ip: (~welcome) 78    你好 ==> Hello  When:Apr05'17-11:52:11 Why:~welcome.6.0.~control.9.0   F:0 
+Respond: user:user bot:test ip: (~welcome) 79   :q ==> 我竟然无言以对，人家还是个宝宝  When:Apr05'17-11:52:13 Why:~control.9.0   F:5 

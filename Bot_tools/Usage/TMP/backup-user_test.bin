@@ -1,10 +1,9 @@
 ﻿USERS/topic_user_test.txt
-jul2116 Mar31'17-11:03:24 Mar31'17-14:35:19 1490941570-7.9.0 |
-1 75 0 DY 0 10 10 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+jul2116 Mar31'17-11:03:24 Apr05'17-11:52:11 1490941570-7.9.0 |
+77 78 0 DY 0 10 10 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
 ~welcome #pending
-~welcome + 2 jLJgm iaga S 0 0 
+~welcome + 2 jLJgm iaga 31 0 0 
 #`end topics
-$cs_trace=0
 $cs_randindex=1228
 $cs_bot=Test
 $cs_login=user
@@ -12,6 +11,7 @@ $cs_token=132863
 $cs_control_main=~control
 $userprompt=user: >
 $botprompt=Bot: 
+$cs_trace=0
 #`end variables
 0 #set flags
 #`end fact sets
@@ -32,6 +32,9 @@ $botprompt=Bot:
  我 不是
  那 你 是猪 ？
  为什么 骂 我
+ 靠
+ nihao
+ 你好
 #`end user
  我竟然无言以对，人家还是个宝宝
  不要欺负本宝宝了，人家还在长大
@@ -49,4 +52,8 @@ $botprompt=Bot:
  那是谁？
  操
  喂什么吃什么。。
+ 不要欺负本宝宝了，人家还在长大
+ 你好
+ 我竟然无言以对，人家还是个宝宝
+ Hello
 #`end chatbot
