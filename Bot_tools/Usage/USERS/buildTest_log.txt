@@ -1,0 +1,52 @@
+﻿ChatScript Version 7.3  compiled Mar 21 2017 17:39:39
+
+>>Reading folder ../../BOTDATA/TEST/
+
+----Reading file backup_20170313
+
+----Reading file send_msg.top
+Reading topic ~send_msg
+Reading topic ~send_msg_policy
+Reading topic ~send_msg_nlg
+
+----Reading file keywordless.top
+Reading topic ~keywordless
+
+----Reading file backup
+
+----Reading file tmp
+
+----Reading file welcome.top
+Reading topic ~welcome
+
+----Reading file backup_20170301
+
+----Reading file concepts.top
+Reading topic ~is
+
+----Reading file simplecontrol.top
+Reading outputmacro: ^test
+Reading table tbl:defaultbot
+Reading topic ~control
+Reading topic ~xpostprocess
+
+----Reading file error_correct.top
+Reading topic ~error_correct
+
+<<end folder ../../BOTDATA/TEST
+
+>>Reading folder ../../BOTDATA/QUIBBLE/
+
+----Reading file xiaohuangji.top
+Reading topic ~xiaohuangji
+
+<<end folder ../../BOTDATA/QUIBBLE
+No errors or warnings
+
+
+
+Finished compile
+
+Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+   in facts.txt at 0: 
+    
