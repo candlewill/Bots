@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -O0 -Wall -g -ggdb  -shared -Wl,-soname,libDialogShared.so -o lib/libDialogShared.so CMakeFiles/DialogShared.dir/Dialog.cpp.o  -L/home/andbase/workspace/Bots/Bot_tools/Usage/./ChatScript 

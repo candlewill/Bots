@@ -41,5 +41,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/DialogShared.dir/DependInfo.cmake"
+  "CMakeFiles/DialogStatic.dir/DependInfo.cmake"
   "CMakeFiles/ChatScript_Main.dir/DependInfo.cmake"
   )

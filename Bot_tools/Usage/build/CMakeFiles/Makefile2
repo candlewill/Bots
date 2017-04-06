@@ -60,6 +60,80 @@ CMAKE_SOURCE_DIR = /home/andbase/workspace/Bots/Bot_tools/Usage
 CMAKE_BINARY_DIR = /home/andbase/workspace/Bots/Bot_tools/Usage/build
 
 #=============================================================================
+# Target rules for target CMakeFiles/DialogShared.dir
+
+# All Build rule for target.
+CMakeFiles/DialogShared.dir/all:
+	$(MAKE) -f CMakeFiles/DialogShared.dir/build.make CMakeFiles/DialogShared.dir/depend
+	$(MAKE) -f CMakeFiles/DialogShared.dir/build.make CMakeFiles/DialogShared.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andbase/workspace/Bots/Bot_tools/Usage/build/CMakeFiles --progress-num=4,5 "Built target DialogShared"
+.PHONY : CMakeFiles/DialogShared.dir/all
+
+# Include target in all.
+all: CMakeFiles/DialogShared.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/DialogShared.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andbase/workspace/Bots/Bot_tools/Usage/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DialogShared.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andbase/workspace/Bots/Bot_tools/Usage/build/CMakeFiles 0
+.PHONY : CMakeFiles/DialogShared.dir/rule
+
+# Convenience name for target.
+DialogShared: CMakeFiles/DialogShared.dir/rule
+
+.PHONY : DialogShared
+
+# clean rule for target.
+CMakeFiles/DialogShared.dir/clean:
+	$(MAKE) -f CMakeFiles/DialogShared.dir/build.make CMakeFiles/DialogShared.dir/clean
+.PHONY : CMakeFiles/DialogShared.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/DialogShared.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/DialogStatic.dir
+
+# All Build rule for target.
+CMakeFiles/DialogStatic.dir/all:
+	$(MAKE) -f CMakeFiles/DialogStatic.dir/build.make CMakeFiles/DialogStatic.dir/depend
+	$(MAKE) -f CMakeFiles/DialogStatic.dir/build.make CMakeFiles/DialogStatic.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andbase/workspace/Bots/Bot_tools/Usage/build/CMakeFiles --progress-num=6,7 "Built target DialogStatic"
+.PHONY : CMakeFiles/DialogStatic.dir/all
+
+# Include target in all.
+all: CMakeFiles/DialogStatic.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/DialogStatic.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andbase/workspace/Bots/Bot_tools/Usage/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DialogStatic.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andbase/workspace/Bots/Bot_tools/Usage/build/CMakeFiles 0
+.PHONY : CMakeFiles/DialogStatic.dir/rule
+
+# Convenience name for target.
+DialogStatic: CMakeFiles/DialogStatic.dir/rule
+
+.PHONY : DialogStatic
+
+# clean rule for target.
+CMakeFiles/DialogStatic.dir/clean:
+	$(MAKE) -f CMakeFiles/DialogStatic.dir/build.make CMakeFiles/DialogStatic.dir/clean
+.PHONY : CMakeFiles/DialogStatic.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/DialogStatic.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/ChatScript_Main.dir
 
 # All Build rule for target.

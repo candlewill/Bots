@@ -171,6 +171,18 @@ ChatScript_Main_BINARY_DIR:STATIC=/home/andbase/workspace/Bots/Bot_tools/Usage/b
 //Value Computed by CMake
 ChatScript_Main_SOURCE_DIR:STATIC=/home/andbase/workspace/Bots/Bot_tools/Usage
 
+//Dependencies for target
+DialogShared_LIB_DEPENDS:STATIC=
+
+//Dependencies for the target
+DialogStatic_LIB_DEPENDS:STATIC=general;ChatScript;general;curl;
+
+//Dependencies for target
+Dialog_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+Dialog_static_LIB_DEPENDS:STATIC=
+
 
 ########################
 # INTERNAL cache entries

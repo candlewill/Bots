@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named DialogShared
+
+# Build rule for target.
+DialogShared: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DialogShared
+.PHONY : DialogShared
+
+# fast build rule for target.
+DialogShared/fast:
+	$(MAKE) -f CMakeFiles/DialogShared.dir/build.make CMakeFiles/DialogShared.dir/build
+.PHONY : DialogShared/fast
+
+#=============================================================================
+# Target rules for targets named DialogStatic
+
+# Build rule for target.
+DialogStatic: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DialogStatic
+.PHONY : DialogStatic
+
+# fast build rule for target.
+DialogStatic/fast:
+	$(MAKE) -f CMakeFiles/DialogStatic.dir/build.make CMakeFiles/DialogStatic.dir/build
+.PHONY : DialogStatic/fast
+
+#=============================================================================
 # Target rules for targets named ChatScript_Main
 
 # Build rule for target.
@@ -129,6 +155,8 @@ Dialog.o: Dialog.cpp.o
 
 # target to build an object file
 Dialog.cpp.o:
+	$(MAKE) -f CMakeFiles/DialogShared.dir/build.make CMakeFiles/DialogShared.dir/Dialog.cpp.o
+	$(MAKE) -f CMakeFiles/DialogStatic.dir/build.make CMakeFiles/DialogStatic.dir/Dialog.cpp.o
 	$(MAKE) -f CMakeFiles/ChatScript_Main.dir/build.make CMakeFiles/ChatScript_Main.dir/Dialog.cpp.o
 .PHONY : Dialog.cpp.o
 
@@ -138,6 +166,8 @@ Dialog.i: Dialog.cpp.i
 
 # target to preprocess a source file
 Dialog.cpp.i:
+	$(MAKE) -f CMakeFiles/DialogShared.dir/build.make CMakeFiles/DialogShared.dir/Dialog.cpp.i
+	$(MAKE) -f CMakeFiles/DialogStatic.dir/build.make CMakeFiles/DialogStatic.dir/Dialog.cpp.i
 	$(MAKE) -f CMakeFiles/ChatScript_Main.dir/build.make CMakeFiles/ChatScript_Main.dir/Dialog.cpp.i
 .PHONY : Dialog.cpp.i
 
@@ -147,6 +177,8 @@ Dialog.s: Dialog.cpp.s
 
 # target to generate assembly for a file
 Dialog.cpp.s:
+	$(MAKE) -f CMakeFiles/DialogShared.dir/build.make CMakeFiles/DialogShared.dir/Dialog.cpp.s
+	$(MAKE) -f CMakeFiles/DialogStatic.dir/build.make CMakeFiles/DialogStatic.dir/Dialog.cpp.s
 	$(MAKE) -f CMakeFiles/ChatScript_Main.dir/build.make CMakeFiles/ChatScript_Main.dir/Dialog.cpp.s
 .PHONY : Dialog.cpp.s
 
@@ -185,6 +217,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... DialogShared"
+	@echo "... DialogStatic"
 	@echo "... ChatScript_Main"
 	@echo "... Dialog.o"
 	@echo "... Dialog.i"
