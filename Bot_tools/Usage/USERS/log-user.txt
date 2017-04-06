@@ -165,3 +165,134 @@ Start: user:user bot:test ip: rand:1317 (~welcome) 88 ==> 你好  When:Apr06'17-
 Sourcefile Time used 1491447618111 ms for 0 sentences 0 tokens.
 Respond: user:user bot:test ip: (~welcome) 89    你好 ==> 你好  When:Apr06'17-11:00:21 Why:~welcome.6.0.~control.9.0   F:1 
 Respond: user:user bot:test ip: (~welcome) 90    你 是 谁 ==> 傻逼  When:Apr06'17-11:00:24 Why:~xiaohuangji.4044.0.~control.9.0   F:5 
+Start: user:user bot:test ip: rand:1319 (~welcome) 90 ==> 你好，又见到你了  When:Apr06'17-11:46:34 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-11:00:24 Why:~welcome.1.0.~control.0.0 
+Sourcefile Time used 1491450394599 ms for 0 sentences 0 tokens.
+Respond: user:user bot:test ip: (~welcome) 91    你好 吗 ？ ==> 你好，又见到你了  When:Apr06'17-11:46:38 Why:~welcome.6.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 92    不好 ==> 要！  When:Apr06'17-11:46:42 Why:~xiaohuangji.5125.0.~control.9.0   F:5 
+Respond: user:user bot:test ip: (~welcome) 93    要 什么 ==> 爱， 在我的理解里，是对他人的接受，包容和理解。同时，也是对这个世界的和自己的接受包容和理解。  When:Apr06'17-11:46:47 Why:~keywordless.23.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 94    爱 ==> 我竟然无言以对，人家还是个宝宝  When:Apr06'17-11:46:50 Why:~control.9.0   F:5 
+Respond: user:user bot:test ip: (~welcome) 95    是 ==> 真乖  When:Apr06'17-11:46:53 Why:~xiaohuangji.5265.0.~control.9.0   F:6 
+Respond: user:user bot:test ip: (~welcome) 96    f   ==> 不要欺负本宝宝了，人家还在长大  When:Apr06'17-11:46:55 Why:~control.9.0   F:5 
+Respond: user:user bot:test ip: (~welcome) 97    滚 ==> 我竟然无言以对，人家还是个宝宝  When:Apr06'17-11:46:58 Why:~control.9.0   F:6 
+Respond: user:user bot:test ip: (~welcome) 98    f   ==> 不要欺负本宝宝了，人家还在长大  When:Apr06'17-11:47:09 Why:~control.9.0   F:5 
+Respond: user:user bot:test ip: (~welcome) 99    调戏 ==> 我竟然无言以对，人家还是个宝宝  When:Apr06'17-11:47:12 Why:~control.9.0   F:5 
+Start: user:user bot:test ip: rand:1328 (~welcome) 99 ==> 欢迎回来  When:Apr06'17-14:07:13 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-11:47:12 Why:~welcome.1.0.~control.0.0 
+Sourcefile Time used 1491462705565 ms for 0 sentences 0 tokens.
+Respond: user:user bot:test ip: (~welcome) 100          你 叫 什么 名字 ==> 我的名字是乐乐.  When:Apr06'17-15:12:03 Why:~welcome.3.0.~control.9.0   F:4 
+Respond: user:user bot:test ip: (~welcome) 101    你好 吗 ==> 很高兴再次遇到您  When:Apr06'17-15:12:12 Why:~welcome.6.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 102    好 ==> 不要欺负本宝宝了，人家还在长大  When:Apr06'17-15:12:15 Why:~control.9.0   F:8 
+Respond: user:user bot:test ip: (~welcome) 103    fe     你好 ==> 很高兴再次遇到您  When:Apr06'17-15:17:07 Why:~welcome.6.0.~control.9.0   F:1 
+Start: user:user bot:test ip: rand:1332 (~welcome) 103 ==> 你好  When:Apr06'17-15:21:19 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-15:17:07 Why:~welcome.1.0.~control.0.0 
+Sourcefile Time used 1491463384631 ms for 0 sentences 0 tokens.
+Respond: user:user bot:test ip: (~welcome) 104    你好 ==> 你好  When:Apr06'17-15:23:12 Why:~welcome.6.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 105    我爱你 ==> 我也爱你！  When:Apr06'17-15:23:28 Why:~welcome.8.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 106    你好 吗 ？ ==> Hello  When:Apr06'17-15:36:31 Why:~welcome.6.0.~control.9.0   F:1 
+Start: user:user bot:test ip: rand:1335 (~welcome) 106 ==> 你好，又见到你了  When:Apr06'17-15:56:46 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-15:36:31 Why:~welcome.1.0.~control.0.0 
+Sourcefile Time used 1491465446758 ms for 0 sentences 0 tokens.
+Respond: user:user bot:test ip: (~welcome) 107    我爱你 ==> 我也爱你！  When:Apr06'17-15:57:33 Why:~welcome.8.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 108    我爱你 ==> 我也爱你！  When:Apr06'17-15:57:41 Why:~welcome.8.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 109    我爱你 ==> 我也爱你！  When:Apr06'17-16:08:08 Why:~welcome.8.0.~control.9.0   F:0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:20:07 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:20:59 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:31:32 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:33:53 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:35:56 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:38:32 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:40:00 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:40:45 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:44:27 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:45:08 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:45:16 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:45:21 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:45:21 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:45:22 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:45:22 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:47:00 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:47:03 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:47:05 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:47:08 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:47:55 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:57:27 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:57:35 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:59:07 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-16:59:09 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:01:36 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:01:42 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:03:09 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:05:01 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:07:37 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:12:14 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:12:23 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:13:10 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:14:58 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:17:15 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:17:18 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:17:21 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:17:24 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:17:27 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:17:29 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:17:33 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:17:36 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:17:37 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:23:14 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:23:54 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:24:01 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:24:37 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:26:35 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:35:33 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:37:22 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:37:25 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:37:28 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:37:32 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:37:33 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:37:39 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:41:36 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:41:39 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:41:45 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:42:03 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-17:44:24 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-18:04:26 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1338 (~welcome) 109 ==> 你好，又见到你了  When:Apr06'17-18:04:44 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-16:08:08 Why:~welcome.1.0.~control.0.0 
+Respond: user:user bot:test ip: (~welcome) 110    就 你好 ==> 你好，又见到你了  When:Apr06'17-18:04:48 Why:~welcome.6.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 111    你好 吗 ==> 你好，又见到你了  When:Apr06'17-18:04:50 Why:~welcome.6.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 112    f   ==> 我竟然无言以对，人家还是个宝宝  When:Apr06'17-18:04:54 Why:~control.9.0   F:5 
+Respond: user:user bot:test ip: (~welcome) 113    你 是 谁 啊 ==> ╮ ╯▽╰ ╭～喵～我是萌萌的妹纸～小通～  When:Apr06'17-18:04:58 Why:~xiaohuangji.4044.0.~control.9.0   F:6 
+Respond: user:user bot:test ip: (~welcome) 114    woaini ==> 我竟然无言以对，人家还是个宝宝  When:Apr06'17-18:05:02 Why:~control.9.0   F:5 
+Respond: user:user bot:test ip: (~welcome) 115    我爱你 ==> 我也爱你！  When:Apr06'17-18:05:05 Why:~welcome.8.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 116    你好 吗 ==> 你好，又见到你了  When:Apr06'17-18:06:14 Why:~welcome.6.0.~control.9.0   F:1 
+Start: user:user bot:test ip: rand:1345 (~welcome) 116 ==> 很高兴再次遇到您  When:Apr06'17-18:19:07 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-18:06:14 Why:~welcome.1.0.~control.0.0 
+Respond: user:user bot:test ip: (~welcome) 117    你好 ==> 很高兴再次遇到您  When:Apr06'17-18:19:10 Why:~welcome.6.0.~control.9.0   F:0 
+Respond: user:user bot:test ip: (~welcome) 118    你好 吗 ==> 很高兴再次遇到您  When:Apr06'17-18:19:13 Why:~welcome.6.0.~control.9.0   F:0 
+Start: user:user bot:test ip: rand:1347 (~welcome) 118 ==> Hello  When:Apr06'17-18:20:03 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-18:19:13 Why:~welcome.1.0.~control.0.0 
+Respond: user:user bot:test ip: (~welcome) 119    你好 ==> Hello  When:Apr06'17-18:20:05 Why:~welcome.6.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 120    你好 吗 ==> Hello  When:Apr06'17-18:20:07 Why:~welcome.6.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 121    我 是 谁 ==> 你是我爱人  When:Apr06'17-18:20:09 Why:~xiaohuangji.3805.0.~control.9.0   F:4 
+Respond: user:user bot:test ip: (~welcome) 122    你 是 十二     ==> 你才是呢  When:Apr06'17-18:20:13 Why:~xiaohuangji.4265.0.~control.9.0   F:6 
+Start: user:user bot:test ip: rand:1351 (~welcome) 122 ==> 很高兴再次遇到您  When:Apr06'17-18:23:08 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-18:20:13 Why:~welcome.1.0.~control.0.0 
+Respond: user:user bot:test ip: (~welcome) 123     ==> 不要欺负本宝宝了，人家还在长大  When:Apr06'17-18:23:10 Why:~control.9.0   F:6 
+Respond: user:user bot:test ip: (~welcome) 124    你好 吗 ==> 欢迎回来  When:Apr06'17-18:23:14 Why:~welcome.6.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 125    你好 ==> 很高兴再次遇到您  When:Apr06'17-18:23:17 Why:~welcome.6.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 126    你好 ==> 你好，又见到你了  When:Apr06'17-18:23:20 Why:~welcome.6.0.~control.9.0   F:0 
+Respond: user:user bot:test ip: (~welcome) 127    你 叫 什么 名字 ==> 我的名字是乐乐.  When:Apr06'17-18:23:28 Why:~welcome.3.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 128    我 喜欢 西   ==> 我也好喜欢小小蕾，麽麽…  When:Apr06'17-18:23:32 Why:~xiaohuangji.4576.0.~control.9.0   F:5 
+Respond: user:user bot:test ip: (~welcome) 129    我爱你 ==> 我也爱你！  When:Apr06'17-18:23:36 Why:~welcome.8.0.~control.9.0   F:0 
+Start: user:user bot:test ip: rand:1358 (~welcome) 129 ==> 你好，又见到你了  When:Apr06'17-18:25:16 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-18:23:36 Why:~welcome.1.0.~control.0.0 
+Respond: user:user bot:test ip: (~welcome) 130    我 喜欢 你 啊 ==> 当然了，，，  When:Apr06'17-18:25:26 Why:~xiaohuangji.3066.0.~control.9.0   F:4 
+Respond: user:user bot:test ip: (~welcome) 131    你 呢 ==> 不要欺负本宝宝了，人家还在长大  When:Apr06'17-18:25:29 Why:~control.9.0   F:6 
+Respond: user:user bot:test ip: (~welcome) 132    你 是 谁 ==> 曹元月  When:Apr06'17-18:25:31 Why:~xiaohuangji.4044.0.~control.9.0   F:5 
+Respond: user:user bot:test ip: (~welcome) 133    你 是 谁 ==> ╮ ╯▽╰ ╭～喵～我是萌萌的妹纸～小通～  When:Apr06'17-18:25:33 Why:~xiaohuangji.4044.0.~control.9.0   F:5 
+Respond: user:user bot:test ip: (~welcome) 134    我爱你 ==> 我也爱你！  When:Apr06'17-18:25:36 Why:~welcome.8.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 135    你 爱我吗 ==> 我对你的感情，是人类和bot之间独有的信任和友谊 你可以把它叫做爱。  When:Apr06'17-18:25:38 Why:~keywordless.17.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 136    什么 是 爱 ==> 爱， 在我的理解里，是对他人的接受，包容和理解。同时，也是对这个世界的和自己的接受包容和理解。  When:Apr06'17-18:25:43 Why:~keywordless.23.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 137    今天天气 真好 ==> 我竟然无言以对，人家还是个宝宝  When:Apr06'17-18:25:51 Why:~control.9.0   F:6 
+Respond: user:user bot:test ip: (~welcome) 138    超 ==> 不要欺负本宝宝了，人家还在长大  When:Apr06'17-18:25:54 Why:~control.9.0   F:5 
+Respond: user:user bot:test ip: (~welcome) 139    曹   ==> 我竟然无言以对，人家还是个宝宝  When:Apr06'17-18:25:57 Why:~control.9.0   F:5 
+Respond: user:user bot:test ip: (~welcome) 140    操 ==> 我竟然无言以对，人家还是个宝宝  When:Apr06'17-18:25:59 Why:~control.9.0   F:6 
+Respond: user:user bot:test ip: (~welcome) 141    滚 ==> 不要欺负本宝宝了，人家还在长大  When:Apr06'17-18:26:01 Why:~control.9.0   F:6 
+Respond: user:user bot:test ip: (~send_msg) 142    发短信 ==> 你所发消息内容是什么？  When:Apr06'17-18:26:05 Why:~send_msg_nlg.0.0.~send_msg.1.0   F:1 
+Respond: user:user bot:test ip: (~send_msg) 143    不 告诉 你 ==> 你要发消息给谁？  When:Apr06'17-18:26:09 Why:~send_msg_nlg.1.0.~send_msg.2.0   F:0 
+Respond: user:user bot:test ip: (~send_msg) 144    张三丰 个 ==> 即将给 张三丰 个 发消息，说： 不 告诉 你, 是否确定？  When:Apr06'17-18:26:14 Why:~send_msg_nlg.2.0.~send_msg.3.0   F:0 
+Respond: user:user bot:test ip: (~send_msg) 145    确定 ==> [intent: send_msg, name: 张三丰 个, msg: 不 告诉 你 ] 消息发送成功。  When:Apr06'17-18:26:17 Why:~send_msg_nlg.3.0.~send_msg.4.0   F:0 
+Start: user:user bot:test ip: rand:1374 (~welcome) 145 ==> 欢迎回来  When:Apr06'17-18:28:53 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr06'17-18:26:17 Why:~welcome.1.0.~control.0.0 
+Respond: user:user bot:test ip: (~welcome) 146    你好 的 ==> 欢迎回来  When:Apr06'17-18:28:59 Why:~welcome.6.0.~control.9.0   F:0 
+Respond: user:user bot:test ip: (~welcome) 147    你好 吗 ==> Hello  When:Apr06'17-18:29:01 Why:~welcome.6.0.~control.9.0   F:0 

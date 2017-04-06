@@ -6,14 +6,13 @@
 #define MAX_WORD_SIZE 3000
 #define INPUT_BUFFER_SIZE 80000
 #define ID_SIZE 500
+#define PENDING_RESTART -1	// perform chat returns this flag on turn
 
 int main(int argc, char * argv[])
 {
 	chdir((char*)"..");
 	ChatBot Bot;
-
 	Bot.InitBot(argc, argv);
-
 	ParameterList* parameter;
 
 	parameter = Bot.GetParameters();
@@ -25,7 +24,7 @@ int main(int argc, char * argv[])
 
 	char ourMainInputBuffer[INPUT_BUFFER_SIZE];
 
-	char * ourMainOutputBuffer;
+	char ourMainOutputBuffer[INPUT_BUFFER_SIZE];
 
 	if (!*loginID)
 	{
@@ -46,11 +45,26 @@ int main(int argc, char * argv[])
 
 	//Bot.SetParameters(user, computerID, ourMainInputBuffer);
 	Bot.Chat(user, ourMainInputBuffer, ourMainOutputBuffer); // unknown bot, no input,no ip
-
-retry:
-	Bot.ProcessInput();
-	*ourMainInputBuffer = 0;
-	ourMainInputBuffer[1] = 0;
-	goto retry;
+	
+	int turn = 0;
+	while (true)
+	{
+		printf("[Bot]: ");
+		printf(ourMainOutputBuffer);
+		printf("\n\r");
+		printf("[User]: ");
+		
+		Bot.NewDialog();
+		if (Bot.ReadLine(ourMainInputBuffer, stdin, INPUT_BUFFER_SIZE - 100) < 0) break; // end of input
+		
+		turn = Bot.Chat(loginID, ourMainInputBuffer, ourMainOutputBuffer);
+		
+		if (turn == PENDING_RESTART)
+		{
+			Bot.Reboot();
+		}
+		
+		Bot.ResetInput();
+	}
 
 }

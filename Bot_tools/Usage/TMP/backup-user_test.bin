@@ -1,56 +1,62 @@
 ﻿USERS/topic_user_test.txt
-jul2116 Mar31'17-11:03:24 Apr06'17-11:00:21 1490941570-7.9.0 |
-89 89 0 DY 0 10 10 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
-~welcome #pending
-~welcome + 2 jLJgm iaga e1 0 0 
+jul2116 Mar31'17-11:03:24 Apr06'17-18:28:59 1490941570-7.9.0 |
+146 146 0 DY 0 10 10 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~send_msg ~welcome #pending
+~welcome + 2 jLJgm iaga ?1 0 0 
 #`end topics
 $cs_trace=0
-$cs_randindex=1228
-$cs_bot=Test
-$cs_login=user
-$cs_token=132863
-$cs_control_main=~control
-$userprompt=user: >
 $botprompt=Bot: 
+$userprompt=user: >
+$cs_control_main=~control
+$cs_token=132863
+$cs_login=user
+$cs_bot=Test
+$cs_randindex=1228
+$intent=send_msg
+$name=张三丰 个
 #`end variables
 0 #set flags
 #`end fact sets
 #`end user facts 0
 #context 
- ni    
- 你 会 说 英语 吗 那
- fe
- 这是 什么 预言
- 这是 什么 预言
- 这是 什么 语言
- fe    
- nishi
- 你 是 鸡
- woshi
- nishi
- 你 是 鸡
- 我 不是
- 那 你 是猪 ？
- 为什么 骂 我
- 靠
- nihao
- 你好
- :q
- 你好
- 你好
- ni
- 你 是 谁
+ 我 是 谁
+ 你 是 十二    
+ 
+ 你好 吗
  你好
  你好
  你 叫 什么 名字
- 好 的
- fe    
- 你好
+ 我 喜欢 西  
+ 我爱你
+ 我 喜欢 你 啊
+ 你 呢
+ 你 是 谁
+ 你 是 谁
+ 我爱你
+ 你 爱我吗
+ 什么 是 爱
+ 今天天气 真好
+ 超
+ 曹  
+ 操
+ 滚
+ 发短信
+ 不 告诉 你
+ 张三丰 个
+ 确定
+ 你好 的
 #`end user
- 你好，又见到你了
- 我的名字是乐乐.
- 么么。咱们不无语哈
+ 我对你的感情，是人类和bot之间独有的信任和友谊 你可以把它叫做爱。
+ 爱， 在我的理解里，是对他人的接受，包容和理解。同时，也是对这个世界的和自己的接受包容和理解。
+ 我竟然无言以对，人家还是个宝宝
  不要欺负本宝宝了，人家还在长大
- 你好
- 你好
+ 我竟然无言以对，人家还是个宝宝
+ 我竟然无言以对，人家还是个宝宝
+ 不要欺负本宝宝了，人家还在长大
+ 你所发消息内容是什么？
+ 你要发消息给谁？
+ 即将给 张三丰 个 发消息，说： 不 告诉 你, 是否确定？
+ 消息发送成功。
+ 欢迎回来
+ 欢迎回来
 #`end chatbot
