@@ -1,4 +1,4 @@
-﻿00010 Mar31'17-14:24:53 Test 7.3
+﻿00010 Apr05'17-16:57:51 Test 7.3
 TOPIC: ~send_msg 0x3 1405057454 7 0 1037 send_msg.top
 " all " 02p u: ( !$policy [ 给 向 ] _* [ 发短信 短信 ] [ 说 是 为 ] _* ) $intent = send_msg $name = '_0 $msg = '_1 ^respond ( ~send_msg_policy ) ^respond ( ~send_msg_nlg ) `01Y u: ( !$policy [ 发消息 发短信 消息 短信 ] ) $intent = send_msg ^respond ( ~send_msg_policy ) ^respond ( ~send_msg_nlg ) `01L u: ( =9$policy=ask_slot_msg { [ 是 为 ] } _* ) $msg = '_0 ^respond ( ~send_msg_policy ) ^respond ( ~send_msg_nlg ) `01V u: ( =9$policy=ask_slot_name { [ 给 到 向 为 ] } _* ) $name = '_0 ^respond ( ~send_msg_policy ) ^respond ( ~send_msg_nlg ) `02# u: ( =9$policy=confirm_send_msg ![ 不 没 ] [ 是 确定 好 好的 没_问题 可以 ] ) $confirmed = yes ^respond ( ~send_msg_policy ) ^respond ( ~send_msg_nlg ) $policy = null $msg = null $confirmed = null `01Q u: ( =9$policy=confirm_send_msg [ 不 修改 ] ) $confirmed = no ^respond ( ~send_msg_policy ) ^respond ( ~send_msg_nlg ) `01G u: ( =9$policy=confirm_send_msg * ) $confirmed = other ^respond ( ~send_msg_policy ) ^respond ( ~send_msg_nlg ) `000 
 TOPIC: ~send_msg_policy 0x13 -430177168 6 0 517 send_msg.top

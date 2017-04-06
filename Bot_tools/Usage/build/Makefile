@@ -150,6 +150,33 @@ Dialog.cpp.s:
 	$(MAKE) -f CMakeFiles/ChatScript_Main.dir/build.make CMakeFiles/ChatScript_Main.dir/Dialog.cpp.s
 .PHONY : Dialog.cpp.s
 
+test_Dialog.o: test_Dialog.cpp.o
+
+.PHONY : test_Dialog.o
+
+# target to build an object file
+test_Dialog.cpp.o:
+	$(MAKE) -f CMakeFiles/ChatScript_Main.dir/build.make CMakeFiles/ChatScript_Main.dir/test_Dialog.cpp.o
+.PHONY : test_Dialog.cpp.o
+
+test_Dialog.i: test_Dialog.cpp.i
+
+.PHONY : test_Dialog.i
+
+# target to preprocess a source file
+test_Dialog.cpp.i:
+	$(MAKE) -f CMakeFiles/ChatScript_Main.dir/build.make CMakeFiles/ChatScript_Main.dir/test_Dialog.cpp.i
+.PHONY : test_Dialog.cpp.i
+
+test_Dialog.s: test_Dialog.cpp.s
+
+.PHONY : test_Dialog.s
+
+# target to generate assembly for a file
+test_Dialog.cpp.s:
+	$(MAKE) -f CMakeFiles/ChatScript_Main.dir/build.make CMakeFiles/ChatScript_Main.dir/test_Dialog.cpp.s
+.PHONY : test_Dialog.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... Dialog.o"
 	@echo "... Dialog.i"
 	@echo "... Dialog.s"
+	@echo "... test_Dialog.o"
+	@echo "... test_Dialog.i"
+	@echo "... test_Dialog.s"
 .PHONY : help
 
 

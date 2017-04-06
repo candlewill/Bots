@@ -1,0 +1,3 @@
+﻿No such bot  user -  -  status: defaultbot word not found   in topic_user_anonymous.txt at 0: ^anonymous
+    No such bot  user -  - 你好 status: defaultbot word not found   in topic_user_anonymous.txt at 1: ^anonymous
+    

@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/andbase/workspace/Bots/Bot_tools/Usage/Dialog.cpp" "/home/andbase/workspace/Bots/Bot_tools/Usage/build/CMakeFiles/ChatScript_Main.dir/Dialog.cpp.o"
+  "/home/andbase/workspace/Bots/Bot_tools/Usage/test_Dialog.cpp" "/home/andbase/workspace/Bots/Bot_tools/Usage/build/CMakeFiles/ChatScript_Main.dir/test_Dialog.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

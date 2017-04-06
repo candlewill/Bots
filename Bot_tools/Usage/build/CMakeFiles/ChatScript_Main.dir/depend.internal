@@ -37,3 +37,7 @@ CMakeFiles/ChatScript_Main.dir/Dialog.cpp.o
  .././ChatScript/privatecode/preprocess.h
  .././ChatScript/privatecode/privatesrc.h
  /home/andbase/workspace/Bots/Bot_tools/Usage/Dialog.cpp
+ /home/andbase/workspace/Bots/Bot_tools/Usage/Dialog.h
+CMakeFiles/ChatScript_Main.dir/test_Dialog.cpp.o
+ /home/andbase/workspace/Bots/Bot_tools/Usage/Dialog.h
+ /home/andbase/workspace/Bots/Bot_tools/Usage/test_Dialog.cpp

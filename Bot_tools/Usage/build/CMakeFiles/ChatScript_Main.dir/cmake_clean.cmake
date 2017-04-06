@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ChatScript_Main.dir/Dialog.cpp.o"
+  "CMakeFiles/ChatScript_Main.dir/test_Dialog.cpp.o"
   "bin/ChatScript_Main.pdb"
   "bin/ChatScript_Main"
 )

@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/ChatScript_Main.dir/Dialog.cpp.o  -o bin/ChatScript_Main  -L/home/andbase/workspace/Bots/Bot_tools/Usage/./ChatScript -Wl,-rpath,/home/andbase/workspace/Bots/Bot_tools/Usage/./ChatScript -rdynamic -lChatScript -lcurl 
+/usr/bin/c++    -O0 -Wall -g -ggdb   CMakeFiles/ChatScript_Main.dir/Dialog.cpp.o CMakeFiles/ChatScript_Main.dir/test_Dialog.cpp.o  -o bin/ChatScript_Main  -L/home/andbase/workspace/Bots/Bot_tools/Usage/./ChatScript -Wl,-rpath,/home/andbase/workspace/Bots/Bot_tools/Usage/./ChatScript -rdynamic -lChatScript -lcurl 

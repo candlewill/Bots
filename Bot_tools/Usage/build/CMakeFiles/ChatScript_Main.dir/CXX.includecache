@@ -269,4 +269,18 @@ common.h
 /home/andbase/workspace/Bots/Bot_tools/Usage/common.h
 evserver.h
 /home/andbase/workspace/Bots/Bot_tools/Usage/evserver.h
+Dialog.h
+/home/andbase/workspace/Bots/Bot_tools/Usage/Dialog.h
+
+/home/andbase/workspace/Bots/Bot_tools/Usage/Dialog.h
+stdio.h
+-
+
+/home/andbase/workspace/Bots/Bot_tools/Usage/test_Dialog.cpp
+string.h
+-
+unistd.h
+-
+Dialog.h
+/home/andbase/workspace/Bots/Bot_tools/Usage/Dialog.h
 

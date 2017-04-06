@@ -36,4 +36,8 @@ CMakeFiles/ChatScript_Main.dir/Dialog.cpp.o: .././ChatScript/include/variableSys
 CMakeFiles/ChatScript_Main.dir/Dialog.cpp.o: .././ChatScript/privatecode/preprocess.h
 CMakeFiles/ChatScript_Main.dir/Dialog.cpp.o: .././ChatScript/privatecode/privatesrc.h
 CMakeFiles/ChatScript_Main.dir/Dialog.cpp.o: ../Dialog.cpp
+CMakeFiles/ChatScript_Main.dir/Dialog.cpp.o: ../Dialog.h
+
+CMakeFiles/ChatScript_Main.dir/test_Dialog.cpp.o: ../Dialog.h
+CMakeFiles/ChatScript_Main.dir/test_Dialog.cpp.o: ../test_Dialog.cpp
 

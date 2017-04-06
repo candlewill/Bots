@@ -1,0 +1,23 @@
+﻿No such bot   - -��|� -  status: test   in topic__-��|�.txt at 0: ^-��|�
+    Sourcefile Time used 1491382355179 ms for 0 sentences 0 tokens.
+No such bot   - }��q� -  status: test   in topic__}��q�.txt at 0: ^}��q�
+    Sourcefile Time used 1491382392804 ms for 0 sentences 0 tokens.
+No such bot   - ��>� -  status: test   in topic__��>�.txt at 0: ^��>�
+    Sourcefile Time used 1491382663179 ms for 0 sentences 0 tokens.
+Respond: user: bot:test ip: (~welcome) 1    f   ==> 有什么可以帮助你的~  When:Apr05'17-16:57:48 Why:~welcome.0.0.~control.9.0   F:5 
+Command: :build Test
+Start: user: bot:test ip: rand:2 (~welcome) 1 ==> Hello  When:Apr05'17-16:57:51 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Apr05'17-16:57:48 F:0 P:Apr05'17-16:57:48 Why:~welcome.1.0.~control.0.0 
+Respond: user: bot:test ip: (~welcome) 2    你好 ==> Hello  When:Apr05'17-16:57:53 Why:~welcome.6.0.~control.9.0   F:0 
+Respond: user: bot:test ip: (~welcome) 3    你 是 谁 ==> 我是能做饭会打扫还爱卖萌的赛巴斯酱，亲爱的阿姿公主！  When:Apr05'17-16:57:56 Why:~xiaohuangji.4044.0.~control.9.0   F:5 
+Respond: user: bot:test ip: (~welcome) 4    好样 的 ==> 都是饶姐教导有方  When:Apr05'17-16:58:01 Why:~xiaohuangji.4547.0.~control.9.0   F:5 
+Respond: user: bot:test ip: (~welcome) 5    嗯 嗯 ==> ！！！！！！  When:Apr05'17-16:58:05 Why:~xiaohuangji.4953.0.~control.9.0   F:5 
+No such bot   - ��4�� -  status: test   in topic__��5��.txt at 0: ^��5��
+    Sourcefile Time used 1491384032848 ms for 0 sentences 0 tokens.
+Respond: user: bot:test ip: (~welcome) 1    你好 ==> 欢迎回来  When:Apr05'17-17:20:36 Why:~welcome.6.0.~control.9.0   F:1 
+Respond: user: bot:test ip: (~welcome) 2    niha ==> 有什么可以帮助你的~  When:Apr05'17-17:20:38 Why:~welcome.0.0.~control.9.0   F:6 
+Respond: user: bot:test ip: (~welcome) 3    你好 ==> 很高兴再次遇到您  When:Apr05'17-17:20:40 Why:~welcome.6.0.~control.9.0   F:1 
+No such bot   - ���� -  status: test   in topic__����.txt at 0: ^����
+    Sourcefile Time used 1491384158605 ms for 0 sentences 0 tokens.
+Respond: user: bot:test ip: (~welcome) 1    你好 ==> 欢迎回来  When:Apr05'17-17:22:43 Why:~welcome.6.0.~control.9.0   F:1 
+Respond: user: bot:test ip: (~welcome) 2    你 叫 什么 名 i 在 ==> 爱， 在我的理解里，是对他人的接受，包容和理解。同时，也是对这个世界的和自己的接受包容和理解。  When:Apr05'17-17:22:55 Why:~keywordless.23.0.~control.9.0   F:1 
+Respond: user: bot:test ip: (~welcome) 3    你 叫 什么 名字 ==> 我的名字是乐乐.  When:Apr05'17-17:23:01 Why:~welcome.3.0.~control.9.0   F:1 

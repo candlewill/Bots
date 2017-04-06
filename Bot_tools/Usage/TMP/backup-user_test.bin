@@ -1,9 +1,10 @@
 ﻿USERS/topic_user_test.txt
-jul2116 Mar31'17-11:03:24 Apr05'17-11:52:11 1490941570-7.9.0 |
-77 78 0 DY 0 10 10 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+jul2116 Mar31'17-11:03:24 Apr06'17-11:00:21 1490941570-7.9.0 |
+89 89 0 DY 0 10 10 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
 ~welcome #pending
-~welcome + 2 jLJgm iaga 31 0 0 
+~welcome + 2 jLJgm iaga e1 0 0 
 #`end topics
+$cs_trace=0
 $cs_randindex=1228
 $cs_bot=Test
 $cs_login=user
@@ -11,7 +12,6 @@ $cs_token=132863
 $cs_control_main=~control
 $userprompt=user: >
 $botprompt=Bot: 
-$cs_trace=0
 #`end variables
 0 #set flags
 #`end fact sets
@@ -35,25 +35,22 @@ $cs_trace=0
  靠
  nihao
  你好
+ :q
+ 你好
+ 你好
+ ni
+ 你 是 谁
+ 你好
+ 你好
+ 你 叫 什么 名字
+ 好 的
+ fe    
+ 你好
 #`end user
- 我竟然无言以对，人家还是个宝宝
- 不要欺负本宝宝了，人家还在长大
- 当然了，здравствите!
- 不要欺负本宝宝了，人家还在长大
- 爱， 在我的理解里，是对他人的接受，包容和理解。同时，也是对这个世界的和自己的接受包容和理解。
- 爱， 在我的理解里，是对他人的接受，包容和理解。同时，也是对这个世界的和自己的接受包容和理解。
- 爱， 在我的理解里，是对他人的接受，包容和理解。同时，也是对这个世界的和自己的接受包容和理解。
- 我竟然无言以对，人家还是个宝宝
- 不要欺负本宝宝了，人家还在长大
- 你是鸡，你是鸡，你们全家都是鸡
- 不要欺负本宝宝了，人家还在长大
- 我竟然无言以对，人家还是个宝宝
- 你是鸡，你是鸡，你们全家都是鸡
- 那是谁？
- 操
- 喂什么吃什么。。
+ 你好，又见到你了
+ 我的名字是乐乐.
+ 么么。咱们不无语哈
  不要欺负本宝宝了，人家还在长大
  你好
- 我竟然无言以对，人家还是个宝宝
- Hello
+ 你好
 #`end chatbot
