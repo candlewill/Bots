@@ -1,0 +1,81 @@
+# DST and NLU
+topic: ~send_msg keep repeat ( 发消息 发短信 消息 短信 )
+
+u: (!$policy [给 向] _* [发短信 短信] [说 是 为] _* )
+	$intent=send_msg
+	$name='_0
+	$msg='_1
+	^respond(~send_msg_policy)
+	^respond(~send_msg_nlg)
+
+u: (!$policy [发消息 发短信 消息 短信] )
+	$intent=send_msg
+	^respond(~send_msg_policy)
+	^respond(~send_msg_nlg)
+
+u: ($policy=ask_slot_msg {[是 为]} _*)
+	$msg='_0
+	^respond(~send_msg_policy)
+	^respond(~send_msg_nlg)
+
+u: ($policy=ask_slot_name {[给 到 向 为]} _*)
+	$name='_0
+	^respond(~send_msg_policy)
+	^respond(~send_msg_nlg)
+
+u: ($policy=confirm_send_msg ![不 没] [是 确定 好 好的 "没 问题" 可以])
+	$confirmed=yes
+	^respond(~send_msg_policy)
+	^respond(~send_msg_nlg)
+	$policy=null
+	$msg=null
+	$confirmed=null
+
+u: ($policy=confirm_send_msg [不 修改])
+	$confirmed=no
+	^respond(~send_msg_policy)
+	^respond(~send_msg_nlg)
+
+u: ($policy=confirm_send_msg *)
+	$confirmed=other
+	^respond(~send_msg_policy)
+	^respond(~send_msg_nlg)
+
+# Policy
+topic: ~send_msg_policy repeat keep nostay []
+
+u: ($intent=send_msg $msg $name $confirmed=no)
+	$msg=null
+	$name=null
+	$confirmed=null
+
+u: ($intent=send_msg $msg $name $confirmed=other)
+	$policy=confirm_send_msg
+
+u: ($intent=send_msg $msg $name $confirmed=yes)
+	$policy=sys_send_msg
+
+u: ($intent=send_msg $msg $name !$confirmed)
+	$policy=confirm_send_msg
+
+u: ($intent=send_msg $msg !$name !$confirmed)
+	$policy=ask_slot_name
+
+u: ($intent=send_msg !$msg !$confirmed)
+	$policy=ask_slot_msg
+
+# NLG
+topic: ~send_msg_nlg repeat keep nostay []
+
+u: ($policy=ask_slot_msg)
+	你所发消息内容是什么？
+
+u: ($policy=ask_slot_name)
+	你要发消息给谁？
+
+u: ($policy=confirm_send_msg)
+	即将给 $name 发消息，说： $msg , 是否确定？
+
+u: ($policy=sys_send_msg)
+	\[intent: send_msg, name: $name, msg: $msg \]
+	消息发送成功。

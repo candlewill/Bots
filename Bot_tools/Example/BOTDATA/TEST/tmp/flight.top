@@ -1,0 +1,47 @@
+topic: ~flight repeat keep ( 机票 旅程 飞机票 飞机 航班 )
+
+t: 欢迎使用小乐语音助手，我可以帮您订机票。
+^respond(~question)
+	
+u: ( 从 _* 出发 )
+	你打算从 \" '_0 \", 确定吗？
+	a: (~yes)
+		$from = '_0
+		好的，你将从 $from 出发。
+		^respond(~question)
+	a: (~no)
+		那你打算从哪里出发呢？
+
+
+u: ( [想 要 计划] 去 _* )
+	确定你的目的地是 \" '_0 \" 吗?
+	a: (~yes)
+		$to='_0
+		好的，您将前往 $to
+		^respond(~question)
+	a: (~no)
+		那是去哪里？
+
+u: ( 计划 _* 出发 )
+	确定在 \" '_0 \"出发吗？
+	a: (~yes)
+		$time='_0
+		好的，您预计在 $time 出发。
+		^respond(~question)
+	a: (~no)
+		何时？
+
+	
+topic: ~question repeat keep nostay []
+
+u: (!$from)
+从哪里出发呢？
+
+u: (!$to)
+您要去哪里呢？
+
+u:(!$time)
+你打算什么时候出发呢？
+
+u: ($from $to $time)
+您即将从 $from 前往 $to, 时间是 $time.

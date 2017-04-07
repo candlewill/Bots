@@ -1,0 +1,3 @@
+/home/andbase/workspace/Bots/Bot_tools/Example/build/CMakeFiles/rebuild_cache.dir
+/home/andbase/workspace/Bots/Bot_tools/Example/build/CMakeFiles/edit_cache.dir
+/home/andbase/workspace/Bots/Bot_tools/Example/build/CMakeFiles/Dialog_Main.dir

@@ -1,0 +1,7 @@
+﻿ ~welcome.1.0 #!x will match on every return start of a conversation 
+ ~welcome.2.0 #!x matches every time on startup of a new conversation
+ ~welcome.3.0 #! 你 叫 什么 名字
+ ~welcome.4.0 #! 再见
+ ~welcome.5.0 #! 谢谢
+ ~welcome.6.0 #! 你好
+ ~welcome.7.0 #! 我的名字

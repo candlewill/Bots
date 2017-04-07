@@ -1,0 +1,23 @@
+﻿USERS/topic__test.txt
+jul2116 Apr05'17-17:22:43 Apr05'17-17:22:55 0 |
+1 2 0 DY 0 10 10 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~welcome #pending
+#`end topics
+$cs_trace=0
+$cs_randindex=0
+$cs_bot=Test
+$cs_token=132863
+$cs_control_main=~control
+$userprompt=: >
+$botprompt=Bot: 
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ 你好
+ 你 叫 什么 名 i 在
+#`end user
+ 欢迎回来
+ 爱， 在我的理解里，是对他人的接受，包容和理解。同时，也是对这个世界的和自己的接受包容和理解。
+#`end chatbot

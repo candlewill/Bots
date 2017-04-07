@@ -1,0 +1,45 @@
+﻿USERS/topic_user_test.txt
+jul2116 Mar31'17-11:03:24 Apr07'17-10:55:49 1490941570-7.9.0 |
+154 166 0 DY 0 10 10 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~send_msg ~welcome #pending
+~welcome + 2 jLJgm iaga f2 0 0 
+#`end topics
+$cs_trace=0
+$botprompt=Bot: 
+$userprompt=user: >
+$cs_control_main=~control
+$cs_token=132863
+$cs_login=user
+$cs_bot=Test
+$cs_randindex=1228
+$intent=send_msg
+$name=张三丰 个
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ fe    
+ 你好
+ 你 叫 什么 名字
+ 你好 吗
+ 你好
+ 充 话费
+ 我要 充 话费
+ 我 是 谁
+ 你 是 谁
+ 打电话
+ 发短信
+ 回家 吃饭
+ 是 的
+ 谢谢
+ 我爱你
+ fe  
+#`end user
+ 即将给 张三丰 个 发消息，说： 回家 吃饭, 是否确定？
+ 消息发送成功。
+ 
+ 不客气
+ 我也爱你！
+ 我竟然无言以对，人家还是个宝宝
+#`end chatbot

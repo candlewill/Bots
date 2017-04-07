@@ -1,0 +1,142 @@
+ï»¿BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in topic_user_anonymous.txt at 0: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in topic_user_anonymous.txt at 0: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in topic_user_anonymous.txt at 0: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundNo such directory No such file or directory
+MinReleaseStackGap 99MB MinHeapAvailable 99MB
+MaxBuffers used 2 of 80
+
+No such directory No such file or directory
+No such directory No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in topic_user_anonymous.txt at 0: ^anonymous No such bot  user -  -  status: defaultbot word not foundBUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in topic_user_anonymous.txt at 1: ^anonymous No such bot  user -  -  status: defaultbot word not foundNo such directory No such file or directory
+MinReleaseStackGap 99MB MinHeapAvailable 99MB
+MaxBuffers used 2 of 80
+
+BUG in welcome.top at 6: t: ( %input<%userfirstline %input>0 )  Error opening utf8writeappend file VERIFY/welcome-b1.txt: No such file or directory
+No such directory No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in topic__-²¶|ÿ.txt at 0: ^-²¶|ÿ No such bot   - -²¶|ÿ -  status: testBUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in topic__}žæqÿ.txt at 0: ^}žæqÿ No such bot   - }žæqÿ -  status: testBUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in topic__Í>ÿ.txt at 0: ^Í>ÿ No such bot   - Í>ÿ -  status: testBUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in topic__ýÇ5¨ÿ.txt at 0: ^ýÇ5¨ÿ No such bot   - ýÇ4¨ÿ -  status: testBUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in topic__‚Ýïÿ.txt at 0: ^‚Ýïÿ No such bot   - ‚Ýïÿ -  status: testBUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory

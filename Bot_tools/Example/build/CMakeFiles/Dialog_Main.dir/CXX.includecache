@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././build/include/Dialog.h
+stdio.h
+-
+
+/home/andbase/workspace/Bots/Bot_tools/Example/test_Dialog.cpp
+string.h
+-
+unistd.h
+-
+Dialog.h
+/home/andbase/workspace/Bots/Bot_tools/Example/Dialog.h
+
