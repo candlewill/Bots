@@ -1,8 +1,8 @@
 USERS/topic_user_test.txt
-jul2116 Mar31'17-11:03:24 Apr07'17-10:55:51 1490941570-7.9.0 |
-154 167 0 DY 0 10 10 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+jul2116 Mar31'17-11:03:24 Apr10'17-11:05:00 1490941570-7.9.0 |
+168 173 0 DY 0 10 10 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
 ~send_msg ~welcome #pending
-~welcome + 2 jLJgm iaga f2 0 0 
+~welcome + 2 jLJgm iaga l2 0 0 
 #`end topics
 $name=张三丰 个
 $intent=send_msg
@@ -36,6 +36,12 @@ $cs_trace=0
  我爱你
  fe  
  你 是 谁
+ 我爱你
+ gun  
+ 请 滚
+ 我爱你
+ 你 爱我吗
+ 好 吧
 #`end user
  即将给 张三丰 个 发消息，说： 回家 吃饭, 是否确定？
  消息发送成功。
@@ -44,4 +50,12 @@ $cs_trace=0
  我也爱你！
  我竟然无言以对，人家还是个宝宝
  ╮ ╯▽╰ ╭～喵～我是萌萌的妹纸～小通～
+ 你好
+ 你好
+ 我也爱你！
+ 我竟然无言以对，人家还是个宝宝
+ 不要欺负本宝宝了，人家还在长大
+ 我也爱你！
+ 我对你的感情，是人类和bot之间独有的信任和友谊 你可以把它叫做爱。
+ 不要欺负本宝宝了，人家还在长大
 #`end chatbot

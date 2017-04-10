@@ -1,0 +1,26 @@
+USERS/topic_username_test.txt
+jul2116 Apr10'17-11:11:52 Apr10'17-11:11:58 0 |
+1 2 0 DY 0 10 10 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~welcome #pending
+~welcome + 2 jLJgm iaaa 1 0 0 
+#`end topics
+$botprompt=Bot: 
+$userprompt=username: >
+$cs_control_main=~control
+$cs_token=132863
+$cs_login=username
+$cs_bot=Test
+$cs_randindex=1621
+$cs_trace=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ 你好
+ 我 是 谁
+#`end user
+ 有什么可以帮助你的~
+ Hello
+ 你是我爱人
+#`end chatbot

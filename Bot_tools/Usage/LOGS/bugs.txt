@@ -138,3 +138,5 @@ BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: 
 BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
 BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
 BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory
+BUG in facts.txt at 0:  Error opening binary write file DICT/ENGLISH/facts.bin: No such file or directory

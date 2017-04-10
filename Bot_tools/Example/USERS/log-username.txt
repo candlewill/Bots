@@ -1,0 +1,3 @@
+﻿Start: user:username bot:test ip: rand:1621 (~welcome) 0 ==> 有什么可以帮助你的~  When:Apr10'17-11:11:52 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Apr10'17-11:11:52 F:0 P:0 Why:~welcome.0.0.~control.0.0 
+Respond: user:username bot:test ip: (~welcome) 1    你好 ==> Hello  When:Apr10'17-11:11:54 Why:~welcome.6.0.~control.9.0   F:1 
+Respond: user:username bot:test ip: (~welcome) 2    我 是 谁 ==> 你是我爱人  When:Apr10'17-11:11:58 Why:~xiaohuangji.3805.0.~control.9.0   F:4 

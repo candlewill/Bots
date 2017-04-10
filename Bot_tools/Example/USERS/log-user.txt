@@ -318,3 +318,11 @@ Respond: user:user bot:test ip: (~welcome) 164    谢谢 ==> [{"bob": 1, "suzy":
 Respond: user:user bot:test ip: (~welcome) 165    我爱你 ==> 我也爱你！  When:Apr07'17-10:55:47 Why:~welcome.8.0.~control.9.0   F:1 
 Respond: user:user bot:test ip: (~welcome) 166    fe   ==> 我竟然无言以对，人家还是个宝宝  When:Apr07'17-10:55:49 Why:~control.9.0   F:6 
 Respond: user:user bot:test ip: (~welcome) 167    你 是 谁 ==> ╮ ╯▽╰ ╭～喵～我是萌萌的妹纸～小通～  When:Apr07'17-10:55:51 Why:~xiaohuangji.4044.0.~control.9.0   F:5 
+Start: user:user bot:test ip: rand:1396 (~welcome) 167 ==> 你好  When:Apr07'17-11:50:38 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr07'17-10:55:51 Why:~welcome.1.0.~control.0.0 
+Start: user:user bot:test ip: rand:1396 (~welcome) 167 ==> 你好  When:Apr10'17-11:04:32 Version:7.3 Build0: Build1:Apr05'17-16:57:51 0:Mar31'17-11:03:24 F:1490941570-7.9.0 P:Apr07'17-10:55:51 Why:~welcome.1.0.~control.0.0 
+Respond: user:user bot:test ip: (~welcome) 168    我爱你 ==> 我也爱你！  When:Apr10'17-11:04:35 Why:~welcome.8.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 169    gun   ==> 我竟然无言以对，人家还是个宝宝  When:Apr10'17-11:04:39 Why:~control.9.0   F:5 
+Respond: user:user bot:test ip: (~welcome) 170    请 滚 ==> 不要欺负本宝宝了，人家还在长大  When:Apr10'17-11:04:41 Why:~control.9.0   F:6 
+Respond: user:user bot:test ip: (~welcome) 171    我爱你 ==> 我也爱你！  When:Apr10'17-11:04:44 Why:~welcome.8.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 172    你 爱我吗 ==> 我对你的感情，是人类和bot之间独有的信任和友谊 你可以把它叫做爱。  When:Apr10'17-11:04:48 Why:~keywordless.17.0.~control.9.0   F:1 
+Respond: user:user bot:test ip: (~welcome) 173    好 吧 ==> 不要欺负本宝宝了，人家还在长大  When:Apr10'17-11:05:00 Why:~control.9.0   F:6 

@@ -1,50 +1,33 @@
 ﻿USERS/topic_user_test.txt
-jul2116 Mar31'17-11:03:24 Apr06'17-18:28:59 1490941570-7.9.0 |
-146 146 0 DY 0 10 10 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
-~send_msg ~welcome #pending
-~welcome + 2 jLJgm iaga ?1 0 0 
+jul2116 Mar31'17-11:03:24 Apr10'17-10:52:50 1490941570-7.9.0 |
+154 157 0 DY 0 10 10 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~welcome ~send_msg #pending
+~welcome + 2 jLJgm iaga 42 0 0 
 #`end topics
-$cs_trace=0
-$botprompt=Bot: 
-$userprompt=user: >
-$cs_control_main=~control
-$cs_token=132863
-$cs_login=user
-$cs_bot=Test
-$cs_randindex=1228
-$intent=send_msg
+$msg=不 告诉 你
 $name=张三丰 个
+$intent=send_msg
+$cs_randindex=1228
+$cs_bot=Test
+$cs_login=user
+$cs_token=132863
+$cs_control_main=~control
+$userprompt=user: >
+$botprompt=Bot: 
+$cs_trace=0
+$policy=confirm_send_msg
 #`end variables
 0 #set flags
 #`end fact sets
 #`end user facts 0
 #context 
- 我 是 谁
- 你 是 十二    
- 
  你好 吗
- 你好
- 你好
- 你 叫 什么 名字
- 我 喜欢 西  
  我爱你
- 我 喜欢 你 啊
- 你 呢
- 你 是 谁
- 你 是 谁
- 我爱你
- 你 爱我吗
- 什么 是 爱
- 今天天气 真好
- 超
- 曹  
- 操
- 滚
- 发短信
+ 你 为什么 爱 我
+ 你好
+ 我 是 谁
+ 我要 发短信
  不 告诉 你
- 张三丰 个
- 确定
- 你好 的
 #`end user
  我对你的感情，是人类和bot之间独有的信任和友谊 你可以把它叫做爱。
  爱， 在我的理解里，是对他人的接受，包容和理解。同时，也是对这个世界的和自己的接受包容和理解。
@@ -59,4 +42,17 @@ $name=张三丰 个
  消息发送成功。
  欢迎回来
  欢迎回来
+ Hello
+ Hello
+ Hello
+ 你好，又见到你了
+ 全世界最好的人！
+ 你好，又见到你了
+ 我也爱你！
+ 没有为什么
+ Hello
+ Hello
+ 你是洋洋姐女王殿下。
+ 你所发消息内容是什么？
+ 即将给 张三丰 个 发消息，说： 不 告诉 你, 是否确定？
 #`end chatbot

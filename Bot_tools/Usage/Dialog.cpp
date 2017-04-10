@@ -3,8 +3,12 @@
 
 #include "Dialog.h"
 
-unsigned int ChatBot::InitBot(int argcx, char * argvx[])
+unsigned int ChatBot::InitBot()
 {
+	int argcx = 7;
+	char * argvx[] = { "bin/ChatScript_Main", "users=USERS", "logs=LOGS", "topic=TOPIC", "login=user", "buildfiles=filesTest.txt", "local" };
+
+	chdir((char*)"..");
 	InitSystem(argcx, argvx);
 }
 
@@ -13,13 +17,22 @@ void ChatBot::CloseBot()
 	CloseSystem();
 }
 
-int ChatBot::Chat(char* _user, char* incoming,  char* output)
+int ChatBot::Chat(char* _user, char* incoming, char* output)
 {
 	int turn = 0;
-	strcpy(ourMainInputBuffer+1, incoming);
+	strcpy(ourMainInputBuffer + 1, incoming);
 	turn = PerformChat(_user, computerID, ourMainInputBuffer, NULL, ourMainOutputBuffer);
 
 	strcpy(output, ourMainOutputBuffer);
+
+	if (turn == PENDING_RESTART)
+	{
+		ourMainInputBuffer[0] = ourMainInputBuffer[1] = 0;
+		Restart();
+	}
+
+	*ourMainInputBuffer = 0;
+	ourMainInputBuffer[1] = 0;
 
 	return turn;
 }
@@ -46,19 +59,6 @@ void ChatBot::SetParameters(char* _user, char* _loginID, char* _computerID, char
 	strcpy(ourMainInputBuffer, _ourMainInputBuffer);
 }
 
-ParameterList* ChatBot::GetParameters()
-{
-	ParameterList *result = new ParameterList();
-
-	*(result->ourMainInputBuffer) = 0;
-	strcpy(result->loginID, loginID);
-	strcpy(result->computerID, computerID);
-	printf(computerID);
-	printf("<----------------\n");
-
-	return result;
-}
-
 char* ChatBot::ProcessOutput(char* bufferfrom)
 {
 	if ((!silent) && (bufferfrom != NULL) && (bufferfrom[0] == '\0'))
@@ -67,11 +67,6 @@ char* ChatBot::ProcessOutput(char* bufferfrom)
 		return (char*)"";
 }
 
-void ChatBot::ResetInput()
-{
-	*ourMainInputBuffer = 0;
-	ourMainInputBuffer[1] = 0;
-}
 
 char* ChatBot::HandleOOB(char* buffer)
 {
@@ -90,10 +85,4 @@ void ChatBot::NewDialog() // 开始新的对话
 
 	if (loopBackDelay)
 		loopBackTime = ElapsedMilliseconds() + loopBackDelay; // resets every output
-}
-
-void ChatBot::Reboot()
-{
-	ourMainInputBuffer[0] = ourMainInputBuffer[1] = 0;
-	Restart();
 }
