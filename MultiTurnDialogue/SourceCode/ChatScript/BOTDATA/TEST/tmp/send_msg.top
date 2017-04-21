@@ -1,0 +1,29 @@
+topic: ~make_call repeat keep ( 短信 信息 )
+
+t: 语音发短信
+^respond(~question1)
+	
+u: ( 发 短信 给 _* 说 _* )
+    $somebody='_0
+	$msg='_1
+	^respond(~question1)
+
+u: ( 发 短信 给 _* )
+	$somebody='_0
+	发短信给 $somebody
+	^respond(~question1)
+	
+u: ( 短信 内容 _* )
+	$msg='_0
+	^respond(~question1)
+	
+topic: ~question1 repeat keep nostay []
+
+u: ( !$somebody )
+你要给谁发短信呢？
+
+u: ( !$msg )
+短信内容是什么？
+
+u: ( $somebody $msg )
+确定给 $somebody 发短信, 说 $msg 吗？

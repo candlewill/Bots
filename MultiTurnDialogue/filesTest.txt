@@ -1,0 +1,3 @@
+# multibot
+BOTDATA/TEST/ # tutorial bot data
+

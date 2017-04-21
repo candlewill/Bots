@@ -1,0 +1,1 @@
+﻿^test O a 0 0A( ) $cs_token = 255 | 512 | 131072 | 1024 ^addtopic ( ~welcome ) $cs_control_main = ~control $userprompt = ^"%user: >" $botprompt = ^"Bot: " `

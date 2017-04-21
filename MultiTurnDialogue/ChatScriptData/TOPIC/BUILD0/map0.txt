@@ -1,0 +1,12 @@
+﻿file: /data/data_151/work_home/heyunchao/MultiTurnDialogue/./data/BOTDATA/TEST/ontology/concepts.top 0
+    concept: ~is 2
+    concept: ~movie_locations 5
+    concept: ~movie_years 7
+file: /data/data_151/work_home/heyunchao/MultiTurnDialogue/./data/BOTDATA/TEST/ontology/VideoTheme.top 0
+    concept: ~movie_types 1
+file: /data/data_151/work_home/heyunchao/MultiTurnDialogue/./data/BOTDATA/TEST/ontology/Artists.top 0
+    concept: ~movie_artists 1
+file: /data/data_151/work_home/heyunchao/MultiTurnDialogue/./data/BOTDATA/TEST/ontology/functions.top 0
+    macro: ^removespaces 1
+          line: 2 0
+          Complexity of ^removespaces: 1

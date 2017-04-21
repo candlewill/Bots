@@ -1,0 +1,7 @@
+# 公共常识
+concept: ~is IGNORESPELLING (是 为) 
+
+# 乐搜领域
+concept: ~movie_locations IGNORESPELLING (国内 内地 国产 美国 香港 英国 法国 俄罗斯 新加坡 加拿大 台湾 韩国 泰国 印度 日本 西班牙 马来西亚 大陆 日韩 意大利)
+
+concept: ~movie_years IGNORESPELLING (~number "~number 年" 最新 今天 今儿 今儿个 昨天 昨日 今日 近期 最近 前天 大前天 历史 前年 去年 前一年 上一年 今年 明年 下一年 后一年 后年 大后年)

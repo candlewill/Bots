@@ -1,0 +1,2 @@
+﻿+ byebye PATTERN_WORD 
++ defaultbot 

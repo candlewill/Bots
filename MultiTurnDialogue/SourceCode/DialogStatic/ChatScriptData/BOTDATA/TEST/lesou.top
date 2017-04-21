@@ -1,0 +1,79 @@
+# DST and NLU
+topic: ~lesou keep repeat ( 电影 看电影 搜索电影 片儿 影片 大片 片 片子 大电影 )
+
+t: ( [电影 看电影 搜索电影 片儿 影片 大片 片 片子 大电影] )
+	$intent=search_movie
+	^respond(~lesou_policy)
+	^respond(~lesou_nlg)
+
+u: ($policy=ask_slot_movie_type _~movie_types )
+	$movie_type='_0
+	^respond(~lesou_policy)
+	^respond(~lesou_nlg)
+
+u: ($policy=ask_slot_movie_location _~movie_locations )
+	$movie_location='_0
+	^respond(~lesou_policy)
+	^respond(~lesou_nlg)
+
+u: ($policy=ask_slot_movie_artist _~movie_artists )
+	$movie_artist='_0
+	^respond(~lesou_policy)
+	^respond(~lesou_nlg)
+
+u: ($policy=ask_slot_movie_year _~movie_years )
+	$movie_year='_0
+	^respond(~lesou_policy)
+	^respond(~lesou_nlg)
+
+u: ([ 退出 取消 结束 ])
+	已为您退出电影搜索
+	^reset(user)
+	^end(TOPIC)
+
+
+# Policy
+topic: ~lesou_policy repeat keep nostay []
+
+u: ($intent=search_movie $movie_type $movie_location $movie_artist $movie_year)
+	$policy=all_slots_satisfied
+	^end(TOPIC)
+
+u: ($intent=search_movie $movie_type $movie_location $movie_artist)
+	$policy=ask_slot_movie_year
+	^end(TOPIC)
+
+u: ($intent=search_movie $movie_type $movie_location)
+	$policy=ask_slot_movie_artist
+	^end(TOPIC)
+
+u: ($intent=search_movie $movie_type)
+	$policy=ask_slot_movie_location
+	^end(TOPIC)
+
+u: ($intent=search_movie)
+	$movie_type=null
+	$movie_location=null
+	$movie_artist=null
+	$movie_year=null
+	$policy=ask_slot_movie_type
+	^end(TOPIC)
+
+# \[intent: send_msg, name: $name, msg: $msg \]
+# NLG
+topic: ~lesou_nlg repeat keep nostay []
+
+u: ($policy=ask_slot_movie_type)
+	\[ senario_name=<Video_PlayByArtist>; action=play; genre=电影 \] 你想看什么类型的电影？ 支持爱情、喜剧、动作、剧情等类型
+
+u: ($policy=ask_slot_movie_location)
+	\[ senario_name=<Video_PlayByArtist>; action=play; videoTheme= $movie_type; genre=电影 \] 你想看什么地区的电影？
+
+u: ($policy=ask_slot_movie_artist)
+	 \[ senario_name=<Video_PlayByArtist>; action=play; videoTheme= $movie_type; area= $movie_location; genre=电影 \] 你想看的电影需要有哪一个演员？
+
+u: ($policy=ask_slot_movie_year)
+	\[ senario_name=<Video_PlayByArtist>; action=play; videoTheme= $movie_type; area= $movie_location; artist= $movie_artist; genre=电影 \] 你想看的电影需要是哪一年上映的？
+
+u: ($policy=all_slots_satisfied)
+	\[ senario_name=<Video_PlayByArtist>; action=play; artist= $movie_artist; area= $movie_location; videoTheme= $movie_type; publishDate= $movie_year; genre=电影 \] EXIT-MULTI-TURN-DIALOGUE ^join(电影类型为 $movie_type , 在 $movie_location 地区上映 ，上映时间为 $movie_year 左右，有 $movie_artist 出演的电影， 搜索结果如下)

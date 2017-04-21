@@ -1,0 +1,105 @@
+topic: ~top_up keep repeat ( 话费 充 话费 手机 充值 )
+# 模式匹配
+u: ( [充 我想充] *~2 话费 )
+	$intent=top_up
+	$number=null
+	$amount=null
+	$verified=null
+	$scan=null
+	^respond(~ask_slot)
+	a: (_~number)
+		$number='_0
+		^respond(~ask_slot)
+		b: ask_amount (_~number)
+			$amount='_0
+			^respond(~ask_slot)
+			c: verify ( [确定 是的 是 没问题] )
+				$verified=yes
+				^respond(~ask_slot)
+				d: (扫描)
+					$scan=yes
+					^respond(~ask_slot)
+			c: no_verify_number ( << 号码 [改为 更改 更新 修改 改] _~number >> )
+				$verified=null
+				$number='_0
+				^respond(~ask_slot)
+				d: ( [确定 是的 是 没问题] )
+					^reuse(verify)
+				d: ( << 号码 [改为 更改 更新 修改 改] _~number >> )
+					^reuse(no_verify_number)
+				d: (<< [改为 更改 更新 修改 改] _~number 元 >>)
+					^reuse(no_verify_amount)
+			c: no_verify_amount ( << [改为 更改 更新 修改 改] _~number 元 >> )
+				$verified=null
+				$amount='_0
+				^respond(~ask_slot)
+				d: ( [确定 是的 是 没问题] )
+					^reuse(verify)
+				d: ( << 号码 [改为 更改 更新 修改 改] _~number >> )
+					^reuse(no_verify_number)
+				d: (<< [改为 更改 更新 修改 改] _~number 元 >>)
+					^reuse(no_verify_amount)
+
+	
+u: ( 给 _~number 充 _~number 元 )
+	$intent=top_up
+	$number='_0
+	$amount='_1
+	$verified=null
+	$scan=null
+	^respond(~ask_slot)
+	a: ( [确定 是的 是 没问题] )
+		^reuse(verify)
+	a: ( << 号码 [改为 更改 更新 修改 改] _~number >> )
+		^reuse(no_verify_number)
+	a: (<< [改为 更改 更新 修改 改] _~number 元 >>)
+		^reuse(no_verify_amount)
+
+u: ( << 给 _~number 充 话费 >>)
+	$intent=top_up
+	$number='_0
+	$amount=null
+	$verified=null
+	$scan=null
+	^respond(~ask_slot)
+	a: (_~number)
+		^reuse(ask_amount)
+
+u: ( << 充 _~number 元 >>)
+	$intent=top_up
+	$number=null
+	$amount='_0
+	$verified=null
+	$scan=null
+	^respond(~ask_slot)
+	a: (_~number)
+		$number='_0
+		^respond(~ask_slot)
+		b: ( [确定 是的 是 没问题] )
+			^reuse(verify)
+		b: ( << 号码 [改为 更改 更新 修改 改] _~number >> )
+			^reuse(no_verify_number)
+		b: (<< [改为 更改 更新 修改 改] _~number 元 >>)
+			^reuse(no_verify_amount)
+
+
+# 槽位状态判断
+topic: ~ask_slot repeat keep nostay []
+
+u: ( $intent=top_up !$number !$amount)
+	请告诉乐乐您要充值的手机号码
+
+u: ( $intent=top_up $number !$amount )
+	你要给 $number 冲多少钱？
+
+u: ( $intent=top_up !$number $amount )
+	你想给哪个号码充值 $amount 元？
+
+u: ( $intent=top_up $number $amount !$verified)
+	确定给 $number 号码，充值 $amount 元吗？
+
+u: ( $intent=top_up $number $amount $verified=yes !$scan)
+	请使用微信/支付宝扫描下面二维码，完成充值 \[ img=http:url \]
+
+u: ( $intent=top_up $number $amount $verified=yes $scan=yes)
+	EXIT-MULTI-TURN-DIALOGUE 充值成功

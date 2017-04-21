@@ -1,0 +1,177 @@
+topic: ~maintenance keep repeat ( 维修 预约 申请 报修 修理 售后 电视 乐视电视 坏了 有问题 )
+
+t: ()
+	欢迎使用乐视电视语音自助安装与维修系统，希望您能协助完成一些信息的搜集。
+	$intent=need_maintain
+	$bot_state=need_date
+
+t: label_fill_date ($bot_state=need_date)
+	^respond(~ask_slot_maintenance)
+	
+	a: (_~number 年 _~number 月 _~number [日 号] )
+		$year='_0
+		$month='_1
+		$day='_2
+		$bot_state=confirm_date
+		^respond(~ask_slot_maintenance)
+	
+	a: ( _~number 月 _~number [日 号] )
+		$year=%year
+		$month='_0
+		$day='_1
+		$bot_state=confirm_date
+		^respond(~ask_slot_maintenance)
+		
+	a: () 
+		预约服务时间不能为空。
+		^reuse(label_fill_date)
+
+t: label_fill_type ($bot_state=date_comfirmed)
+	$bot_state=need_type
+	^respond(~ask_slot_maintenance)
+
+	a: ( _[ "letv x40" "letv x50" "letv s60" "letv s80" ] )
+		$type='_0
+		$bot_state=type_provided
+		^respond(~ask_slot_maintenance)
+		$bot_state=need_mac
+	
+	a: (<< [怎么 如何 怎样] [查询 查看] 型号 >>)
+		产品型号在进入电视后，选择 设置->关于电视，可以查看您的电视型号。
+		^reuse(label_fill_type)
+	
+	a: ()
+		必须选择一个产品型号。目前支持的产品型号有："letv x40" "letv x50" "letv s60" "letv s80"。
+		^reuse(label_fill_type)
+
+t: label_fill_mac ($bot_state=need_mac)
+	^respond(~ask_slot_maintenance)
+
+	a: (mac 地址 {[是 为]} _*)
+		$mac='_0
+		$bot_state=mac_provided
+		^respond(~ask_slot_maintenance)
+		$bot_state=need_name
+
+	a: (<< [怎么 如何 怎样] [查询 查看] mac >>)
+		您好，MAC码可以通过以下三种方式进行查看。第1种：电视外包装箱侧面的白色标签；第2种：电视机后背板上；第3种：超级电视使用手册的合格证页（使用手册的倒数第二页）。
+		^reuse(label_fill_mac)
+
+	a: ()
+		机器MAC码不能为空。
+		^reuse(label_fill_mac)
+
+
+t: label_fill_name ($bot_state=need_name)
+	^respond(~ask_slot_maintenance)
+
+	a: ( {[ 是 为 叫 ]} _* )
+		$username='_0
+		if ($username)
+			{
+				$bot_state=name_provided
+				^respond(~ask_slot_maintenance)
+				$bot_state=need_phone_number
+			}
+		else	
+			{
+				姓名不能为空。
+				^reuse(label_fill_name)
+			}
+
+t: label_fill_phone_number ($bot_state=need_phone_number)
+	^respond(~ask_slot_maintenance)
+	a: ( _~number )
+		$phone_number='_0
+		$bot_state=phone_number_provided
+		^respond(~ask_slot_maintenance)
+		$bot_state=need_address
+
+	a: ()
+		电话号码不能为空。
+		^reuse(label_fill_phone_number)
+
+t: label_fill_address ($bot_state=need_address)
+	^respond(~ask_slot_maintenance)
+
+	a: ( {[ 在 是 为 位于 ]} _* 市 _* [区 县] )
+		$address=^eval( '_0 市 '_1 区（县） )
+		$bot_state=address_provided
+		^respond(~ask_slot_maintenance)
+		$bot_state=slot_colleted
+	
+	a: ( {[ 在 是 为 位于 ]} _* 省 _* 市 _* [区 县 镇 乡] )
+		$address=^eval( '_0 省 '_1 市 '_2 区（县） )
+		$bot_state=address_provided
+		^respond(~ask_slot_maintenance)
+		$bot_state=slot_colleted
+	
+	a: ()
+		地址不能为空！
+		^reuse(label_fill_address)
+
+t: ($bot_state=slot_colleted)
+	^respond(~ask_slot_maintenance)
+	$bot_state=expect_verify
+
+t: label_verify ($bot_state=expect_verify)
+	^respond(~ask_slot_maintenance)
+	
+	a: ([ 没问题 可以 好的 好 确定 无误 ])
+		$bot_state=verified
+		^respond(~ask_slot_maintenance)
+	a: ()
+		请回答！
+		^reuse(label_verify)
+
+u: ( [ 退出 重来 重新开始 ] )
+	^reset(topic ~) poptopic(~)
+
+# 槽位状态判断
+topic: ~ask_slot_maintenance repeat keep nostay []
+
+u: ( $intent=need_maintain $bot_state=need_date )
+	请问您期望什么时候为您服务？
+
+u: ( $intent=need_maintain  $bot_state=confirm_date )
+	好的，您期待于 $year 年 $month 月 $day 日 进行服务，预约成功后，售后网点会在您提交此申请后，24小时内与您联系确定预约上门时间。
+	$bot_state=date_comfirmed
+
+u: ( $intent=need_maintain $bot_state=need_type )
+	请问您的产品型号是什么？
+
+u: ( $intent=need_maintain $bot_state=type_provided )
+	你的电视型号是 $type 。
+
+u: ( $intent=need_maintain $bot_state=need_mac )
+	请问你的电视MAC码是多少？示例：B01BD2******31
+
+u: ( $intent=need_maintain $bot_state=mac_provided )
+	您的电视MAC码是 $mac 。
+
+u: ( $intent=need_maintain $bot_state=need_name )
+	请问您叫什么名字？
+
+u: ( $intent=need_maintain $bot_state=name_provided )
+	$username 你好。
+
+u: ( $intent=need_maintain $bot_state=need_phone_number )
+	你的电话号码是多少？
+
+u: ( $intent=need_maintain $bot_state=phone_number_provided )
+	你的电话号码是 $phone_number 。
+
+u: ( $intent=need_maintain $bot_state=need_address )
+	$username , 请问您在哪一个省，哪一个市，哪一个区（县）。
+
+u: ( $intent=need_maintain $bot_state=address_provided )
+	欢迎来自 $address 的朋友。
+
+u: ( $intent=need_maintain $bot_state=slot_colleted )
+	尊敬的 $username 用户，信息基本搜集完了，我们将在 $month 月 $day 日 左右的时候，前往 $address ，与您联系。
+
+u: ( $intent=need_maintain $bot_state=expect_verify )
+	您确定上述信息无误吗？
+
+u: ( $intent=need_maintain $bot_state=verified )
+	Bingo!!! 维修信息提交成功，我们24小时内与您联系预约上门时间，谢谢您的使用。  ^preprint(\[ year: $year , month: $month , type: $type , address: $address , name: $username , phone_number: $phone_number \])

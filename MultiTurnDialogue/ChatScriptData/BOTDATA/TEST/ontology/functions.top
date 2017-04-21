@@ -1,0 +1,3 @@
+outputmacro: ^removespaces(^text)
+        ^substitute(character ^text " " "")
+

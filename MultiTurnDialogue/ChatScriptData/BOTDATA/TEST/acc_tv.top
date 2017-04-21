@@ -1,0 +1,35 @@
+# DST and NLU
+topic: ~acc_tv keep repeat ( 电视 慢 卡 太卡 很慢 很卡 )
+
+u: (电视 * [慢 卡 太卡 很慢 很卡])
+	$intent=acc_up_tv
+	^respond(~acc_tv_policy)
+	^respond(~acc_tv_nlg)
+
+u: ($policy=ask_slot_confirm [确定 开始 是 好的 没问题 加速 好])
+	$confirmed=true
+	^respond(~acc_tv_policy)
+	^respond(~acc_tv_nlg)
+
+# Policy
+topic: ~acc_tv_policy repeat keep nostay []
+
+u: ($intent=acc_up_tv $confirmed=true)
+	$policy=sys_acc_tv
+	^end(topic)
+
+u: ($intent=acc_up_tv !$confirmed)
+	$policy=ask_slot_confirm
+	^end(topic)
+
+# NLG
+topic: ~acc_tv_nlg repeat keep nostay []
+
+u: ($policy=ask_slot_confirm)
+	您的电视有点慢，是否现在启动自动清理？
+
+u: ($policy=sys_acc_tv)
+	\[ senario_name=<CustomProtocol>; action=openApp; android_action=com.stv.helper.main.action.external; appName=电视管家; from=com.stv.voice; method=broadcast; type=4 \] EXIT-MULTI-TURN-DIALOGUE 正在为您加速中...（from NLU）
+	$intent=null
+	$policy=null
+	$confirmed=null

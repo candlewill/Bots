@@ -1,0 +1,3 @@
+﻿+ byebye PATTERN_WORD 
++ defaultbot 
++ 想_看 

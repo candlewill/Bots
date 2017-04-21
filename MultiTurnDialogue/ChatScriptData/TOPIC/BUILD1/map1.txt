@@ -1,0 +1,365 @@
+﻿file: /data/data_151/work_home/heyunchao/MultiTurnDialogue/./data/BOTDATA/TEST/tmp 0
+file: /data/data_151/work_home/heyunchao/MultiTurnDialogue/./data/BOTDATA/TEST/welcome.top 0
+    topic: ~welcome 1
+        rule: ~welcome.0.0- t:  3
+          Complexity of rule ~welcome.0.0- t: 1
+        rule: ~welcome.1.0 u:  6
+          line: 7 0
+          Complexity of rule ~welcome.1.0- u: 1
+        rule: ~welcome.2.0 u:  11
+          line: 12 0
+          Complexity of rule ~welcome.2.0- u: 1
+        rule: ~welcome.3.0 u:  16
+          line: 17 0
+          line: 18 22
+          line: 19 34
+          Complexity of rule ~welcome.3.0- u: 1
+        rule: ~welcome.4.0 u:  22
+          line: 23 0
+          line: 24 22
+          line: 25 37
+          line: 26 66
+          line: 27 95
+          line: 28 106
+          Complexity of rule ~welcome.4.0- u: 1
+        rule: ~welcome.5.0 u:  31
+          line: 32 0
+          line: 33 22
+          Complexity of rule ~welcome.5.0- u: 1
+        rule: ~welcome.6.0 u:  35
+          line: 36 0
+          Complexity of rule ~welcome.6.0- u: 1
+        rule: ~welcome.7.0 u:  39
+          line: 41 0
+          line: 42 41
+          Complexity of rule ~welcome.7.0- u: 1
+file: /data/data_151/work_home/heyunchao/MultiTurnDialogue/./data/BOTDATA/TEST/simplecontrol.top 0
+    macro: ^test 2
+          line: 3 0
+          line: 5 33
+          line: 6 61
+          line: 8 80
+          line: 9 103
+          Complexity of ^test: 1
+          line: 12 0
+          Complexity of tbl:defaultbot: 1
+    topic: ~control 16
+        rule: ~control.0.0 u:  35
+          line: 38 0
+          line: 41 17
+          line: 45 88
+          line: 47 140
+          line: 51 187
+          line: 54 270
+          line: 56 305
+          line: 57 331
+          line: 59 348
+          line: 60 381
+          line: 61 420
+          line: 63 449
+          line: 65 465
+          line: 66 471
+          line: 86 473
+          line: 88 527
+          line: 92 544
+          line: 94 657
+          line: 96 692
+          line: 97 718
+          line: 99 735
+          line: 100 768
+          line: 101 806
+          line: 103 835
+          line: 105 851
+          line: 106 857
+          line: 107 859
+          line: 109 941
+          line: 111 976
+          line: 112 1001
+          line: 114 1018
+          line: 115 1050
+          line: 116 1088
+          line: 118 1117
+          line: 120 1133
+          line: 121 1139
+          line: 123 1141
+          line: 125 1176
+          line: 126 1190
+          line: 128 1206
+          Complexity of rule ~control.0.0- u: 14
+    topic: ~xpostprocess 131
+        rule: ~xpostprocess.0.0 t:  133
+          line: 134 0
+          line: 136 17
+          line: 137 47
+          line: 139 104
+          line: 140 114
+          line: 142 155
+          line: 143 161
+          Complexity of rule ~xpostprocess.0.0- t: 2
+file: /data/data_151/work_home/heyunchao/MultiTurnDialogue/./data/BOTDATA/TEST/lesou.top 0
+    topic: ~lesou 2
+        rule: ~lesou.0.0 t:  4
+          line: 6 0
+          line: 7 50
+          Complexity of rule ~lesou.0.0- t: 1
+        rule: ~lesou.1.0 u:  9
+          line: 11 0
+          line: 12 45
+          Complexity of rule ~lesou.1.0- u: 1
+        rule: ~lesou.2.0 u:  14
+          line: 16 0
+          line: 17 49
+          Complexity of rule ~lesou.2.0- u: 1
+        rule: ~lesou.3.0 u:  19
+          line: 21 0
+          line: 22 47
+          Complexity of rule ~lesou.3.0- u: 1
+        rule: ~lesou.4.0 u:  24
+          line: 26 0
+          line: 27 44
+          Complexity of rule ~lesou.4.0- u: 1
+    topic: ~lesou_policy 31
+        rule: ~lesou_policy.0.0 u:  33
+          line: 35 0
+          Complexity of rule ~lesou_policy.0.0- u: 1
+        rule: ~lesou_policy.1.0 u:  37
+          line: 39 0
+          Complexity of rule ~lesou_policy.1.0- u: 1
+        rule: ~lesou_policy.2.0 u:  41
+          line: 43 0
+          Complexity of rule ~lesou_policy.2.0- u: 1
+        rule: ~lesou_policy.3.0 u:  45
+          line: 47 0
+          Complexity of rule ~lesou_policy.3.0- u: 1
+        rule: ~lesou_policy.4.0 u:  49
+          line: 51 0
+          line: 52 19
+          line: 53 42
+          line: 54 63
+          Complexity of rule ~lesou_policy.4.0- u: 1
+    topic: ~lesou_nlg 58
+        rule: ~lesou_nlg.0.0 u:  60
+          line: 61 0
+          Complexity of rule ~lesou_nlg.0.0- u: 1
+        rule: ~lesou_nlg.1.0 u:  63
+          line: 64 0
+          Complexity of rule ~lesou_nlg.1.0- u: 1
+        rule: ~lesou_nlg.2.0 u:  66
+          line: 67 0
+          Complexity of rule ~lesou_nlg.2.0- u: 1
+        rule: ~lesou_nlg.3.0 u:  69
+          line: 70 0
+          line: 72 307
+          line: 73 326
+          line: 74 349
+          line: 76 370
+          line: 77 378
+          line: 78 380
+          Complexity of rule ~lesou_nlg.3.0- u: 1
+file: /data/data_151/work_home/heyunchao/MultiTurnDialogue/./data/BOTDATA/TEST/top_up.top 0
+    topic: ~top_up 1
+        rule: ~top_up.0.0 u:  3
+          line: 5 0
+          line: 6 17
+          line: 7 32
+          line: 8 47
+          line: 9 64
+          Complexity of rule ~top_up.0.0- u: 1
+        rule: ~top_up.0.1 a:  10
+          line: 12 0
+          Complexity of rule ~top_up.0.1- a: 1
+        rule: ~top_up.0.2-ask_amount b:  13
+          line: 15 0
+          Complexity of rule ~top_up.0.2-ASK_AMOUNT b: 1
+        rule: ~top_up.0.3-verify c:  16
+          line: 18 0
+          Complexity of rule ~top_up.0.3-VERIFY c: 1
+        rule: ~top_up.0.4 d:  19
+          line: 21 0
+          Complexity of rule ~top_up.0.4- d: 1
+        rule: ~top_up.0.5-no_verify_number c:  22
+          line: 24 0
+          line: 25 17
+          Complexity of rule ~top_up.0.5-NO_VERIFY_NUMBER c: 1
+        rule: ~top_up.0.6 d:  26
+          line: 27 0
+          Complexity of rule ~top_up.0.6- d: 1
+        rule: ~top_up.0.7 d:  28
+          line: 29 0
+          Complexity of rule ~top_up.0.7- d: 1
+        rule: ~top_up.0.8 d:  30
+          line: 31 0
+          Complexity of rule ~top_up.0.8- d: 1
+        rule: ~top_up.0.9-no_verify_amount c:  32
+          line: 34 0
+          line: 35 17
+          Complexity of rule ~top_up.0.9-NO_VERIFY_AMOUNT c: 1
+        rule: ~top_up.0.10 d:  36
+          line: 37 0
+          Complexity of rule ~top_up.0.10- d: 1
+        rule: ~top_up.0.11 d:  38
+          line: 39 0
+          Complexity of rule ~top_up.0.11- d: 1
+        rule: ~top_up.0.12 d:  40
+          line: 41 0
+          Complexity of rule ~top_up.0.12- d: 1
+        rule: ~top_up.1.0 u:  44
+          line: 46 0
+          line: 47 17
+          line: 48 31
+          line: 49 45
+          line: 50 62
+          Complexity of rule ~top_up.1.0- u: 1
+        rule: ~top_up.1.1 a:  51
+          line: 52 0
+          Complexity of rule ~top_up.1.1- a: 1
+        rule: ~top_up.1.2 a:  53
+          line: 54 0
+          Complexity of rule ~top_up.1.2- a: 1
+        rule: ~top_up.1.3 a:  55
+          line: 56 0
+          Complexity of rule ~top_up.1.3- a: 1
+        rule: ~top_up.2.0 u:  58
+          line: 60 0
+          line: 61 17
+          line: 62 31
+          line: 63 46
+          line: 64 63
+          Complexity of rule ~top_up.2.0- u: 1
+        rule: ~top_up.2.1 a:  65
+          line: 66 0
+          Complexity of rule ~top_up.2.1- a: 1
+        rule: ~top_up.3.0 u:  68
+          line: 70 0
+          line: 71 17
+          line: 72 32
+          line: 73 46
+          line: 74 63
+          Complexity of rule ~top_up.3.0- u: 1
+        rule: ~top_up.3.1 a:  75
+          line: 77 0
+          Complexity of rule ~top_up.3.1- a: 1
+        rule: ~top_up.3.2 b:  78
+          line: 79 0
+          Complexity of rule ~top_up.3.2- b: 1
+        rule: ~top_up.3.3 b:  80
+          line: 81 0
+          Complexity of rule ~top_up.3.3- b: 1
+        rule: ~top_up.3.4 b:  82
+          line: 83 0
+          Complexity of rule ~top_up.3.4- b: 1
+    topic: ~ask_slot 87
+        rule: ~ask_slot.0.0 u:  89
+          Complexity of rule ~ask_slot.0.0- u: 1
+        rule: ~ask_slot.1.0 u:  92
+          line: 93 0
+          Complexity of rule ~ask_slot.1.0- u: 1
+        rule: ~ask_slot.2.0 u:  95
+          line: 96 0
+          Complexity of rule ~ask_slot.2.0- u: 1
+        rule: ~ask_slot.3.0 u:  98
+          line: 99 0
+          Complexity of rule ~ask_slot.3.0- u: 1
+        rule: ~ask_slot.4.0 u:  101
+          line: 102 0
+          Complexity of rule ~ask_slot.4.0- u: 1
+        rule: ~ask_slot.5.0 u:  104
+          line: 105 0
+          line: 106 25
+          Complexity of rule ~ask_slot.5.0- u: 1
+file: /data/data_151/work_home/heyunchao/MultiTurnDialogue/./data/BOTDATA/TEST/ontology 0
+file: /data/data_151/work_home/heyunchao/MultiTurnDialogue/./data/BOTDATA/TEST/send_msg.top 0
+    topic: ~send_msg 2
+        rule: ~send_msg.0.0 u:  4
+          line: 6 0
+          line: 7 19
+          line: 8 31
+          line: 9 72
+          Complexity of rule ~send_msg.0.0- u: 1
+        rule: ~send_msg.1.0 u:  11
+          line: 13 0
+          line: 14 12
+          line: 15 25
+          line: 16 43
+          line: 17 92
+          Complexity of rule ~send_msg.1.0- u: 1
+        rule: ~send_msg.2.0 u:  19
+          line: 21 0
+          line: 22 41
+          Complexity of rule ~send_msg.2.0- u: 1
+        rule: ~send_msg.3.0 u:  24
+          line: 26 0
+          line: 27 42
+          Complexity of rule ~send_msg.3.0- u: 1
+        rule: ~send_msg.4.0 u:  29
+          line: 31 0
+          line: 32 47
+          line: 34 74
+          line: 35 89
+          Complexity of rule ~send_msg.4.0- u: 1
+        rule: ~send_msg.5.0 u:  37
+          line: 39 0
+          line: 40 49
+          Complexity of rule ~send_msg.5.0- u: 1
+    topic: ~send_msg_policy 43
+        rule: ~send_msg_policy.0.0 u:  45
+          line: 46 0
+          line: 47 16
+          Complexity of rule ~send_msg_policy.0.0- u: 1
+        rule: ~send_msg_policy.1.0 u:  49
+          line: 51 0
+          Complexity of rule ~send_msg_policy.1.0- u: 1
+        rule: ~send_msg_policy.2.0 u:  53
+          line: 55 0
+          Complexity of rule ~send_msg_policy.2.0- u: 1
+        rule: ~send_msg_policy.3.0 u:  57
+          line: 59 0
+          Complexity of rule ~send_msg_policy.3.0- u: 1
+        rule: ~send_msg_policy.4.0 u:  61
+          line: 63 0
+          Complexity of rule ~send_msg_policy.4.0- u: 1
+    topic: ~send_msg_nlg 66
+        rule: ~send_msg_nlg.0.0 u:  68
+          Complexity of rule ~send_msg_nlg.0.0- u: 1
+        rule: ~send_msg_nlg.1.0 u:  71
+          Complexity of rule ~send_msg_nlg.1.0- u: 1
+        rule: ~send_msg_nlg.2.0 u:  74
+          line: 75 0
+          line: 76 76
+          Complexity of rule ~send_msg_nlg.2.0- u: 1
+        rule: ~send_msg_nlg.3.0 u:  78
+          line: 80 0
+          line: 81 12
+          line: 82 25
+          line: 83 43
+          line: 84 83
+          Complexity of rule ~send_msg_nlg.3.0- u: 1
+file: /data/data_151/work_home/heyunchao/MultiTurnDialogue/./data/BOTDATA/TEST/acc_tv.top 0
+    topic: ~acc_tv 2
+        rule: ~acc_tv.0.0 u:  4
+          line: 6 0
+          line: 7 48
+          Complexity of rule ~acc_tv.0.0- u: 1
+        rule: ~acc_tv.1.0 u:  9
+          line: 11 0
+          line: 12 46
+          Complexity of rule ~acc_tv.1.0- u: 1
+    topic: ~acc_tv_policy 15
+        rule: ~acc_tv_policy.0.0 u:  17
+          line: 19 0
+          Complexity of rule ~acc_tv_policy.0.0- u: 1
+        rule: ~acc_tv_policy.1.0 u:  21
+          line: 23 0
+          Complexity of rule ~acc_tv_policy.1.0- u: 1
+    topic: ~acc_tv_nlg 26
+        rule: ~acc_tv_nlg.0.0 u:  28
+          Complexity of rule ~acc_tv_nlg.0.0- u: 1
+        rule: ~acc_tv_nlg.1.0 u:  31
+          line: 32 0
+          line: 33 229
+          line: 34 236
+          line: 35 251
+          line: 36 266
+          line: 37 277
+          line: 38 279
+          Complexity of rule ~acc_tv_nlg.1.0- u: 1

@@ -1,0 +1,3 @@
+# multibot
+BOTDATA/TEST/ontology/  # 资源文件
+

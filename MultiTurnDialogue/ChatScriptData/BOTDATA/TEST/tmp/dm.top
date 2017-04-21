@@ -1,0 +1,13 @@
+topic: ~dm repeat keep nostay []
+
+t: 哈哈
+
+u: ( $intent=top_up !$amount !$number !$number !$verifed !$scan )
+	\[ ask_slot=number \]
+
+topic: ~nlg repeat keep nostay []
+
+t: NLG
+
+u: ( $intent=top_up !$amount !$number !$number !$verifed !$scan )
+	\[ ask_slot=number \]

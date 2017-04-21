@@ -1,0 +1,1 @@
+﻿^removespaces O a 0 0B( ^text ) ^substitute ( character ^0 " " "" ) `

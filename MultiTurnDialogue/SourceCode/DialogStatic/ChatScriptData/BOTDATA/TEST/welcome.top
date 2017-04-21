@@ -1,0 +1,42 @@
+topic: ~welcome ( 拜拜 你好 hello hi 名字 姓名 谢谢 )
+
+t: EXIT-MULTI-TURN-DIALOGUE
+
+#! 你 叫 什么 名字
+u: ( <<你 什么 [名字 姓名]>>) 
+	^keep() ^repeat()
+	我的名字是乐乐.
+
+#! 再见
+u: ( [再见 拜拜 再会 bye goodbye byebye]) 
+	^keep() ^repeat()
+	再见
+
+#! 谢谢
+u: ( [谢谢 感激] )
+	^keep() ^repeat()
+	[不用谢]
+	[不客气] 
+
+#! 你好
+u: ( [你好 hello hi] )
+	^keep() ^repeat()
+	[欢迎回来]
+	[你好，又见到你了]
+	[很高兴再次遇到您]
+	[你好]
+	[hello]
+
+#! 我的名字
+u: ( <<我 什么 [名字 姓名]>> ) 
+	^keep() ^repeat()
+	你的名字是 %bot
+
+u: ( [爱你 我爱你] ) 
+	^keep() ^repeat()
+	我也爱你！
+
+u: ( [退出 结束] )
+	EXIT-MULTI-TURN-DIALOGUE
+	^reset(user)
+	^end(topic)

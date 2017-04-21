@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/andbase/workspace/Programs/My_Jieba/test/test_main.cpp
+cppjieba/Jieba.hpp
+/home/andbase/workspace/Programs/My_Jieba/test/cppjieba/Jieba.hpp
+

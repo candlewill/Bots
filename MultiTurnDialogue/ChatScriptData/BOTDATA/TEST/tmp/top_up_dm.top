@@ -1,0 +1,33 @@
+# 槽位状态判断
+topic: ~top_up_dm nostay []
+
+u: verify_two_slots ($intent=top_up $number $amount)
+	\[ verify_slot=amount, verify_slot=number \]
+	a: ($usr_verify=yes)
+		\[ img=http:\\url, inform=scan_text \]
+	a: ($usr_verify=no) ^refine()
+		b: ($modify_slot=number)
+			^reuse(verify_two_slots)
+		b: ($modify_slot=amount)
+			^reuse(verify_two_slots)
+		b: ($modify_slot=number $modify_slot=amount)
+			^reuse(verify_two_slots)
+
+u: ask_n_verify ($intent=top_up $number)
+	\[ ask_slot=amount, verify_slot=number \]
+	a: ($amount)
+		^reuse(verify_two_slots)
+
+u: ($intent=top_up $amount)
+	\[ ask_slot=number, verify_slot=amount \]
+	a: provide_number ($number) ^refine()
+		b: ($amount)	# 存在
+			^reuse(verify_two_slots)
+		b: (!$amount)	# 不存在
+			^reuse(ask_n_verify)
+
+
+u: ($intent=top_up)
+	\[ ask_slot=number \]
+	a: ($number)
+		^reuse(provide_number)
